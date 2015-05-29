@@ -1,6 +1,11 @@
 # ChangeLog for media-sound/ghostess
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  29 May 2015; Karl Linden (lilrc) <lilrc@users.sourceforge.net>
+  ghostess-20120105.ebuild:
+  slot-depend on gtk+:2
+  remove unnecessary version specifiers from dependencies
 
   09 Mar 2013; Karl Linden (lilrc) <lilrc@users.sourceforge.net>
   ghostess-20120105.ebuild, metadata.xml:
