@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -23,9 +23,9 @@ KEYWORDS="~x86 ~amd64"
 DOCS=( "${WORKDIR}/${MY_P}/README" )
 
 IUSE=""
-DEPEND="media-sound/jack-audio-connection-kit
-		>=x11-libs/gtk+-2.0
-		media-libs/alsa-lib"
+DEPEND="media-libs/alsa-lib
+	media-sound/jack-audio-connection-kit
+	x11-libs/gtk+:2"
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/${MY_P}"

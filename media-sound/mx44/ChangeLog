@@ -1,6 +1,12 @@
 # ChangeLog for media-sound/mx44
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  06 Jun 2015; Karl Linden (lilrc) <lilrc@users.sourceforge.net>
+  -mx44-1.ebuild, -mx44-2.ebuild, mx44-2-r1.ebuild:
+  slot depend on gtk+:2
+  sort deps lexically
+  remove old
 
   13 Jan 2013; Karl Linden (lilrc) <lilrc@users.sourceforge.net>
   files/mx44-autotoolize.patch:
