@@ -1,9 +1,10 @@
 LEGAL AND ETHICAL:
 
-The RtMidi license is similar to the the MIT License, with the added "feature" that modifications be sent to the developer.
+The RtMidi license is similar to the the MIT License, with the added 
+"feature" that modifications be sent to the developer.
 
     RtMidi: realtime MIDI i/o C++ classes
-    Copyright (c) 2003-2012 Gary P. Scavone
+    Copyright (c) 2003-2014 Gary P. Scavone
 
     Permission is hereby granted, free of charge, to any person
     obtaining a copy of this software and associated documentation files
@@ -28,5 +29,3 @@ The RtMidi license is similar to the the MIT License, with the added "feature" t
     ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
     CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
