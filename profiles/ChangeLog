@@ -6,6 +6,9 @@
 # Only typo fixes which don't affect portage/repoman behaviour could be avoided
 # here. If in doubt put a record here!
 
+  19 Jul 2015; Karl Linden (lilrc) <lilrc@users.sourceforge.net> package.mask:
+  mask media-libs/rtmidi-2.1.0 due to maintenance need
+
   11 May 2015; Karl Linden (lilrc) <lilrc@users.sourceforge.net> package.mask:
   remove media-sound/kenvy24
 
