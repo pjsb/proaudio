@@ -35,9 +35,9 @@ DEPEND="dev-python/fpconst[${PYTHON_USEDEP}]
 	dev-python/pyxml[${PYTHON_USEDEP}]
 	media-sound/jack-audio-connection-kit"
 RDEPEND="${DEPEND}
-	gconf? ( dev-python/gconf-python[${PYTHON_USEDEP}] )
+	gconf? ( dev-python/gconf-python:2 )
 	lash? ( virtual/liblash[python] )
-	phat? ( media-libs/pyphat[${PYTHON_USEDEP}] )"
+	phat? ( media-libs/pyphat )"
 
 src_prepare() {
 	epatch "${FILESDIR}"/missing-gconf-2.m4.patch
