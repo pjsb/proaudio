@@ -3,6 +3,11 @@
 # NOTE: Please add your entry at the top!
 #
 
+# Karl Linden <lilrc@users.sourceforge.net> (19 Jul 2015)
+# Needs maintenance. The build system is badly broken (homebrewn
+# makefile, fails parallel compile, ...).
+=media-libs/rtmidi-2.1.0
+
 # Dominique Michel <dominique_libre@users.sourceforge.net> (31 March 2014)
 # Work, but some work is needed on the configure phase.
 =media-sound/zynaddsubfx-99999999-r1
