@@ -1,0 +1,11 @@
+_eclasses_=subversion	c12bdf4fcc82f86ad89b14c8f76c4026	toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=7f33aadba5797a4b236f15c20cac4b1a
+SLOT=0
+DEFINED_PHASES=compile install preinst unpack
+EAPI=0
+DEPEND=>=media-libs/libsdl-1.2.11 media-libs/libpng dev-util/scons virtual/pkgconfig dev-vcs/subversion net-misc/rsync
+DESCRIPTION=ReShaked is a next generation tracker/sequencer
+LICENSE=GPL-2
+IUSE=debug optimize
+HOMEPAGE=http://reshaked.berlios.de
+RDEPEND=>=media-libs/libsdl-1.2.11 media-libs/libpng

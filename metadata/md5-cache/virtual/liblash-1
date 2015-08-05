@@ -1,0 +1,9 @@
+_eclasses_=
+_md5_=8d34a52ae7328c70adab4a72b95c9ac4
+SLOT=0
+DEFINED_PHASES=-
+EAPI=5
+DESCRIPTION=Virtual for LASH library
+IUSE=python
+KEYWORDS=~amd64 ~ppc ~x86
+RDEPEND=|| ( media-sound/lash-original media-sound/ladish[lash] ) python? ( || ( media-sound/lash-original[python] media-sound/ladish[python] ) )

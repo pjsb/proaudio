@@ -1,0 +1,7 @@
+_eclasses_=
+_md5_=1f3165a50dc235007497c361cb3b3133
+SLOT=0
+DEFINED_PHASES=postinst
+EAPI=0
+DESCRIPTION=lightweight C library for storing RDF data in memory
+HOMEPAGE=http://drobilla.net/software/sord

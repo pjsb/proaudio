@@ -1,0 +1,13 @@
+_eclasses_=multilib	62927b3db3a589b0806255f3a002d5d3	toolchain-funcs	42408102d713fbad60ca21349865edb4	exteutils	316ff466b687876b354d672b1464ad62	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=59ac7b1967cd96f877eb0acb305436e8
+SLOT=0
+DEFINED_PHASES=compile install
+EAPI=5
+DEPEND=sys-apps/sed doc? ( app-doc/doxygen )
+DESCRIPTION=Faust AUdio STreams is a functional programming language and compiler for fast DSP algorythms.
+LICENSE=GPL-2
+IUSE=doc examples
+SRC_URI=mirror://sourceforge/faudiostream/faust-0.9.58.zip
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=http://faudiostream.sourceforge.net
+RDEPEND=sys-devel/bison sys-devel/flex

@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	autotools-utils	dbce0f7913bd240fdf0ef428149855c0	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=6a80908319b06d0275c8049b60d9e2fc
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test
+EAPI=5
+DEPEND=dev-libs/expat dev-libs/glib:2 gnome-base/libglade:2.0 media-sound/fluidsynth media-sound/jack-audio-connection-kit x11-libs/gtk+:2 lash? ( virtual/liblash ) lv2? ( media-libs/lv2 ) virtual/pkgconfig
+DESCRIPTION=A set of open source instruments and effects for digital audio workstations
+LICENSE=LGPL-2.1
+IUSE=lash lv2 static-libs
+RESTRICT=mirror
+SRC_URI=mirror://sourceforge/calf/calf-0.0.60.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://calf.sourceforge.net/
+RDEPEND=dev-libs/expat dev-libs/glib:2 gnome-base/libglade:2.0 media-sound/fluidsynth media-sound/jack-audio-connection-kit x11-libs/gtk+:2 lash? ( virtual/liblash ) lv2? ( media-libs/lv2 )

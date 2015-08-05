@@ -1,0 +1,7 @@
+_eclasses_=
+_md5_=964cfe27fd13f045c7d4fe6fbd84a366
+SLOT=0
+DEFINED_PHASES=postinst
+EAPI=0
+DESCRIPTION=simple but fully featured LV2 host for Jack
+HOMEPAGE=http://drobilla.net/software/jalv

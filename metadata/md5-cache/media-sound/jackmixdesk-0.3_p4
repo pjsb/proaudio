@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	autotools-utils	dbce0f7913bd240fdf0ef428149855c0	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=a6efe7be38d023841e82a57a337e4cff
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test
+EAPI=5
+DEPEND=>=media-sound/jack-audio-connection-kit-0.100.0 =x11-libs/gtk+-2* >=media-libs/liblo-0.25 >=net-dns/libidn-1.13 virtual/liblash >=dev-libs/libxml2-2.6.28 virtual/pkgconfig
+DESCRIPTION=Audio mixer for JACK with OSC control, LASH support and GTK GUI
+LICENSE=GPL-3
+SRC_URI=mirror://sourceforge/jackmixdesk/jackmixdesk-0.3-r4.tar.gz
+KEYWORDS=~amd64 ~ppc ~x86
+HOMEPAGE=http://sourceforge.net/projects/jackmixdesk
+RDEPEND=>=media-sound/jack-audio-connection-kit-0.100.0 =x11-libs/gtk+-2* >=media-libs/liblo-0.25 >=net-dns/libidn-1.13 virtual/liblash

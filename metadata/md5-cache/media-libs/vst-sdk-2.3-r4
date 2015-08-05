@@ -1,0 +1,14 @@
+_eclasses_=multilib	62927b3db3a589b0806255f3a002d5d3	toolchain-funcs	42408102d713fbad60ca21349865edb4	exteutils	316ff466b687876b354d672b1464ad62	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=9aef39c1c83cca4c420879460e195b4c
+SLOT=0
+DEFINED_PHASES=compile install postinst unpack
+EAPI=0
+DEPEND=app-arch/unzip
+DESCRIPTION=Steinberg VST Plug-Ins SDK 2.3 - win32
+LICENSE=STEINBERG_SOFT-UND_HARDWARE_GMBH
+IUSE=doc
+RESTRICT=nostrip fetch
+SRC_URI=vstsdk2.3.zip
+KEYWORDS=amd64 x86
+HOMEPAGE=http://ygrabit.steinberg.de/~ygrabit/public_html
+RDEPEND=app-arch/unzip

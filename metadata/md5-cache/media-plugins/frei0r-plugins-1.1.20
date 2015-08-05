@@ -1,0 +1,11 @@
+_eclasses_=multilib	62927b3db3a589b0806255f3a002d5d3	toolchain-funcs	42408102d713fbad60ca21349865edb4	exteutils	316ff466b687876b354d672b1464ad62	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=a8a1b55cd3dfb788ec7381487b0bf4b
+SLOT=0
+DEFINED_PHASES=install unpack
+EAPI=0
+DESCRIPTION=a minimalistic plugin API for video effects
+LICENSE=LGPL-2.1
+RESTRICT=mirror
+SRC_URI=http://propirate.net/frei0r/frei0r-plugins-1.1.20.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://www.piksel.org/frei0r

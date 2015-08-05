@@ -1,0 +1,7 @@
+_eclasses_=
+_md5_=cc6334be3a4232f5736d7587adf1459e
+SLOT=0
+DEFINED_PHASES=postinst
+EAPI=0
+DESCRIPTION=lightweight C library for RDF syntax
+HOMEPAGE=http://drobilla.net/software/serd

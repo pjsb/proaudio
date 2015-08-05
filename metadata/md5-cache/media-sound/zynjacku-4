@@ -1,0 +1,13 @@
+_eclasses_=
+_md5_=dd2ecd1cfbbc28be6e2d5238bd52721
+SLOT=0
+DEFINED_PHASES=compile install unpack
+EAPI=0
+DEPEND=>=media-sound/jack-audio-connection-kit-0.109.0 || ( >=media-libs/lv2-1.2.0 >=media-libs/lv2core-1.0 ) >=x11-libs/gtk+-2 >=dev-python/pygtk-2.0 >=media-libs/slv2-0.6.1 >=dev-lang/python-2.4 >=dev-python/pycairo-1.8.2 >=media-libs/lv2dynparam1-2
+DESCRIPTION=JACK based, GTK (2.x) host for LV2 synths
+LICENSE=GPL-2
+IUSE=jackmidi
+SRC_URI=http://download.gna.org/zynjacku/zynjacku-4.tar.bz2
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=http://home.gna.org/zynjacku/
+RDEPEND=>=media-sound/jack-audio-connection-kit-0.109.0 || ( >=media-libs/lv2-1.2.0 >=media-libs/lv2core-1.0 ) >=x11-libs/gtk+-2 >=dev-python/pygtk-2.0 >=media-libs/slv2-0.6.1 >=dev-lang/python-2.4 >=dev-python/pycairo-1.8.2 >=media-libs/lv2dynparam1-2

@@ -1,0 +1,9 @@
+_eclasses_=git-2	e28f0d8a9b321431b1e699782851b827	toolchain-funcs	42408102d713fbad60ca21349865edb4	base	87f7447ccfc06fd0729ff4684e11e0d6	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=147c6e0f44c50df84bcd544b4b9470c6
+SLOT=0
+DEFINED_PHASES=compile configure install prepare unpack
+EAPI=5
+DEPEND=media-libs/lv2 x11-libs/pango x11-libs/cairo virtual/opengl x11-libs/gtk+:2 dev-vcs/git
+DESCRIPTION=A colletion of audio level meters with GUI in LV2 plugin format
+LICENSE=GPL-2
+HOMEPAGE=http://github.com/x42/meters.lv2

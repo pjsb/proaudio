@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	base	87f7447ccfc06fd0729ff4684e11e0d6	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	flag-o-matic	c9602887773166fe300444712fc7ff98
+_md5_=817cc41e85634eea4275329337a96f45
+SLOT=0
+DEFINED_PHASES=compile configure install postinst prepare unpack
+EAPI=4
+DEPEND=>=sci-libs/gsl-1.14
+DESCRIPTION=Generate digital room correction FIR filters for use in realtime convolution engines like BruteFIR
+LICENSE=GPL-2
+IUSE=double-precision
+RESTRICT=mirror
+SRC_URI=mirror://sourceforge/drc-fir/3.2.0/drc-3.2.0.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://drc-fir.sourceforge.net
+RDEPEND=>=sci-libs/gsl-1.14

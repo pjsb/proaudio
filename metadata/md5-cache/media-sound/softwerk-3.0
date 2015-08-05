@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	scons-utils	988e24b9e2e4642189b4e97c03e5ae71
+_md5_=9374cf30a33d011df78104ed199e1afb
+SLOT=0
+DEFINED_PHASES=compile install postinst prepare
+EAPI=4
+DEPEND=x11-libs/gtk+:2 dev-libs/libxml2 virtual/libusb dev-libs/boost media-libs/liblo media-libs/alsa-lib >=dev-cpp/gtkmm-2.4 dev-libs/libsigc++ >=dev-cpp/glibmm-2.4 sys-devel/gettext[nls] virtual/libintl virtual/pkgconfig dev-util/scons
+DESCRIPTION=MIDI sequencer based on the Doepfer Schaltwerk analog sequencer
+LICENSE=GPL-2
+SRC_URI=http://ardour.org/files/softwerk-3.0.tar.bz2 http://ardour.org/files/softwerk.patch http://download.tuxfamily.org/proaudio/distfiles/softwerk.png
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://softwerk.sourceforge.net/
+RDEPEND=x11-libs/gtk+:2 dev-libs/libxml2 virtual/libusb dev-libs/boost media-libs/liblo media-libs/alsa-lib >=dev-cpp/gtkmm-2.4 dev-libs/libsigc++ >=dev-cpp/glibmm-2.4 sys-devel/gettext[nls] virtual/libintl

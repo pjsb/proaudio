@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	flag-o-matic	c9602887773166fe300444712fc7ff98
+_md5_=f7510dd0ddccc166a588286658d74186
+SLOT=0
+DEFINED_PHASES=compile configure install postinst prepare setup
+EAPI=3
+DEPEND=|| ( ( x11-proto/xineramaproto x11-proto/xextproto x11-proto/xproto ) virtual/x11 ) media-sound/jack-audio-connection-kit vst? ( media-libs/vst-sdk ) ladspa? ( media-libs/ladspa-sdk ) dssi? ( media-libs/dssi )
+DESCRIPTION=JACK host for native linux VST, DSSI and LADSPA plugins with sequencer capabilities
+LICENSE=LGPL-2.1
+IUSE=+vst ladspa dssi
+RESTRICT=mirror
+SRC_URI=http://www.anticore.org/jucetice/wp-content/uploads/jost_src-v0.4.6.tar.bz2
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=http://www.anticore.org/jucetice/?page_id=4
+RDEPEND=|| ( ( x11-proto/xineramaproto x11-proto/xextproto x11-proto/xproto ) virtual/x11 ) media-sound/jack-audio-connection-kit vst? ( media-libs/vst-sdk ) ladspa? ( media-libs/ladspa-sdk ) dssi? ( media-libs/dssi )

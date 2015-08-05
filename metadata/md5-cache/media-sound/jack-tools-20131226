@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	autotools-utils	dbce0f7913bd240fdf0ef428149855c0	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=6ac7b6b0b867e8f2b8a540b6ae3e20ad
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test
+EAPI=5
+DEPEND=media-libs/libsndfile >=media-sound/jack-audio-connection-kit-0.109.2 x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXext doc? ( app-text/asciidoc ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=A collection of audio tools for jack
+LICENSE=GPL-2
+IUSE=doc
+RESTRICT=mirror
+SRC_URI=mirror://ubuntu/pool/universe/j/jack-tools/jack-tools_20131226.orig.tar.bz2 mirror://ubuntu/pool/universe/j/jack-tools/jack-tools_20131226-1.debian.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://rd.slavepianos.org/?t=rju
+RDEPEND=media-libs/libsndfile >=media-sound/jack-audio-connection-kit-0.109.2 x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXext doc? ( app-text/asciidoc )

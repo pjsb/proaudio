@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	flag-o-matic	c9602887773166fe300444712fc7ff98
+_md5_=8b02bbcf70c8cc63a4b330e1a72339b3
+SLOT=0
+DEFINED_PHASES=compile install unpack
+EAPI=2
+DEPEND=>=media-libs/libquicktime-1.0.0[lame,x264] >=x11-libs/fltk-1.1.7 <x11-libs/fltk-2 >=dev-libs/glib-2.10.3 >=media-libs/portaudio-19_pre virtual/opengl >=media-libs/gavl-1.0.0 >=media-libs/gmerlin-0.3.7 >=media-libs/gmerlin-avdecoder-0.1.7 media-sound/jack-audio-connection-kit >=media-libs/libsamplerate-0.1.1 >=media-libs/libsndfile-1.0.0
+DESCRIPTION=Open Movie Editor is designed to be a simple tool, that provides basic movie making capabilites.
+LICENSE=GPL-2
+RESTRICT=mirror
+SRC_URI=mirror://sourceforge/openmovieeditor/openmovieeditor-0.0.20081029.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://openmovieeditor.sourceforge.net
+RDEPEND=>=media-libs/libquicktime-1.0.0[lame,x264] >=x11-libs/fltk-1.1.7 <x11-libs/fltk-2 >=dev-libs/glib-2.10.3 >=media-libs/portaudio-19_pre virtual/opengl >=media-libs/gavl-1.0.0 >=media-libs/gmerlin-0.3.7 >=media-libs/gmerlin-avdecoder-0.1.7 media-sound/jack-audio-connection-kit >=media-libs/libsamplerate-0.1.1 >=media-libs/libsndfile-1.0.0 media-plugins/frei0r-plugins

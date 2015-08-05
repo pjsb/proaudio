@@ -1,0 +1,14 @@
+_eclasses_=gnome2	45882dc8beda2ffd09ad51fb3f22b669	toolchain-funcs	42408102d713fbad60ca21349865edb4	python	3a270b7b1d1e679847ff0faeac25c5a3	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	gnome2-utils	5cdfd22a2163c9d3a891648bd19453a7	libtool	52d0e17251d04645ffaa61bfdd858944	gnome.org	8fef8f967214f56e08fa92d61163d891	fdo-mime	acfe1a88fd8751a1d5dc671168219fa	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=a1fe3f29386d623981a5aaf2945425e2
+SLOT=0
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup unpack
+EAPI=5
+DEPEND=dev-python/fpconst dev-python/pygtk >=dev-python/pyxml-0.8.4 media-sound/jack-audio-connection-kit app-arch/xz-utils >=sys-apps/sed-4 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* =dev-lang/python-2.4* )
+DESCRIPTION=JACK audio mixer using GTK2 interface.
+LICENSE=GPL-2
+IUSE=gconf lash phat debug
+RESTRICT=mirror
+SRC_URI=http://download.gna.org/jackmixer/jack_mixer-9.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://home.gna.org/jackmixer/
+RDEPEND=dev-python/fpconst dev-python/pygtk >=dev-python/pyxml-0.8.4 media-sound/jack-audio-connection-kit gconf? ( dev-python/gconf-python:2 ) lash? ( virtual/liblash[python] ) phat? ( media-libs/pyphat ) || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* =dev-lang/python-2.4* )

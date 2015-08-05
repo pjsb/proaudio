@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=6a89ceeaf814ead4e473a814ad7b0d2c
+SLOT=0
+DEFINED_PHASES=compile install
+EAPI=5
+DEPEND=dev-libs/libxml2 >=media-libs/liblo-0.23 >=media-libs/libsndfile-1.0.11 >=media-sound/jack-audio-connection-kit-0.90 >=x11-libs/gtk+-2.6:2 virtual/libusb
+DESCRIPTION=live looping sequencer
+LICENSE=GPL-2
+RESTRICT=mirror
+SRC_URI=http://kluppe.klingt.org/downloads/kluppe-0.6.15.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://kluppe.klingt.org
+RDEPEND=dev-libs/libxml2 >=media-libs/liblo-0.23 >=media-libs/libsndfile-1.0.11 >=media-sound/jack-audio-connection-kit-0.90 >=x11-libs/gtk+-2.6:2 virtual/libusb

@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3
+_md5_=e1836cb34b5baaf41f48ced128c0109c
+SLOT=0
+DEFINED_PHASES=compile install postinst prepare
+EAPI=2
+DEPEND=media-libs/asio-sdk
+DESCRIPTION=ASIO driver for WINE
+LICENSE=GPL-2
+RESTRICT=mirror
+SRC_URI=mirror://sourceforge/wineasio/wineasio/wineasio-0.7.5/wineasio-0.7.5.tar.bz2
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=http://sourceforge.net/projects/wineasio
+RDEPEND=>=app-emulation/wine-0.9.35 amd64? ( || ( >=media-sound/jack-audio-connection-kit-1.9.5[mixed] >=media-sound/jack-audio-connection-kit-1.9.5[32bit] ) ) !amd64? ( >=media-sound/jack-audio-connection-kit-1.9.5 )

@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=f6d93b28f9db80aa2707c9be39326263
+SLOT=0
+DEFINED_PHASES=compile install postinst unpack
+EAPI=0
+DEPEND=>=x11-libs/fltk-1.1.2 =sci-libs/fftw-3* jack? ( media-sound/jack-audio-connection-kit ) >=dev-libs/mini-xml-2.2.1
+DESCRIPTION=ZynAddSubFX-converter: use ONLY to convert old *.ins_zyn instruments to *.xiz
+LICENSE=GPL-2
+IUSE=lash oss alsa jack
+SRC_URI=mirror://sourceforge/zynaddsubfx/ZynAddSubFX-2.0.0_pre2.tar.bz2
+KEYWORDS=amd64 ~ppc x86
+HOMEPAGE=http://zynaddsubfx.sourceforge.net/
+RDEPEND=>=x11-libs/fltk-1.1.2 =sci-libs/fftw-3* jack? ( media-sound/jack-audio-connection-kit ) >=dev-libs/mini-xml-2.2.1

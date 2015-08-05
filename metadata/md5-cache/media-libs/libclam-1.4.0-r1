@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	python-any-r1	4756de53ea4d40471a582e898815a5c8	multilib	62927b3db3a589b0806255f3a002d5d3	scons-utils	988e24b9e2e4642189b4e97c03e5ae71	eutils	9fb270e417e0e83d64ca52586c4a79de	python-utils-r1	295a286ec27cab6af76b3b75ba07a3a
+_md5_=520e1c160b21645c9dc6e5504bf8a3d6
+SLOT=0
+DEFINED_PHASES=compile configure install prepare setup
+EAPI=5
+DEPEND=dev-libs/libsigc++:2 dev-util/cppunit media-libs/libsndfile sys-libs/zlib alsa? ( media-libs/alsa-lib ) fftw? ( sci-libs/fftw:3.0 ) jack? ( media-sound/jack-audio-connection-kit ) ladspa? ( media-libs/ladspa-sdk ) mad? ( media-libs/libmad media-libs/id3lib ) osc? ( media-libs/oscpack ) portaudio? ( >=media-libs/portaudio-19_pre20111121 ) portmidi? ( media-libs/portmidi ) vorbis? ( media-libs/libvorbis media-libs/libogg ) xercesc? ( <dev-libs/xerces-c-3 ) xmlpp? ( dev-cpp/libxmlpp:2.6 ) doc? ( app-doc/doxygen ) virtual/pkgconfig dev-util/scons
+DESCRIPTION=Framework for research and application development in the Audio and Music domain
+LICENSE=GPL-2
+IUSE=alsa debug doc double examples fft fftw jack ladspa mad optimize osc portaudio portmidi vorbis xercesc +xmlpp
+RESTRICT=mirror
+SRC_URI=http://clam-project.org/download/src/CLAM-1.4.0.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://clam-project.org/
+RDEPEND=dev-libs/libsigc++:2 dev-util/cppunit media-libs/libsndfile sys-libs/zlib alsa? ( media-libs/alsa-lib ) fftw? ( sci-libs/fftw:3.0 ) jack? ( media-sound/jack-audio-connection-kit ) ladspa? ( media-libs/ladspa-sdk ) mad? ( media-libs/libmad media-libs/id3lib ) osc? ( media-libs/oscpack ) portaudio? ( >=media-libs/portaudio-19_pre20111121 ) portmidi? ( media-libs/portmidi ) vorbis? ( media-libs/libvorbis media-libs/libogg ) xercesc? ( <dev-libs/xerces-c-3 ) xmlpp? ( dev-cpp/libxmlpp:2.6 )

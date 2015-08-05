@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	gnuconfig	a0530e40148c254cebb925df0e87ef
+_md5_=5ab8e29e34c7c40eecbf2dc9ce7a1d67
+SLOT=0
+DEFINED_PHASES=compile install unpack
+EAPI=0
+DEPEND=>=gnome-base/libglade-2.0.1 >=gnome-base/libgnomeui-2.2.0.1 >=media-libs/audiofile-0.2.3 libsamplerate? ( media-libs/libsamplerate ) sys-devel/gnuconfig
+DESCRIPTION=GNUsound is a sound editor for Linux/x86
+LICENSE=GPL-2
+IUSE=libsamplerate mmx sse
+RESTRICT=mirror
+SRC_URI=mirror://gnu/gnusound/gnusound-0.7.4.tar.bz2
+KEYWORDS=~amd64 ~x86 -sparc
+HOMEPAGE=http://gnusound.sourceforge.net/
+RDEPEND=>=gnome-base/libglade-2.0.1 >=gnome-base/libgnomeui-2.2.0.1 >=media-libs/audiofile-0.2.3 libsamplerate? ( media-libs/libsamplerate )

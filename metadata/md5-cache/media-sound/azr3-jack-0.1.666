@@ -1,0 +1,13 @@
+_eclasses_=
+_md5_=87f0b93ed277349623963079f72634b6
+SLOT=0
+DEFINED_PHASES=compile install
+EAPI=0
+DEPEND=media-sound/jack-audio-connection-kit dev-cpp/gtkmm media-sound/lash
+DESCRIPTION=Rumpelrausch Taips AZR3 standalone Linux port
+LICENSE=GPL-2
+RESTRICT=mirror
+SRC_URI=http://download.savannah.nongnu.org/releases/ll-plugins/azr3-jack-0.1.666.tar.bz2
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://ll-plugins.nongnu.org/azr3
+RDEPEND=media-sound/jack-audio-connection-kit dev-cpp/gtkmm media-sound/lash

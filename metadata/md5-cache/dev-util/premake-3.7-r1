@@ -1,0 +1,11 @@
+_eclasses_=
+_md5_=a92842087cfd4fe16c27188353fbbb0a
+SLOT=3
+DEFINED_PHASES=install
+EAPI=0
+DEPEND=app-arch/unzip
+DESCRIPTION=A makefile generation tool
+LICENSE=GPL-2
+SRC_URI=mirror://sourceforge/premake/premake-src-3.7.zip
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://premake.berlios.de/

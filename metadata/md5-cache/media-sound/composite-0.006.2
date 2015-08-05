@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	cmake-utils	430c386d85cec959d72640afd63ea91	flag-o-matic	c9602887773166fe300444712fc7ff98
+_md5_=b7c0b24f3e6ac9bcf5f6475b09906184
+SLOT=0
+DEFINED_PHASES=compile configure install prepare setup test
+EAPI=2
+DEPEND=media-libs/rubberband >=dev-qt/qtcore-4.5:4 >=dev-qt/qtgui-4.5:4 media-libs/libsndfile media-sound/jack-audio-connection-kit media-libs/flac ladspa? ( media-libs/liblrdf ) dev-libs/boost dev-util/cmake || ( ( sys-libs/zlib dev-libs/libtar ) app-arch/libarchive ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=software application/system for real-time, in-performance sequencing, sampling, and looping.
+LICENSE=GPL-2
+IUSE=debug ladspa
+RESTRICT=mirror
+SRC_URI=http://gabe.is-a-geek.org/composite/releases/composite-0.006.2.tar.bz2
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=http://gabe.is-a-geek.org/composite/
+RDEPEND=media-libs/rubberband >=dev-qt/qtcore-4.5:4 >=dev-qt/qtgui-4.5:4 media-libs/libsndfile media-sound/jack-audio-connection-kit media-libs/flac ladspa? ( media-libs/liblrdf ) dev-libs/boost

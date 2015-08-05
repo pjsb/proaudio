@@ -1,0 +1,7 @@
+_eclasses_=
+_md5_=c086f67a05a5870bd4157c7684c2be5e
+SLOT=0
+DEFINED_PHASES=postinst
+EAPI=0
+DESCRIPTION=Realtime Audio Utility Library in C++
+HOMEPAGE=http://drobilla.net/software/raul

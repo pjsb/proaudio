@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	autotools-utils	dbce0f7913bd240fdf0ef428149855c0	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=82d189f1923bb414fa054375a91e447c
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test
+EAPI=4
+DEPEND=>=media-libs/gstreamer-0.10.11:0.10 media-libs/gst-plugins-base:0.10 media-libs/gst-plugins-good:0.10 >=media-libs/bml-0.6.0 media-sound/fluidsynth orc? ( dev-lang/orc ) virtual/pkgconfig doc? ( dev-util/gtk-doc )
+DESCRIPTION=GStreamer plugin used by Buzztard
+LICENSE=GPL-2
+IUSE=doc +orc static-libs
+RESTRICT=mirror
+SRC_URI=mirror://sourceforge/buzztard/gst-buzztard-0.6.0.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://www.buzztard.org
+RDEPEND=>=media-libs/gstreamer-0.10.11:0.10 media-libs/gst-plugins-base:0.10 media-libs/gst-plugins-good:0.10 >=media-libs/bml-0.6.0 media-sound/fluidsynth orc? ( dev-lang/orc )

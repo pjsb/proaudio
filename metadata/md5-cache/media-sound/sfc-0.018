@@ -1,0 +1,12 @@
+_eclasses_=
+_md5_=e10c299346f128dd117a4cfcaef023aa
+SLOT=0
+DEFINED_PHASES=install
+EAPI=1
+DEPEND=media-libs/alsa-lib x11-libs/fltk:1
+DESCRIPTION=SoundFontCombi is an opensource software pseudo synthesizer.
+LICENSE=GPL-2
+SRC_URI=http://personal.telefonica.terra.es/web/soudfontcombi/sfc-0.018.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://personal.telefonica.terra.es/web/soudfontcombi/
+RDEPEND=media-libs/alsa-lib x11-libs/fltk:1

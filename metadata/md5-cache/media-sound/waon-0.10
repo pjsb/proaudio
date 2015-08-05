@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	base	87f7447ccfc06fd0729ff4684e11e0d6	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=40fc1b94e88460758af4270f8b282712
+SLOT=0
+DEFINED_PHASES=compile configure install prepare unpack
+EAPI=4
+DEPEND=media-libs/libsndfile sci-libs/fftw:3.0 pv? ( media-libs/libao media-libs/libsamplerate ) gtk? ( x11-libs/gtk+:2 media-libs/libao media-libs/libsamplerate ) virtual/pkgconfig
+DESCRIPTION=A wave to notes transcriber, able to transcribe wav to midi
+LICENSE=GPL-2
+IUSE=gtk pv
+RESTRICT=mirror
+SRC_URI=mirror://sourceforge/waon/0.10/waon-0.10.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://waon.sourceforge.net/
+RDEPEND=media-libs/libsndfile sci-libs/fftw:3.0 pv? ( media-libs/libao media-libs/libsamplerate ) gtk? ( x11-libs/gtk+:2 media-libs/libao media-libs/libsamplerate )

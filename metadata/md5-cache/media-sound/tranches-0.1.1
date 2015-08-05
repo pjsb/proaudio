@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	scons-utils	988e24b9e2e4642189b4e97c03e5ae71
+_md5_=a1fd60d60ed9a87bc4abb7304e29aafd
+SLOT=0
+DEFINED_PHASES=compile install prepare
+EAPI=2
+DEPEND=dev-libs/libxml2 media-sound/jack-audio-connection-kit media-libs/libsamplerate media-libs/libsndfile dev-util/scons
+DESCRIPTION=Tranches is midi-controlled multi-(inputs/outputs) live beat repeat/rearrange/redirect tool.
+LICENSE=GPL-2
+IUSE=fr lash gui
+SRC_URI=http://www.tardigrade-inc.com/uploads/tranches-0.1.1.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://tardigrade-inc.com/index.php/En/Tranches
+RDEPEND=lash? ( media-sound/lash ) gui? ( =x11-libs/fltk-1.1.10* )

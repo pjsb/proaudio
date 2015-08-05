@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	git-r3	727a612b4c6247766904e3f74a326e2b	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=7734a90f5c1ef872c31b5d5f451c980c
+SLOT=0
+DEFINED_PHASES=configure install setup unpack
+EAPI=2
+DEPEND=media-libs/libsamplerate alsa? ( media-libs/alsa-lib ) ao? ( media-libs/libao ) openal? ( media-libs/openal ) portaudio? ( media-libs/portaudio ) pulseaudio? ( media-sound/pulseaudio ) >=dev-vcs/git-1.8.2.1
+DESCRIPTION=RSound is a networked audio system. It allows applications to transfer their audio data to a different computer.
+LICENSE=GPL-3
+IUSE=alsa ao openal portaudio pulseaudio
+HOMEPAGE=http://www.rsound.org/
+RDEPEND=media-libs/libsamplerate alsa? ( media-libs/alsa-lib ) ao? ( media-libs/libao ) openal? ( media-libs/openal ) portaudio? ( media-libs/portaudio ) pulseaudio? ( media-sound/pulseaudio )

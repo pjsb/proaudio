@@ -1,0 +1,11 @@
+_eclasses_=subversion	c12bdf4fcc82f86ad89b14c8f76c4026	multilib	62927b3db3a589b0806255f3a002d5d3	toolchain-funcs	42408102d713fbad60ca21349865edb4	exteutils	316ff466b687876b354d672b1464ad62	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=84a08713ea25890e5ae74f1a2ffa5152
+SLOT=0
+DEFINED_PHASES=compile install postinst preinst prepare unpack
+EAPI=5
+DEPEND=media-sound/jack-audio-connection-kit >=x11-libs/fltk-1.1.7:1[threads] media-libs/alsa-lib media-libs/liblo dev-util/scons || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DESCRIPTION=Standalone Linux softwaresynthesizer
+LICENSE=GPL-3
+RESTRICT=mirror
+HOMEPAGE=http://minicomputer.sourceforge.net
+RDEPEND=media-sound/jack-audio-connection-kit >=x11-libs/fltk-1.1.7:1[threads] media-libs/alsa-lib media-libs/liblo

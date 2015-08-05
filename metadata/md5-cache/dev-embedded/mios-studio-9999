@@ -1,0 +1,12 @@
+_eclasses_=subversion	c12bdf4fcc82f86ad89b14c8f76c4026	toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=a9024f7cf998bff5d3d8cd537b5ba82f
+SLOT=0
+DEFINED_PHASES=compile install preinst prepare unpack
+EAPI=5
+DEPEND=app-arch/unzip || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DESCRIPTION=uCApps.de MIOS Studio
+LICENSE=TAPR-NCL
+IUSE=debug
+RESTRICT=strip mirror
+KEYWORDS=-* ~amd64 ~x86
+HOMEPAGE=http://ucapps.de/

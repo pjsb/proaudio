@@ -1,0 +1,7 @@
+_eclasses_=
+_md5_=1922ab666d681d989e281c38d511a489
+SLOT=0
+DEFINED_PHASES=postinst
+EAPI=0
+DESCRIPTION=LV2 port of the MDA plugins by Paul Kellett
+HOMEPAGE=http://drobilla.net/software/mda-lv2

@@ -1,0 +1,11 @@
+_eclasses_=fetch-tools	9ab9f2bc821bcb033a56f38a5d75c12a	zyn3	2d28ba49064489cfd9ebd8d9516c8e75
+_md5_=abed68353d28ad3240f8569e0d5b8147
+SLOT=0
+DEFINED_PHASES=compile install postinst unpack
+EAPI=0
+DEPEND=app-arch/unzip
+DESCRIPTION=ZynAddSubFX banks/instruments
+LICENSE=GPL-2
+RESTRICT=mirror
+HOMEPAGE=http://zynaddsubfx.sourceforge.net/doc/instruments/
+RDEPEND=|| ( !<media-sound/zynaddsubfx-2.2.1-r4 media-sound/yoshimi )

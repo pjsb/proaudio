@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	autotools-utils	dbce0f7913bd240fdf0ef428149855c0	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=2cee2448cf6f2f3fb751bb53a7ce676
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test
+EAPI=5
+DEPEND=>=sys-libs/zlib-1.2.2 qt4? ( dev-qt/qt3support >=dev-qt/qttest-4:4 ) virtual/pkgconfig
+DESCRIPTION=a simple video player that is synchronized to jack transport.
+LICENSE=GPL-2
+IUSE=alsa imlib lash midi osc osd qt4 portmidi sdl tiff tools xv
+REQUIRED_USE=alsa? ( midi ) portmidi? ( midi )
+SRC_URI=mirror://sourceforge/xjadeo/xjadeo-0.6.4.tar.gz
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=http://xjadeo.sourceforge.net/
+RDEPEND=>=media-sound/jack-audio-connection-kit-0.100 >=media-video/ffmpeg-0.4.9 midi? ( alsa? ( >=media-libs/alsa-lib-1.0.10 ) portmidi? ( media-libs/portmidi ) ) imlib? ( >=media-libs/imlib2-1.3.0 ) lash? ( virtual/liblash ) osc? ( media-libs/liblo ) sdl? ( >=media-libs/libsdl-1.2.8 )

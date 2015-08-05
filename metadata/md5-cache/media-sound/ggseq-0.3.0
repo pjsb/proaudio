@@ -1,0 +1,13 @@
+_eclasses_=
+_md5_=9c9bc98e94a40f7a1902e6b4b07180cc
+SLOT=0
+DEFINED_PHASES=compile install unpack
+EAPI=0
+DEPEND=media-libs/portaudio >=x11-libs/wxGTK-2.4.2 >=media-libs/libsamplerate-0.1.0 >=media-libs/portaudio-18.1 >=media-libs/libsndfile-1.0.10 media-libs/libsamplerate >=media-libs/libsoundtouch-1.2.1
+DESCRIPTION=Gungirl Sequencer is an easy to use Audiosequencer
+LICENSE=GPL-2
+RESTRICT=mirror
+SRC_URI=mirror://sourceforge/ggseq/ggseq-0.3.0.tar.gz
+KEYWORDS=~x86
+HOMEPAGE=http://ggseq.sourceforge.net
+RDEPEND=media-libs/portaudio >=x11-libs/wxGTK-2.4.2 >=media-libs/libsamplerate-0.1.0 >=media-libs/portaudio-18.1 >=media-libs/libsndfile-1.0.10 media-libs/libsamplerate >=media-libs/libsoundtouch-1.2.1

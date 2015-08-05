@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	git-r3	727a612b4c6247766904e3f74a326e2b	multilib	62927b3db3a589b0806255f3a002d5d3	qmake-utils	4ce40e37ef0e28425a7159b0353be026	autotools-utils	dbce0f7913bd240fdf0ef428149855c0	base	87f7447ccfc06fd0729ff4684e11e0d6	libtool	52d0e17251d04645ffaa61bfdd858944	fdo-mime	acfe1a88fd8751a1d5dc671168219fa	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	qt4-r2	7199e3db5b5908325487d379c6f67cf0	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=c0e89d0574623af3f06ae39dd98c59cf
+SLOT=0
+DEFINED_PHASES=compile configure install postinst postrm prepare test unpack
+EAPI=5
+DEPEND=media-libs/libsndfile alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) lv2? ( media-libs/lv2 ) osc? ( media-libs/liblo ) !qt5? ( dev-qt/qtcore:4 dev-qt/qtgui:4 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtxml:5 ) >=dev-vcs/git-1.8.2.1 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=An old-school all-digital drum-kit sampler synthesizer with stereo fx
+LICENSE=GPL-2
+IUSE=alsa debug jack jackmidi jacksession lv2 nsm osc qt5
+REQUIRED_USE=|| ( jack lv2 ) jack? ( || ( alsa jackmidi ) ) jackmidi? ( jack ) jacksession? ( jack )
+RESTRICT=mirror
+HOMEPAGE=http://drumkv1.sourceforge.net/
+RDEPEND=media-libs/libsndfile alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) lv2? ( media-libs/lv2 ) osc? ( media-libs/liblo ) !qt5? ( dev-qt/qtcore:4 dev-qt/qtgui:4 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtxml:5 )

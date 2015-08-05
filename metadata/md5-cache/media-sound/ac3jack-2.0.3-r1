@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	wxwidgets	6d6eec2685256d35511e7b6d5461bec9	eutils	9fb270e417e0e83d64ca52586c4a79de	flag-o-matic	c9602887773166fe300444712fc7ff98
+_md5_=17f7630532fd7e3e18c563b7e2b44f63
+SLOT=0
+DEFINED_PHASES=configure install prepare
+EAPI=5
+DEPEND=dev-libs/boost dev-libs/libsigc++:1.2 >media-libs/aften-0.0.8 media-libs/liblo >=media-sound/jack-audio-connection-kit-0.80.0 >=media-video/ffmpeg-0.4.6 x11-libs/wxGTK:2.8[X]
+DESCRIPTION=Tool for creating an AC-3 (Dolby Digital) multichannel stream from its JACK input ports
+LICENSE=GPL-2
+SRC_URI=http://essej.net/ac3jack/ac3jack-2.0.3.tar.gz
+HOMEPAGE=http://essej.net/ac3jack/
+RDEPEND=dev-libs/boost dev-libs/libsigc++:1.2 >media-libs/aften-0.0.8 media-libs/liblo >=media-sound/jack-audio-connection-kit-0.80.0 >=media-video/ffmpeg-0.4.6 x11-libs/wxGTK:2.8[X]

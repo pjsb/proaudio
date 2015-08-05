@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	multilib	62927b3db3a589b0806255f3a002d5d3	git-2	e28f0d8a9b321431b1e699782851b827	cmake-utils	430c386d85cec959d72640afd63ea91	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=b0cb7dd9f515c8878c54e2e7ee129358
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test unpack
+EAPI=5
+DEPEND=dev-qt/qtcore:4 dev-qt/qtgui:4 dev-libs/libxml2 media-libs/libsndfile media-libs/audiofile dev-libs/libtar media-libs/rubberband dev-qt/qtxmlpatterns portaudio? ( >=media-libs/portaudio-18.1 ) portmidi? ( media-libs/portmidi ) alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) ladspa? ( media-libs/liblrdf ) lash? ( virtual/liblash ) lrdf? ( media-libs/liblrdf ) dev-vcs/git sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Linux Drum Machine
+LICENSE=GPL-2
+IUSE=alsa debug jack jacksession ladspa lash lrdf portaudio portmidi rubberband
+HOMEPAGE=http://www.hydrogen-music.org/
+RDEPEND=dev-qt/qtcore:4 dev-qt/qtgui:4 dev-libs/libxml2 media-libs/libsndfile media-libs/audiofile dev-libs/libtar media-libs/rubberband dev-qt/qtxmlpatterns portaudio? ( >=media-libs/portaudio-18.1 ) portmidi? ( media-libs/portmidi ) alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) ladspa? ( media-libs/liblrdf ) lash? ( virtual/liblash ) lrdf? ( media-libs/liblrdf )

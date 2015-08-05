@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	multilib	62927b3db3a589b0806255f3a002d5d3	subversion	c12bdf4fcc82f86ad89b14c8f76c4026	cmake-utils	430c386d85cec959d72640afd63ea91	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=9dd658ce69f27b7a08c437371790757f
+SLOT=0
+DEFINED_PHASES=compile configure install preinst prepare test unpack
+EAPI=2
+DEPEND=>=dev-libs/libinstpatch-1.0.0 >=gnome-base/libglade-2.6.0 >=gnome-base/libgnomecanvas-2.30.3 >=gnome-base/librsvg-2.8:2 >=media-libs/libsndfile-1.0.0 >=x11-libs/gtk+-2.20:2 fftw? ( >=sci-libs/fftw-3.1:3.0 ) fluidsynth? ( >=media-sound/fluidsynth-1.0.4 ) virtual/pkgconfig sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DESCRIPTION=A SoundFont instrument editor for MIDI music composition and a sampler frontend
+LICENSE=GPL-2
+IUSE=debug fftw fluidsynth
+HOMEPAGE=http://swami.sourceforge.net
+RDEPEND=>=dev-libs/libinstpatch-1.0.0 >=gnome-base/libglade-2.6.0 >=gnome-base/libgnomecanvas-2.30.3 >=gnome-base/librsvg-2.8:2 >=media-libs/libsndfile-1.0.0 >=x11-libs/gtk+-2.20:2 fftw? ( >=sci-libs/fftw-3.1:3.0 ) fluidsynth? ( >=media-sound/fluidsynth-1.0.4 )

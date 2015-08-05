@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	git-2	e28f0d8a9b321431b1e699782851b827	gnome2-utils	5cdfd22a2163c9d3a891648bd19453a7	gnome2	45882dc8beda2ffd09ad51fb3f22b669	gnome.org	8fef8f967214f56e08fa92d61163d891	fdo-mime	acfe1a88fd8751a1d5dc671168219fa	libtool	52d0e17251d04645ffaa61bfdd858944	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=56a328e11fd85a538790a6d6145d268f
+SLOT=0
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare unpack
+EAPI=4
+DEPEND=dev-libs/glib:2 gnome-base/gnome-vfs:2 >=media-plugins/gst-buzztard-9999 >=media-sound/buzztard-9999 virtual/pkgconfig app-arch/xz-utils >=sys-apps/sed-4 dev-vcs/git
+DESCRIPTION=Buzz Song Loader for Buzztard
+LICENSE=GPL-2
+IUSE=debug
+HOMEPAGE=http://www.buzztard.org
+RDEPEND=dev-libs/glib:2 gnome-base/gnome-vfs:2 >=media-plugins/gst-buzztard-9999 >=media-sound/buzztard-9999

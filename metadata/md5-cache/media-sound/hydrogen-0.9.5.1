@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	base	87f7447ccfc06fd0729ff4684e11e0d6	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	scons-utils	988e24b9e2e4642189b4e97c03e5ae71
+_md5_=94335ccb8486870059e9c1859230e73a
+SLOT=0
+DEFINED_PHASES=compile configure install prepare unpack
+EAPI=5
+DEPEND=dev-qt/qtgui:4 dev-qt/qtcore:4 archive? ( app-arch/libarchive ) !archive? ( >=dev-libs/libtar-1.2.11-r3 ) >=media-libs/libsndfile-1.0.18 alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) ladspa? ( media-libs/liblrdf ) lash? ( virtual/liblash ) portaudio? ( >=media-libs/portaudio-19_pre ) portmidi? ( media-libs/portmidi ) virtual/pkgconfig dev-util/scons
+DESCRIPTION=Advanced drum machine
+LICENSE=GPL-2 ZLIB
+IUSE=alsa +archive debug jack ladspa lash oss portaudio portmidi
+SRC_URI=mirror://sourceforge/hydrogen/hydrogen-0.9.5.1.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://www.hydrogen-music.org
+RDEPEND=dev-qt/qtgui:4 dev-qt/qtcore:4 archive? ( app-arch/libarchive ) !archive? ( >=dev-libs/libtar-1.2.11-r3 ) >=media-libs/libsndfile-1.0.18 alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) ladspa? ( media-libs/liblrdf ) lash? ( virtual/liblash ) portaudio? ( >=media-libs/portaudio-19_pre ) portmidi? ( media-libs/portmidi )

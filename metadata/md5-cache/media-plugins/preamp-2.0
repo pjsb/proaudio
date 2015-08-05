@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=4ba70d1c55139a10122d576489a7f474
+SLOT=0
+DEFINED_PHASES=install unpack
+EAPI=0
+DEPEND=media-libs/ladspa-sdk
+DESCRIPTION=preamp LADSPA plugins
+LICENSE=GPL-2
+RESTRICT=mirror
+SRC_URI=http://quitte.de/dsp/preamp.tar.gz
+KEYWORDS=x86 amd64
+HOMEPAGE=http://quitte.de/dsp/preamp.html
+RDEPEND=media-libs/ladspa-sdk

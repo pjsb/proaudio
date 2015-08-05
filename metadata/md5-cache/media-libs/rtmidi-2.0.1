@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	libtool	52d0e17251d04645ffaa61bfdd858944	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=ddd36bce0c9c83af1797a3e5eee26d16
+SLOT=0
+DEFINED_PHASES=compile configure install prepare
+EAPI=4
+DEPEND=alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=RtMidi provide a common C++ API for realtime MIDI input/output across ALSA and JACK.
+LICENSE=Rt-Midi
+IUSE=+alsa doc +jack
+SRC_URI=www.music.mcgill.ca/~gary/rtmidi/release/rtmidi-2.0.1.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://www.music.mcgill.ca/~gary/rtmidi/
+RDEPEND=alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit )

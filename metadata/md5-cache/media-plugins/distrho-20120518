@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	base	87f7447ccfc06fd0729ff4684e11e0d6	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=e0198622439b48947b7aed37f7b4899b
+SLOT=0
+DEFINED_PHASES=compile configure install prepare unpack
+EAPI=4
+DEPEND=media-libs/alsa-lib media-sound/jack-audio-connection-kit sci-libs/fftw:3.0 x11-libs/libX11 x11-libs/libXext dev-qt/qtcore:4 dev-qt/qtgui:4 =dev-util/premake-3.7 sys-apps/findutils virtual/pkgconfig
+DESCRIPTION=Open-source project that provides Cross-Platform Audio Plugins using Juce and Qt4
+LICENSE=GPL-2 LGPL-2.1
+IUSE=lv2 standalone
+REQUIRED_USE=|| ( lv2 standalone )
+SRC_URI=mirror://sourceforge/distrho/Source/distrho-20120518.tar.bz2 https://launchpad.net/~kxstudio-team/+archive/plugins/+files/distrho_20120518-0~precise2.debian.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://distrho.sourceforge.net/
+RDEPEND=media-libs/alsa-lib media-sound/jack-audio-connection-kit sci-libs/fftw:3.0 x11-libs/libX11 x11-libs/libXext dev-qt/qtcore:4 dev-qt/qtgui:4

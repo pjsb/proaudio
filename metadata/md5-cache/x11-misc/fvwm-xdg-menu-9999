@@ -1,0 +1,9 @@
+_eclasses_=git-2	e28f0d8a9b321431b1e699782851b827
+_md5_=abe02d111a2915690d475ea1b2bab5d4
+SLOT=0
+DEFINED_PHASES=install unpack
+EAPI=5
+DEPEND=dev-vcs/git
+DESCRIPTION=xdg menu for use with fvwm and fvwm-menu-desktop
+LICENSE=GPL-2
+HOMEPAGE=https://github.com/domichel/fvwm-xdg-menu

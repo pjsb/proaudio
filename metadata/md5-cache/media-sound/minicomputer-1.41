@@ -1,0 +1,13 @@
+_eclasses_=multilib	62927b3db3a589b0806255f3a002d5d3	toolchain-funcs	42408102d713fbad60ca21349865edb4	exteutils	316ff466b687876b354d672b1464ad62	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=a4a5ba3a3e2af4e4b45163b7cb1d597e
+SLOT=0
+DEFINED_PHASES=compile install postinst prepare
+EAPI=5
+DEPEND=media-sound/jack-audio-connection-kit >=x11-libs/fltk-1.1.7:1[threads] media-libs/alsa-lib media-libs/liblo dev-util/scons
+DESCRIPTION=Standalone Linux softwaresynthesizer
+LICENSE=GPL-3
+RESTRICT=mirror
+SRC_URI=mirror://sourceforge/minicomputer/MinicomputerV1.41.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://minicomputer.sourceforge.net
+RDEPEND=media-sound/jack-audio-connection-kit >=x11-libs/fltk-1.1.7:1[threads] media-libs/alsa-lib media-libs/liblo

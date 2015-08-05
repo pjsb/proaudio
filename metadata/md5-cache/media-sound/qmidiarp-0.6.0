@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	autotools-utils	dbce0f7913bd240fdf0ef428149855c0	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=52dff5a7ada5642bd9ea562409db4672
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test
+EAPI=5
+DEPEND=>=dev-qt/qtcore-4.2:4 >=dev-qt/qtgui-4.2:4 media-libs/alsa-lib media-sound/jack-audio-connection-kit lv2? ( || ( media-libs/lv2 media-libs/lv2core ) ) nsm? ( >=media-libs/liblo-0.26 ) virtual/pkgconfig doc? ( app-doc/doxygen ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=An arpeggiator, sequencer and MIDI LFO for ALSA and JACK
+LICENSE=GPL-2
+IUSE=doc lv2 nls nsm
+RESTRICT=mirror
+SRC_URI=mirror://sourceforge/qmidiarp/qmidiarp-0.6.0.tar.bz2
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://qmidiarp.sourceforge.net/
+RDEPEND=>=dev-qt/qtcore-4.2:4 >=dev-qt/qtgui-4.2:4 media-libs/alsa-lib media-sound/jack-audio-connection-kit lv2? ( || ( media-libs/lv2 media-libs/lv2core ) ) nsm? ( >=media-libs/liblo-0.26 )

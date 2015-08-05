@@ -1,0 +1,8 @@
+_eclasses_=
+_md5_=a10f2bb1c477404d37d939de430fda36
+SLOT=0
+DEFINED_PHASES=postinst
+EAPI=0
+DESCRIPTION=C library to make the use of LV2 plugins as simple as possible for applications.
+LICENSE=ISC
+HOMEPAGE=http://drobilla.net/software/lilv

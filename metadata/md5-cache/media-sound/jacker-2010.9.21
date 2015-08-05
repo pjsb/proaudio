@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	scons-utils	988e24b9e2e4642189b4e97c03e5ae71
+_md5_=d07a25ca4cf2914bc56437da9ce620ad
+SLOT=0
+DEFINED_PHASES=compile install
+EAPI=1
+DEPEND=>=dev-cpp/gtkmm-2.18.2:2.4 >=media-sound/jack-audio-connection-kit-0.118.0 dev-util/scons
+DESCRIPTION=A MIDI tracker for the Jack Audio Connection Kit
+LICENSE=GPL-3
+IUSE=debug
+RESTRICT=mirror
+SRC_URI=http://www.bitbucket.org/paniq/jacker/downloads/jacker-2010.9.21.tar.bz2
+KEYWORDS=~x86
+HOMEPAGE=http://www.bitbucket.org/paniq/jacker
+RDEPEND=>=dev-cpp/gtkmm-2.18.2:2.4 >=media-sound/jack-audio-connection-kit-0.118.0

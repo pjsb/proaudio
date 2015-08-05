@@ -1,0 +1,11 @@
+_eclasses_=python	3a270b7b1d1e679847ff0faeac25c5a3	mercurial	2fbda5894dda6392b71334ee9a92de0b	toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=d265ab885926eb1fd02047d70b8e5dec
+SLOT=0
+DEFINED_PHASES=install unpack
+EAPI=2
+DEPEND=<dev-lang/python-3 media-sound/xmms2[python] dev-python/pygtk dev-python/notify-python dev-vcs/mercurial
+DESCRIPTION=XMMS2tray - systray integration for XMMS2
+LICENSE=GPL-2
+RESTRICT=mirror
+HOMEPAGE=http://code.jollybox.de/wiki/Software/Xmms2tray
+RDEPEND=<dev-lang/python-3 media-sound/xmms2[python] dev-python/pygtk dev-python/notify-python

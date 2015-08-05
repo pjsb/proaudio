@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	depend.apache	1a38534d3f755d1ab1d92ce120bd7dbd	base	87f7447ccfc06fd0729ff4684e11e0d6	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=bd1d02305472bd0c7fe5347dbd5cafdb
+SLOT=0
+DEFINED_PHASES=compile configure install postinst prepare setup unpack
+EAPI=4
+DEPEND=alsa? ( media-libs/alsa-lib ) flac? ( media-libs/flac ) jack? ( media-sound/jack-audio-connection-kit ) mad? ( media-libs/libmad ) media-libs/id3lib media-libs/libogg media-libs/libvorbis media-libs/libsamplerate media-libs/libsndfile media-libs/libsoundtouch virtual/mysql dev-qt/qtsql[mysql] =www-servers/apache-2*
+DESCRIPTION=An automated system for acquisition, management, scheduling and playout of audio content.
+LICENSE=GPL-2
+IUSE=alsa flac gpio hpi jack lame mad pam twolame
+SRC_URI=http://rivendellaudio.org/ftpdocs/rivendell/rivendell-2.1.2.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://rivendellaudio.org/
+RDEPEND=alsa? ( media-libs/alsa-lib ) flac? ( media-libs/flac ) jack? ( media-sound/jack-audio-connection-kit ) mad? ( media-libs/libmad ) media-libs/id3lib media-libs/libogg media-libs/libvorbis media-libs/libsamplerate media-libs/libsndfile media-libs/libsoundtouch virtual/mysql dev-qt/qtsql[mysql] lame? ( media-sound/lame ) twolame? ( media-sound/twolame ) pam? ( sys-libs/pam ) app-cdr/cdrkit media-sound/cdparanoia net-misc/curl =www-servers/apache-2*

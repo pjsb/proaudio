@@ -1,0 +1,11 @@
+_eclasses_=subversion	c12bdf4fcc82f86ad89b14c8f76c4026	toolchain-funcs	42408102d713fbad60ca21349865edb4	python	3a270b7b1d1e679847ff0faeac25c5a3	multilib	62927b3db3a589b0806255f3a002d5d3	qmake-utils	4ce40e37ef0e28425a7159b0353be026	base	87f7447ccfc06fd0729ff4684e11e0d6	qt4-r2	7199e3db5b5908325487d379c6f67cf0	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=5c8921ec5794c318328f5cc36e0de8e9
+SLOT=0
+DEFINED_PHASES=compile configure install preinst prepare setup unpack
+EAPI=5
+DEPEND=>=media-libs/libclam-9999 dev-qt/qtcore dev-qt/qtgui dev-qt/qtxmlpatterns dev-qt/qtopengl dev-qt/qtsvg dev-python/shiboken || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DESCRIPTION=CLAM's visual builder
+LICENSE=GPL-2
+RESTRICT=mirror
+HOMEPAGE=http://clam-project.org/index.html
+RDEPEND=>=media-libs/libclam-9999 dev-qt/qtcore dev-qt/qtgui dev-qt/qtxmlpatterns dev-qt/qtopengl dev-qt/qtsvg dev-python/shiboken media-gfx/imagemagick

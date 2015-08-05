@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=419cdfe1075acaf1bc1bd832e9a1880e
+SLOT=0
+DEFINED_PHASES=compile install unpack
+EAPI=2
+DEPEND=dev-qt/qtcore dev-qt/qtgui virtual/pkgconfig
+DESCRIPTION=Bpmdj, software for measuring the BPM of music and mixing
+LICENSE=GPL-2
+IUSE=vorbis
+SRC_URI=ftp://bpmdj.yellowcouch.org/bpmdj/bpmdj-v4.2-pl4.tar.bz2
+KEYWORDS=~amd64 ~x86 ~ppc
+HOMEPAGE=http://bpmdj.sourceforge.net/
+RDEPEND=media-libs/alsa-lib vorbis? ( media-sound/vorbis-tools ) media-sound/jack-audio-connection-kit =sci-libs/fftw-3*

@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	multilib	62927b3db3a589b0806255f3a002d5d3	git-2	e28f0d8a9b321431b1e699782851b827	cmake-utils	430c386d85cec959d72640afd63ea91	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=5da5c7cf5ce027da106889bacbe71792
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test unpack
+EAPI=4
+DEPEND=dev-libs/glib:2 dev-qt/qtgui dev-qt/qtsvg ffmpeg? ( virtual/ffmpeg ) gstreamer? ( media-libs/gstreamer ) musepack? ( media-sound/musepack-tools ) mp3? ( media-sound/mpg123 ) sndfile? ( media-libs/libsndfile ) speex? ( media-libs/speex ) taglib? ( media-libs/taglib ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) dev-vcs/git
+DESCRIPTION=A library implementing the EBU R128 loudness standard.
+LICENSE=MIT
+IUSE=ffmpeg gstreamer musepack mp3 sndfile speex taglib
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=https://github.com/jiixyj/libebur128
+RDEPEND=dev-libs/glib:2 dev-qt/qtgui dev-qt/qtsvg ffmpeg? ( virtual/ffmpeg ) gstreamer? ( media-libs/gstreamer ) musepack? ( media-sound/musepack-tools ) mp3? ( media-sound/mpg123 ) sndfile? ( media-libs/libsndfile ) speex? ( media-libs/speex ) taglib? ( media-libs/taglib )

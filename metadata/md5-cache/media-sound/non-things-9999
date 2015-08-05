@@ -1,0 +1,9 @@
+_eclasses_=
+_md5_=3bdec9648946af2f85dbbd9557e02534
+SLOT=0
+DEFINED_PHASES=-
+EAPI=4
+DESCRIPTION=The Non Things: Non-DAW, Non-Mixer, Non-Sequencer and Non-Session-Manager
+LICENSE=GPL-2
+HOMEPAGE=http://non.tuxfamily.org
+RDEPEND==media-sound/non-daw-9999 =media-sound/non-mixer-9999 =media-sound/non-sequencer-9999 =media-sound/non-session-manager-9999

@@ -1,0 +1,7 @@
+_eclasses_=
+_md5_=352c89a380b7bf7ef929c5cceb40d10a
+SLOT=0
+DEFINED_PHASES=postinst
+EAPI=0
+DESCRIPTION=lightweight C library for loading and wrapping LV2 plugin UIs
+HOMEPAGE=http://drobilla.net/software/suil

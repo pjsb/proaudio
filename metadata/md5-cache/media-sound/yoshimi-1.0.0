@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	cmake-utils	430c386d85cec959d72640afd63ea91	flag-o-matic	c9602887773166fe300444712fc7ff98
+_md5_=6cd6ab4a5e2e7b88a35cf287814c6bad
+SLOT=0
+DEFINED_PHASES=compile configure install postinst prepare test
+EAPI=2
+DEPEND=>=x11-libs/fltk-1.1.2:1[opengl] =sci-libs/fftw-3* >=media-sound/jack-audio-connection-kit-0.115.6 media-libs/libsndfile >=dev-libs/mini-xml-2.5 sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=A software synthesizer for Linux, based on ZynAddSubFX
+LICENSE=GPL-2
+RESTRICT=mirror
+SRC_URI=mirror://sourceforge/yoshimi/yoshimi-1.0.0.tar.bz2
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://yoshimi.sourceforge.net
+RDEPEND=>=x11-libs/fltk-1.1.2:1[opengl] =sci-libs/fftw-3* >=media-sound/jack-audio-connection-kit-0.115.6 media-libs/libsndfile >=dev-libs/mini-xml-2.5

@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	multilib	62927b3db3a589b0806255f3a002d5d3	git-2	e28f0d8a9b321431b1e699782851b827	cmake-utils	430c386d85cec959d72640afd63ea91	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=1610d25b36da16bccc933c8247c3c3d4
+SLOT=0
+DEFINED_PHASES=compile configure install prepare setup test unpack
+EAPI=2
+DEPEND=lilypond? ( media-sound/lilypond || ( kde? ( kde-base/kghostview ) gnome? ( app-text/evince ) ) ) export? ( || ( kde-base/kdialog kde-base/kdebase ) dev-perl/XML-Twig media-libs/libsndfile ) >=media-libs/ladspa-sdk-1.0 >=media-libs/ladspa-cmt-1.14 || ( x11-libs/libX11 virtual/x11 ) >=media-libs/liblrdf-0.3 >=media-sound/linuxsampler-9999 >=sci-libs/fftw-3.0.0 >=media-libs/liblo-0.7 x11-libs/libXtst virtual/pkgconfig >=dev-util/cmake-2.4.2 sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) dev-vcs/git
+DESCRIPTION=OpenOctave MIDI sequencer
+LICENSE=GPL-2
+IUSE=debug lilypond export kde gnome
+HOMEPAGE=http://www.openoctave.org
+RDEPEND=lilypond? ( media-sound/lilypond || ( kde? ( kde-base/kghostview ) gnome? ( app-text/evince ) ) ) export? ( || ( kde-base/kdialog kde-base/kdebase ) dev-perl/XML-Twig media-libs/libsndfile ) >=media-libs/ladspa-sdk-1.0 >=media-libs/ladspa-cmt-1.14 || ( x11-libs/libX11 virtual/x11 ) >=media-libs/liblrdf-0.3 >=media-sound/linuxsampler-9999 >=sci-libs/fftw-3.0.0 >=media-libs/liblo-0.7 x11-libs/libXtst

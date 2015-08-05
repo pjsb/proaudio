@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	git-r3	727a612b4c6247766904e3f74a326e2b	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=bb0ff233fae9ce4b4afc21fdb618608b
+SLOT=0
+DEFINED_PHASES=compile install unpack
+EAPI=5
+DEPEND=lash? ( media-sound/lash[abi_x86_32(-)] ) x11-libs/gtk+:2[abi_x86_32(-)] app-emulation/wine[abi_x86_32(-)] media-sound/jack-audio-connection-kit[abi_x86_32(-)] virtual/pkgconfig >=dev-vcs/git-1.8.2.1
+DESCRIPTION=FreeST audio plugin VST container library
+LICENSE=GPL-2
+IUSE=lash
+RESTRICT=mirror
+HOMEPAGE=http://joebutton.co.uk/fst/
+RDEPEND=lash? ( media-sound/lash[abi_x86_32(-)] ) x11-libs/gtk+:2[abi_x86_32(-)] app-emulation/wine[abi_x86_32(-)] media-sound/jack-audio-connection-kit[abi_x86_32(-)]

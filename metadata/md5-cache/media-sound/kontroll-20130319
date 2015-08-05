@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	base	87f7447ccfc06fd0729ff4684e11e0d6	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=cd7ec9bec1f967fb3837b25336e81f5c
+SLOT=0
+DEFINED_PHASES=compile configure install prepare unpack
+EAPI=5
+DEPEND=gnome-base/libglade:2.0 media-libs/alsa-lib media-libs/liblo x11-libs/gtk+:2 app-arch/unzip virtual/pkgconfig
+DESCRIPTION=A small utility that generates MIDI CC and OSC messages from the mouse position
+LICENSE=GPL-2
+RESTRICT=mirror
+SRC_URI=http://download.tuxfamily.org/proaudio/distfiles/kontroll-20130319.zip
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://github.com/fps/kontroll
+RDEPEND=gnome-base/libglade:2.0 media-libs/alsa-lib media-libs/liblo x11-libs/gtk+:2

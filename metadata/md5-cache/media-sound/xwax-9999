@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	git-r3	727a612b4c6247766904e3f74a326e2b	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=2f24b997375a0403adff948a70d3dd1f
+SLOT=0
+DEFINED_PHASES=compile configure install prepare unpack
+EAPI=2
+DEPEND=media-libs/libsdl media-libs/sdl-ttf media-fonts/dejavu alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) xwax_decoders_aac? ( media-libs/faad2 ) xwax_decoders_cd? ( media-sound/cdparanoia ) xwax_decoders_flac? ( media-libs/flac ) xwax_decoders_mp3? ( || ( media-sound/mpg123 media-sound/mpg321 ) ) xwax_decoders_ogg? ( media-sound/vorbis-tools ) xwax_decoders_misc? ( media-video/ffmpeg ) >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Digital vinyl emulation software
+LICENSE=GPL-2
+IUSE=alsa jack xwax_decoders_aac xwax_decoders_cd xwax_decoders_flac +xwax_decoders_mp3 xwax_decoders_ogg xwax_decoders_misc
+HOMEPAGE=http://www.xwax.co.uk/
+RDEPEND=media-libs/libsdl media-libs/sdl-ttf media-fonts/dejavu alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) xwax_decoders_aac? ( media-libs/faad2 ) xwax_decoders_cd? ( media-sound/cdparanoia ) xwax_decoders_flac? ( media-libs/flac ) xwax_decoders_mp3? ( || ( media-sound/mpg123 media-sound/mpg321 ) ) xwax_decoders_ogg? ( media-sound/vorbis-tools ) xwax_decoders_misc? ( media-video/ffmpeg )

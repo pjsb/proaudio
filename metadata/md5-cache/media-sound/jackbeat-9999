@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	subversion	c12bdf4fcc82f86ad89b14c8f76c4026	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=b6a497d00c3de76a66f350473ef3296
+SLOT=0
+DEFINED_PHASES=install preinst prepare unpack
+EAPI=2
+DEPEND=media-libs/alsa-lib media-libs/liblo >=media-libs/portaudio-19 >=x11-libs/gtk+-2.6 >=media-libs/libsndfile-1.0.15 >=dev-libs/libxml2-2.6 >=media-libs/libsamplerate-0.1.2 jack? ( media-sound/jack-audio-connection-kit ) pulseaudio? ( media-sound/pulseaudio ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DESCRIPTION=An audio sequencer for Linux
+LICENSE=GPL-2
+IUSE=jack pulseaudio
+HOMEPAGE=http://www.samalyse.com/jackbeat/
+RDEPEND=media-libs/alsa-lib media-libs/liblo >=media-libs/portaudio-19 >=x11-libs/gtk+-2.6 >=media-libs/libsndfile-1.0.15 >=dev-libs/libxml2-2.6 >=media-libs/libsamplerate-0.1.2 jack? ( media-sound/jack-audio-connection-kit ) pulseaudio? ( media-sound/pulseaudio )

@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=3444b168a0d4a31e88ec20dc105d6376
+SLOT=0
+DEFINED_PHASES=compile install unpack
+EAPI=0
+DEPEND=>=media-libs/libsndfile-1.0.1 virtual/pkgconfig =sci-libs/fftw-3* x11-proto/glproto x11-proto/dri2proto >=gnome-base/libgnomeui-2.0 alsa? ( >=media-libs/alsa-lib-0.9 )
+DESCRIPTION=Gnome Wave Cleaner
+LICENSE=GPL-1
+IUSE=alsa oss singlefft
+RESTRICT=mirror
+SRC_URI=mirror://sourceforge/gwc/gwc-0.21-16.tgz
+KEYWORDS=amd64 ~ppc x86
+HOMEPAGE=http://gwc.sourceforge.net/
+RDEPEND=>=media-libs/libsndfile-1.0.1 virtual/pkgconfig =sci-libs/fftw-3* x11-proto/glproto x11-proto/dri2proto >=gnome-base/libgnomeui-2.0 alsa? ( >=media-libs/alsa-lib-0.9 )

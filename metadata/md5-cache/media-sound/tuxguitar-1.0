@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=880100f1e7c0580b6d1c566f9ef6716a
+SLOT=0
+DEFINED_PHASES=install postinst
+EAPI=0
+DEPEND=>=virtual/jre-1.5
+DESCRIPTION=TuxGuitar is a multitrack guitar tablature editor and player written in Java-SWT
+LICENSE=LGPL-2.1
+SRC_URI=x86? ( mirror://sourceforge/tuxguitar/tuxguitar-1.0-linux-x86.tar.gz ) ppc? ( mirror://sourceforge/tuxguitar/tuxguitar-1.0-linux-ppc.tar.gz ) amd64? ( mirror://sourceforge/tuxguitar/tuxguitar-1.0-linux-x86_64.tar.gz )
+KEYWORDS=~amd64 ~ppc ~x86
+HOMEPAGE=http://www.tuxguitar.com.ar
+RDEPEND=>=virtual/jre-1.5

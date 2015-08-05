@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	base	87f7447ccfc06fd0729ff4684e11e0d6	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=9dfc3f67d62b7de31c383e08b46981b3
+SLOT=0
+DEFINED_PHASES=compile configure install prepare unpack
+EAPI=5
+DEPEND=gnome-base/libgnomecanvas media-libs/alsa-lib x11-libs/gtk+:2
+DESCRIPTION=A simple MIDI drum machine program modeled to a large extent on the Hydrogen drum machine software
+LICENSE=GPL-2
+RESTRICT=mirror
+SRC_URI=mirror://sourceforge/gneutronica/gneutronica-0.33.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://gneutronica.sourceforge.net/

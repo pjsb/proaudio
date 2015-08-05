@@ -1,0 +1,14 @@
+_eclasses_=multilib	62927b3db3a589b0806255f3a002d5d3	toolchain-funcs	42408102d713fbad60ca21349865edb4	exteutils	316ff466b687876b354d672b1464ad62	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=6988f7fd2e21c9bd989bdc1f279adb6b
+SLOT=0
+DEFINED_PHASES=compile install unpack
+EAPI=0
+DEPEND=>=media-sound/lash-0.5.1 >=dev-cpp/gtkmm-2.10.1 media-sound/jack-audio-connection-kit
+DESCRIPTION=GLASHCtl is a simple applet for controlling the LASH Audio Session Handler
+LICENSE=GPL-2
+IUSE=wmaker
+RESTRICT=mirror
+SRC_URI=http://download.savannah.nongnu.org/releases/dino/glashctl-0.4.4.tar.bz2
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=http://dino.nongnu.org/glashctl
+RDEPEND=>=media-sound/lash-0.5.1 >=dev-cpp/gtkmm-2.10.1 media-sound/jack-audio-connection-kit

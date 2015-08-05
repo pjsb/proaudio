@@ -1,0 +1,13 @@
+_eclasses_=zyn3	2d28ba49064489cfd9ebd8d9516c8e75
+_md5_=75a48343613e77d82b37891f12f70c08
+SLOT=0
+DEFINED_PHASES=compile install postinst setup unpack
+EAPI=0
+DEPEND=app-arch/unzip
+DESCRIPTION=ZynAddSubFX banks/instruments
+LICENSE=GPL-2
+RESTRICT=mirror
+SRC_URI=http://zynaddsubfx.sourceforge.net/doc/instruments/banks20061031.zip
+KEYWORDS=amd64 ppc x86
+HOMEPAGE=http://zynaddsubfx.sourceforge.net/doc/instruments/
+RDEPEND=|| ( !<media-sound/zynaddsubfx-2.2.1-r4 media-sound/yoshimi )

@@ -1,0 +1,13 @@
+_eclasses_=lash	741c5e4b84456712bab154a4736f2243	multilib	62927b3db3a589b0806255f3a002d5d3	toolchain-funcs	42408102d713fbad60ca21349865edb4	exteutils	316ff466b687876b354d672b1464ad62	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=3a663b46eac59b63d59a77a06125605a
+SLOT=0
+DEFINED_PHASES=compile install setup unpack
+EAPI=0
+DEPEND=alsa? ( >=media-libs/alsa-lib-0.5.0 ) >=dev-lang/tk-8.3 lash? ( >=media-sound/lash-0.3.1 ) x11-libs/libX11 x11-proto/xf86bigfontproto x11-proto/bigreqsproto x11-proto/xextproto x11-proto/xcmiscproto
+DESCRIPTION=A virtual MIDI keyboard for X
+LICENSE=GPL-2
+IUSE=alsa oss lash patch
+SRC_URI=http://www.alsa-project.org/~iwai/vkeybd-0.1.17a.tar.bz2
+KEYWORDS=~amd64 ~sparc ~x86
+HOMEPAGE=http://www.alsa-project.org/~iwai/alsa.html
+RDEPEND=alsa? ( >=media-libs/alsa-lib-0.5.0 ) >=dev-lang/tk-8.3 lash? ( >=media-sound/lash-0.3.1 ) x11-libs/libX11

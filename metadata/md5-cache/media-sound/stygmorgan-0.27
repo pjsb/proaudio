@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	autotools-utils	dbce0f7913bd240fdf0ef428149855c0	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=4cd1c8b6ab641fd2845c561c5e1dec76
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test
+EAPI=5
+DEPEND=>=x11-libs/fltk-1.1.2 >=media-libs/alsa-lib-0.9.0 nls? ( >=sys-devel/gettext-0.11.5-r1 )
+DESCRIPTION=stygmorgan is an Interactive Musical Workstation software emulator
+LICENSE=GPL-2
+IUSE=nls
+SRC_URI=miror://berlios/stygmorgan/stygmorgan-0.27.tar.gz
+KEYWORDS=amd64 sparc x86
+HOMEPAGE=http://stygmorgan.berlios.de
+RDEPEND=>=x11-libs/fltk-1.1.2 >=media-libs/alsa-lib-0.9.0

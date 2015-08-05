@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	git-2	e28f0d8a9b321431b1e699782851b827	autotools-utils	dbce0f7913bd240fdf0ef428149855c0	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=b59ab260fe7150f91cdecaa48d84887
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test unpack
+EAPI=5
+DEPEND=x11-libs/fltk:1 x11-libs/libXpm >=media-libs/alsa-lib-0.9 media-libs/libsamplerate media-libs/libsndfile >=media-sound/alsa-utils-0.9 >=media-sound/jack-audio-connection-kit-0.100.0 dev-vcs/git
+DESCRIPTION=A richly featured multi-effects processor emulating a uitar effects pedalboard
+LICENSE=GPL-2
+IUSE=altivec jacksession sse sse2
+HOMEPAGE=http://rakarrack.sourceforge.net/
+RDEPEND=x11-libs/fltk:1 x11-libs/libXpm >=media-libs/alsa-lib-0.9 media-libs/libsamplerate media-libs/libsndfile >=media-sound/alsa-utils-0.9 >=media-sound/jack-audio-connection-kit-0.100.0

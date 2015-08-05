@@ -1,0 +1,15 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	udev	da001465a2e939c93f7ae16947ce3438	scons-utils	988e24b9e2e4642189b4e97c03e5ae71	base	87f7447ccfc06fd0729ff4684e11e0d6	python-single-r1	351da1aa73960a282591217fb57c1bb8	eutils	9fb270e417e0e83d64ca52586c4a79de	python-utils-r1	295a286ec27cab6af76b3b75ba07a3a
+_md5_=3f386a1534099510a07daac46ec008b4
+SLOT=0
+DEFINED_PHASES=compile configure install prepare setup unpack
+EAPI=5
+DEPEND=dev-cpp/libxmlpp dev-libs/dbus-c++ dev-libs/libconfig[cxx] media-libs/alsa-lib media-libs/libiec61883 media-sound/jack-audio-connection-kit sys-apps/dbus sys-libs/libraw1394 sys-libs/libavc1394 >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_jython2_5(-),-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_3(-),-python_single_target_python3_4(-),python_single_target_python2_7(+)] qt4? ( dev-python/PyQt4[dbus,python_targets_python2_7(-)?,-python_single_target_jython2_5(-),-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_3(-),-python_single_target_python3_4(-),python_single_target_python2_7(+)] dev-python/dbus-python[python_targets_python2_7(-)?,-python_single_target_jython2_5(-),-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_3(-),-python_single_target_python3_4(-),python_single_target_python2_7(+)] x11-misc/xdg-utils ) virtual/pkgconfig dev-util/scons virtual/pkgconfig
+DESCRIPTION=Successor for freebob: Library for accessing BeBoB IEEE1394 devices
+LICENSE=GPL-2
+IUSE=debug qt4 +test-programs python_targets_python2_7
+REQUIRED_USE=python_targets_python2_7
+RESTRICT=mirror
+SRC_URI=http://www.ffado.org/files/libffado-2.2.1.tgz
+KEYWORDS=~amd64 ~ppc ~x86
+HOMEPAGE=http://www.ffado.org
+RDEPEND=dev-cpp/libxmlpp dev-libs/dbus-c++ dev-libs/libconfig[cxx] media-libs/alsa-lib media-libs/libiec61883 media-sound/jack-audio-connection-kit sys-apps/dbus sys-libs/libraw1394 sys-libs/libavc1394 >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_jython2_5(-),-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_3(-),-python_single_target_python3_4(-),python_single_target_python2_7(+)] qt4? ( dev-python/PyQt4[dbus,python_targets_python2_7(-)?,-python_single_target_jython2_5(-),-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_3(-),-python_single_target_python3_4(-),python_single_target_python2_7(+)] dev-python/dbus-python[python_targets_python2_7(-)?,-python_single_target_jython2_5(-),-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_3(-),-python_single_target_python3_4(-),python_single_target_python2_7(+)] x11-misc/xdg-utils )

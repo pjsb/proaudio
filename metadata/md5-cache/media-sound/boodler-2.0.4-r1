@@ -1,0 +1,15 @@
+_eclasses_=bash-completion-r1	c8399c7c7ecbcf7ed6e5bd3abb3d4af3	toolchain-funcs	42408102d713fbad60ca21349865edb4	distutils-r1	715b22a21726d3fd76b17e007c5daf5f	multilib	62927b3db3a589b0806255f3a002d5d3	python-r1	d9c8348f26710ea523a385c2328cf027	multibuild	6d4858dc00f8bc51caf3f957f8430eb0	multiprocessing	d7f2985a2c76c365ee20269db5261414	eutils	9fb270e417e0e83d64ca52586c4a79de	python-utils-r1	295a286ec27cab6af76b3b75ba07a3a
+_md5_=bc603bbab2a905274b24778522d4f40a
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test
+EAPI=5
+DEPEND=alsa? ( >=media-libs/alsa-lib-1.0.17a ) jack? ( >=media-libs/bio2jack-0.9 ) lame? ( >=media-sound/lame-3.98.2-r1 ) pulseaudio? ( >=media-sound/pulseaudio-0.9.9 ) shout? ( >=media-libs/libshout-2.1 ) vorbis? ( >=media-libs/libvorbis-1.2.1_rc1-r2 ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+DESCRIPTION=Tool for creating soundscapes -- continuous, infinitely varying streams of sound
+LICENSE=LGPL-2 GPL-2 public-domain
+IUSE=alsa bash-completion coreaudio doc intmath jack lame pulseaudio qt4 shout vorbis python_targets_python2_7
+REQUIRED_USE=shout? ( vorbis ) || ( python_targets_python2_7 )
+RESTRICT=mirror
+SRC_URI=http://boodler.org/dl/Boodler-2.0.4.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://boodler.org/
+RDEPEND=alsa? ( >=media-libs/alsa-lib-1.0.17a ) jack? ( >=media-libs/bio2jack-0.9 ) lame? ( >=media-sound/lame-3.98.2-r1 ) pulseaudio? ( >=media-sound/pulseaudio-0.9.9 ) shout? ( >=media-libs/libshout-2.1 ) vorbis? ( >=media-libs/libvorbis-1.2.1_rc1-r2 ) qt4? ( >=dev-python/PyQt4-4.7.3[X] ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]

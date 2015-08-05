@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	flag-o-matic	c9602887773166fe300444712fc7ff98
+_md5_=2169522d38df3ccda9e4bac5ab5eed4e
+SLOT=0
+DEFINED_PHASES=compile install unpack
+EAPI=0
+DEPEND=>=media-sound/jack-audio-connection-kit-0.100 media-libs/libsndfile >=media-libs/juce-1.40 >=media-libs/libsamplerate-0.1.1 media-libs/libvorbis media-libs/mesa || ( ( x11-proto/xineramaproto x11-proto/xextproto x11-proto/xproto ) virtual/x11 )
+DESCRIPTION=A program for doing sound effects using one gigantic fft analysis (no windows).
+IUSE=doc
+RESTRICT=mirror
+SRC_URI=http://www.notam02.no/arkiv/src/mammut-0.59.tar.gz
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=http://www.notam02.no/arkiv/doc/mammut/
+RDEPEND=>=media-sound/jack-audio-connection-kit-0.100 media-libs/libsndfile >=media-libs/juce-1.40 >=media-libs/libsamplerate-0.1.1 media-libs/libvorbis media-libs/mesa || ( ( x11-proto/xineramaproto x11-proto/xextproto x11-proto/xproto ) virtual/x11 )

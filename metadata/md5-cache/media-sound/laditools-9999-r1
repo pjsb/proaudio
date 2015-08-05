@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	distutils-r1	715b22a21726d3fd76b17e007c5daf5f	multilib	62927b3db3a589b0806255f3a002d5d3	python-r1	d9c8348f26710ea523a385c2328cf027	git-2	e28f0d8a9b321431b1e699782851b827	multibuild	6d4858dc00f8bc51caf3f957f8430eb0	multiprocessing	d7f2985a2c76c365ee20269db5261414	eutils	9fb270e417e0e83d64ca52586c4a79de	python-utils-r1	295a286ec27cab6af76b3b75ba07a3a
+_md5_=1df20f7edb6715aec928f9efdd23d50c
+SLOT=0
+DEFINED_PHASES=compile configure install preinst prepare test unpack
+EAPI=5
+DEPEND=dev-python/python-distutils-extra[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-vcs/git
+DESCRIPTION=a set of tools to improve desktop integration and user workflow of Linux audio systems
+LICENSE=GPL-3
+IUSE=wmaker python_targets_python2_7
+REQUIRED_USE=|| ( python_targets_python2_7 ) || ( python_targets_python2_7 )
+HOMEPAGE=https://launchpad.net/laditools
+RDEPEND=>=dev-python/pygtk-2.12[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pyxdg[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/enum-0.4.4[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/pygobject-3.0.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pyxml[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=media-sound/jack-audio-connection-kit-0.109.2-r2[dbus] >=x11-libs/gtk+-3.2.2:3[introspection] >=x11-libs/vte-0.30.1:2.90[introspection] wmaker? ( dev-python/wmdocklib[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]

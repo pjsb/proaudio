@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	cmake-utils	430c386d85cec959d72640afd63ea91	flag-o-matic	c9602887773166fe300444712fc7ff98
+_md5_=4456becbe4f97d132e4fd4ccae6fd64f
+SLOT=0
+DEFINED_PHASES=compile configure install postinst prepare setup test
+EAPI=2
+DEPEND=media-libs/rubberband >=dev-qt/qtcore-4.5:4 >=dev-qt/qtgui-4.5:4 media-libs/libsndfile media-sound/jack-audio-connection-kit dev-util/cmake sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Audio player with time stretch and pitch shift
+LICENSE=GPL-2
+IUSE=debug
+RESTRICT=mirror
+SRC_URI=http://www.teuton.org/~gabriel/stretchplayer/stretchplayer_0.503.orig.tar.gz
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=http://www.teuton.org/~gabriel/stretchplayer/
+RDEPEND=media-libs/rubberband >=dev-qt/qtcore-4.5:4 >=dev-qt/qtgui-4.5:4 media-libs/libsndfile media-sound/jack-audio-connection-kit

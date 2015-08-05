@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	flag-o-matic	c9602887773166fe300444712fc7ff98
+_md5_=f7ac8871f824c3023007eb8204f43120
+SLOT=0
+DEFINED_PHASES=compile install setup unpack
+EAPI=1
+DEPEND=icu? ( <dev-libs/icu-3.8 ) libwww? ( net-libs/libwww ) doc? ( app-doc/doxygen )
+DESCRIPTION=A validating XML parser written in a portable subset of C++.
+LICENSE=Apache-2.0
+IUSE=debug doc icu libwww +threads elibc_Darwin elibc_FreeBSD xqilla
+SRC_URI=mirror://apache/xerces/c/2/sources/xerces-c-src_2_8_0.tar.gz
+KEYWORDS=~alpha ~amd64 ~hppa ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+HOMEPAGE=http://xerces.apache.org/xerces-c/
+RDEPEND=icu? ( <dev-libs/icu-3.8 ) libwww? ( net-libs/libwww )

@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	multilib	62927b3db3a589b0806255f3a002d5d3	cvs	a4cb8da1bb586b224ade5b54f1d2fda0	cmake-utils	430c386d85cec959d72640afd63ea91	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=465294ecedf9a34a698bb741ae079a6d
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test unpack
+EAPI=4
+DEPEND=>=media-libs/freeglut-2.6.0 >=sci-libs/fftw-3.2.2:3.0 >=dev-qt/qtcore-4.6.3:4 >=dev-qt/qtgui-4.6.3:4 >=dev-qt/qtopengl-4.6.3:4 alsa? ( >=media-libs/alsa-lib-1.0.23 ) jack? ( >=media-sound/jack-audio-connection-kit-0.118.0 ) portaudio? ( media-libs/portaudio ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) dev-vcs/cvs
+DESCRIPTION=Free Music Instrument Tuner
+LICENSE=GPL-2
+IUSE=alsa debug jack oss portaudio
+HOMEPAGE=http://home.gna.org/fmit/
+RDEPEND=>=media-libs/freeglut-2.6.0 >=sci-libs/fftw-3.2.2:3.0 >=dev-qt/qtcore-4.6.3:4 >=dev-qt/qtgui-4.6.3:4 >=dev-qt/qtopengl-4.6.3:4 alsa? ( >=media-libs/alsa-lib-1.0.23 ) jack? ( >=media-sound/jack-audio-connection-kit-0.118.0 ) portaudio? ( media-libs/portaudio )

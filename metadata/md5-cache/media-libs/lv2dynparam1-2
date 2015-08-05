@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=11463b1f85e19a84aeee19ea1220a452
+SLOT=0
+DEFINED_PHASES=compile install unpack
+EAPI=0
+DEPEND=|| ( >=media-libs/lv2-1.2.0 >=media-libs/lv2core-1 ) !media-libs/lv2dynparam
+DESCRIPTION=LV2 dynparam extension
+LICENSE=GPL-2
+SRC_URI=http://download.gna.org/lv2dynparam/lv2dynparam1-2.tar.bz2
+KEYWORDS=~x86 amd64
+HOMEPAGE=http://home.gna.org/lv2dynparam/

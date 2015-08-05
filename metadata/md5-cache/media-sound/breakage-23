@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=996836f73edfa35a79d0a303f3efba77
+SLOT=0
+DEFINED_PHASES=install postinst
+EAPI=0
+DEPEND=media-sound/chuck app-arch/unzip media-sound/jack-audio-connection-kit || ( virtual/jre virtual/jdk )
+DESCRIPTION=Intelligent drum machine.
+LICENSE=GPL-2
+RESTRICT=mirror
+SRC_URI=http://ollieglass.com/breakage/download/Breakage-23.zip
+KEYWORDS=~x86
+HOMEPAGE=http://ollieglass.com/breakage/index.html
+RDEPEND=media-sound/chuck app-arch/unzip media-sound/jack-audio-connection-kit || ( virtual/jre virtual/jdk )

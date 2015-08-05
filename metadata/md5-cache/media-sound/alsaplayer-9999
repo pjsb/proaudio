@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	multilib	62927b3db3a589b0806255f3a002d5d3	git-2	e28f0d8a9b321431b1e699782851b827	autotools-utils	dbce0f7913bd240fdf0ef428149855c0	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=8c17ba7c3574ed1c917884bec35278c0
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test unpack
+EAPI=5
+DEPEND=media-libs/libsndfile alsa? ( media-libs/alsa-lib ) mad? ( media-libs/libmad ) flac? ( media-libs/flac ) jack? ( >=media-sound/jack-audio-connection-kit-0.80.0 ) mikmod? ( >=media-libs/libmikmod-3.1.10 ) nas? ( media-libs/nas ) ogg? ( media-libs/libogg ) opengl? ( virtual/opengl ) vorbis? ( media-libs/libvorbis ) xosd? ( x11-libs/xosd ) >=dev-libs/glib-2.10.1 virtual/pkgconfig doc? ( app-doc/doxygen ) nls? ( sys-devel/gettext ) gtk? ( >=x11-libs/gtk+-2.8 ) systray? ( >=x11-libs/gtk+-2.10 ) dev-vcs/git
+DESCRIPTION=Media player primarily utilising ALSA
+LICENSE=GPL-3
+IUSE=alsa doc flac gtk jack mad mikmod nas nls ogg opengl oss vorbis systray xosd
+HOMEPAGE=http://www.alsaplayer.org/
+RDEPEND=media-libs/libsndfile alsa? ( media-libs/alsa-lib ) mad? ( media-libs/libmad ) flac? ( media-libs/flac ) jack? ( >=media-sound/jack-audio-connection-kit-0.80.0 ) mikmod? ( >=media-libs/libmikmod-3.1.10 ) nas? ( media-libs/nas ) ogg? ( media-libs/libogg ) opengl? ( virtual/opengl ) vorbis? ( media-libs/libvorbis ) xosd? ( x11-libs/xosd )

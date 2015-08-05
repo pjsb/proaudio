@@ -1,0 +1,10 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	wxwidgets	6d6eec2685256d35511e7b6d5461bec9	flag-o-matic	c9602887773166fe300444712fc7ff98	multilib	62927b3db3a589b0806255f3a002d5d3	cvs	a4cb8da1bb586b224ade5b54f1d2fda0	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=c2ca7ee59c6e3cafdbb3e1ce2c488d5c
+SLOT=0
+DEFINED_PHASES=compile install unpack
+EAPI=0
+DEPEND==x11-libs/wxGTK-2.8* >=sci-libs/fftw-3.0 =dev-libs/libsigc++-1.2* dev-libs/libxml2 media-sound/jack-audio-connection-kit dev-vcs/cvs
+DESCRIPTION=FFT-based realtime audio spectral manipulation and display
+LICENSE=GPL-2
+HOMEPAGE=http://freqtweak.sourceforge.net
+RDEPEND==x11-libs/wxGTK-2.8* >=sci-libs/fftw-3.0 =dev-libs/libsigc++-1.2* dev-libs/libxml2 media-sound/jack-audio-connection-kit

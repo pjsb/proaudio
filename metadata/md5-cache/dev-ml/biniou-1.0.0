@@ -1,0 +1,12 @@
+_eclasses_=findlib	9cf6020ee5481f39f1aa566a323f9868	toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=be2b530c5d711509c1ccaac23274c602
+SLOT=0
+DEFINED_PHASES=compile install
+EAPI=4
+DEPEND=dev-lang/ocaml dev-ml/easy-format >=dev-ml/findlib-1.0.4-r1
+DESCRIPTION=A binary data format designed for speed, safety, ease of use and backward compatibility.
+LICENSE=BSD
+SRC_URI=http://mjambon.com/biniou-1.0.0.tar.bz2
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=http://mjambon.com/biniou.html
+RDEPEND=dev-lang/ocaml

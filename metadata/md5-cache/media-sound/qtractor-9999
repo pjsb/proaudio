@@ -1,0 +1,12 @@
+_eclasses_=subversion	c12bdf4fcc82f86ad89b14c8f76c4026	toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	multilib	62927b3db3a589b0806255f3a002d5d3	qmake-utils	4ce40e37ef0e28425a7159b0353be026	autotools-utils	dbce0f7913bd240fdf0ef428149855c0	base	87f7447ccfc06fd0729ff4684e11e0d6	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	qt4-r2	7199e3db5b5908325487d379c6f67cf0	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=7ea05b71a07a76638fc2d7c4b69cc85a
+SLOT=0
+DEFINED_PHASES=compile configure install preinst prepare test unpack
+EAPI=5
+DEPEND=>=dev-qt/qtcore-4.2:4 >=dev-qt/qtgui-4.2:4 media-libs/alsa-lib media-libs/libsndfile media-sound/jack-audio-connection-kit dssi? ( media-libs/dssi ) ladspa? ( media-libs/ladspa-sdk ) libsamplerate? ( media-libs/libsamplerate ) lilv? ( || ( =media-sound/drobilla-9999 media-libs/lilv ) ) mad? ( media-libs/libmad ) osc? ( media-libs/liblo ) rubberband? ( media-libs/rubberband ) suil? ( || ( =media-sound/drobilla-9999 media-libs/suil ) ) vorbis? ( media-libs/libvorbis ) vst? ( >=media-libs/vst-sdk-2.3 ) zlib? ( sys-libs/zlib ) virtual/pkgconfig !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DESCRIPTION=An Audio/MIDI multi-track sequencer.
+LICENSE=GPL-2
+IUSE=debug dssi jacksession ladspa libsamplerate lilv lv2 mad nsm osc rubberband sse suil vorbis vst zlib
+REQUIRED_USE=lv2? ( lilv ) nsm? ( osc )
+HOMEPAGE=http://qtractor.sourceforge.net/
+RDEPEND=>=dev-qt/qtcore-4.2:4 >=dev-qt/qtgui-4.2:4 media-libs/alsa-lib media-libs/libsndfile media-sound/jack-audio-connection-kit dssi? ( media-libs/dssi ) ladspa? ( media-libs/ladspa-sdk ) libsamplerate? ( media-libs/libsamplerate ) lilv? ( || ( =media-sound/drobilla-9999 media-libs/lilv ) ) mad? ( media-libs/libmad ) osc? ( media-libs/liblo ) rubberband? ( media-libs/rubberband ) suil? ( || ( =media-sound/drobilla-9999 media-libs/suil ) ) vorbis? ( media-libs/libvorbis ) vst? ( >=media-libs/vst-sdk-2.3 ) zlib? ( sys-libs/zlib )

@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	autotools-utils	dbce0f7913bd240fdf0ef428149855c0	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=69927b3b70c879d451b79c74b4ada295
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test
+EAPI=5
+DEPEND=>=dev-cpp/gtkmm-2.12:2.4 dev-cpp/libxmlpp:2.6 >=media-sound/jack-audio-connection-kit-0.105.0 virtual/pkgconfig
+DESCRIPTION=MIDI Arpeggiator w/ JACK Tempo Sync, includes Zonage MIDI splitter/manipulator
+LICENSE=GPL-3
+RESTRICT=mirror
+SRC_URI=mirror://sourceforge/arpage/arpage-0.3.3.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://sourceforge.net/projects/arpage
+RDEPEND=>=dev-cpp/gtkmm-2.12:2.4 dev-cpp/libxmlpp:2.6 >=media-sound/jack-audio-connection-kit-0.105.0

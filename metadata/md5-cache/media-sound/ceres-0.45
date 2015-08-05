@@ -1,0 +1,13 @@
+_eclasses_=virtualx2	4a15e10aa40cf36334bfe46e84c5b55c
+_md5_=faaca6ee0cf9562d6e3bf9aa1a106a6c
+SLOT=0
+DEFINED_PHASES=compile install unpack
+EAPI=0
+DEPEND=>=media-sound/jack-audio-connection-kit-0.100 >=dev-lang/python-1.5.2 media-libs/libsndfile =x11-libs/gtk+-1.2* >=dev-libs/libxml-1.8.17 >=media-libs/libsamplerate-0.1.1 X? ( || ( x11-base/xorg-server virtual/x11 ) )
+DESCRIPTION=A program for displaying sonograms and for sound effects in the frequency domain
+IUSE=X
+RESTRICT=mirror
+SRC_URI=http://ccrma.stanford.edu/~kjetil/src/ceres-0.45.tar.gz
+KEYWORDS=x86
+HOMEPAGE=http://ccrma.stanford.edu/~kjetil/src
+RDEPEND=>=media-sound/jack-audio-connection-kit-0.100 >=dev-lang/python-1.5.2 media-libs/libsndfile =x11-libs/gtk+-1.2* >=dev-libs/libxml-1.8.17 >=media-libs/libsamplerate-0.1.1

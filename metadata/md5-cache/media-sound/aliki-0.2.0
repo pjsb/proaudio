@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	base	87f7447ccfc06fd0729ff4684e11e0d6	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=de1fd0b6115056e3597aa550926a3c0a
+SLOT=0
+DEFINED_PHASES=compile configure install prepare unpack
+EAPI=5
+DEPEND=>=media-sound/jack-audio-connection-kit-0.100 >=media-libs/libclthreads-2.4.0 >=media-libs/libclxclient-3.6.1 >=media-libs/libsndfile-1.0.18 >=media-libs/zita-alsa-pcmi-0.2.0 >=sci-libs/fftw-3.2.2:3.0
+DESCRIPTION=An integrated system for Impulse Response measurements
+LICENSE=GPL-2
+IUSE=doc
+RESTRICT=mirror
+SRC_URI=http://kokkinizita.linuxaudio.org/linuxaudio/downloads/aliki-0.2.0.tar.bz2 doc? ( http://kokkinizita.linuxaudio.org/linuxaudio/downloads/aliki-manual.pdf )
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://kokkinizita.linuxaudio.org/linuxaudio/
+RDEPEND=>=media-sound/jack-audio-connection-kit-0.100 >=media-libs/libclthreads-2.4.0 >=media-libs/libclxclient-3.6.1 >=media-libs/libsndfile-1.0.18 >=media-libs/zita-alsa-pcmi-0.2.0 >=sci-libs/fftw-3.2.2:3.0

@@ -1,0 +1,14 @@
+_eclasses_=
+_md5_=e918cdb7cc14aca49a91669cad704859
+SLOT=0
+DEFINED_PHASES=configure install setup
+EAPI=2
+DEPEND=media-libs/libsamplerate alsa? ( media-libs/alsa-lib ) ao? ( media-libs/libao ) openal? ( media-libs/openal ) portaudio? ( media-libs/portaudio ) pulseaudio? ( media-sound/pulseaudio )
+DESCRIPTION=RSound is a networked audio system. It allows applications to transfer their audio data to a different computer.
+LICENSE=GPL-3
+IUSE=alsa ao openal portaudio pulseaudio
+RESTRICT=mirror
+SRC_URI=http://github.com/downloads/Themaister/RSound/rsound-1.0beta1.tar.gz
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=http://www.rsound.org/
+RDEPEND=media-libs/libsamplerate alsa? ( media-libs/alsa-lib ) ao? ( media-libs/libao ) openal? ( media-libs/openal ) portaudio? ( media-libs/portaudio ) pulseaudio? ( media-sound/pulseaudio )

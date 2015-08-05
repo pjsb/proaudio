@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	mercurial	2fbda5894dda6392b71334ee9a92de0b	multilib	62927b3db3a589b0806255f3a002d5d3	autotools-utils	dbce0f7913bd240fdf0ef428149855c0	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=16f4d2386b767acbfcd3485e2752fcd2
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test unpack
+EAPI=5
+DEPEND=x11-libs/gtk+:3 x11-libs/gdk-pixbuf:2 x11-libs/pango dev-libs/glib:2 gnome-base/libglade:2.0 alsa? ( media-libs/alsa-lib ) fftw? ( sci-libs/fftw:3.0 ) jack? ( media-sound/jack-audio-connection-kit ) virtual/pkgconfig dev-util/intltool sys-devel/gettext !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 dev-vcs/mercurial
+DESCRIPTION=LINGOT Is Not a Guitar-Only Tuner
+LICENSE=GPL-2
+IUSE=alsa +fftw jack
+HOMEPAGE=http://www.nongnu.org/lingot
+RDEPEND=x11-libs/gtk+:3 x11-libs/gdk-pixbuf:2 x11-libs/pango dev-libs/glib:2 gnome-base/libglade:2.0 alsa? ( media-libs/alsa-lib ) fftw? ( sci-libs/fftw:3.0 ) jack? ( media-sound/jack-audio-connection-kit )

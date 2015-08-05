@@ -1,0 +1,12 @@
+_eclasses_=python	3a270b7b1d1e679847ff0faeac25c5a3	toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	distutils	92e738ea29389cb3f34778d7a349ac71
+_md5_=bf6a31bc93eef4df07d701d91c6a1131
+SLOT=0
+DEFINED_PHASES=compile install postinst postrm prepare setup unpack
+EAPI=4
+DEPEND=dev-lang/python
+DESCRIPTION=Library for windowmaker dockapps using python.
+LICENSE=GPL-2
+SRC_URI=http://downloads.sourceforge.net/pywmdockapps/pywmdockapps-1.21.tar.gz
+KEYWORDS=amd64 x86
+HOMEPAGE=http://pywmdockapps.sourceforge.net/old-index.html
+RDEPEND=dev-lang/python

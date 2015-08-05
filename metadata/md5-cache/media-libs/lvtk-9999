@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	waf-utils	f8e7e7df15097b4ca1d9945c2653b783	git-2	e28f0d8a9b321431b1e699782851b827	python-single-r1	351da1aa73960a282591217fb57c1bb8	multiprocessing	d7f2985a2c76c365ee20269db5261414	eutils	9fb270e417e0e83d64ca52586c4a79de	python-utils-r1	295a286ec27cab6af76b3b75ba07a3a
+_md5_=9b316c2dfd89567a2dd0f09cd45339e0
+SLOT=0
+DEFINED_PHASES=compile configure install setup unpack
+EAPI=5
+DEPEND=media-libs/lv2 >=dev-libs/boost-1.40.0 ui? ( >=dev-cpp/gtkmm-2.4 ) >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_jython2_5(-),-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_3(-),-python_single_target_python3_4(-),python_single_target_python2_7(+)] doc? ( app-doc/doxygen media-gfx/graphviz ) virtual/pkgconfig dev-vcs/git dev-lang/python !dev-lang/python[-threads]
+DESCRIPTION=A set C++ wrappers around the LV2 C API.
+LICENSE=GPL-2
+IUSE=debug doc examples tools ui python_targets_python2_7
+RESTRICT=mirror
+HOMEPAGE=http://lvtoolkit.org/
+RDEPEND=media-libs/lv2 >=dev-libs/boost-1.40.0 ui? ( >=dev-cpp/gtkmm-2.4 )

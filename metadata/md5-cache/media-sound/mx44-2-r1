@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	autotools-utils	dbce0f7913bd240fdf0ef428149855c0	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=52cc12f1589f3717e4aae4503f282146
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test
+EAPI=5
+DEPEND=media-libs/alsa-lib media-sound/jack-audio-connection-kit x11-libs/gtk+:2
+DESCRIPTION=Mx44 is a polyphonic midi realtime software synthesizer
+LICENSE=GPL-2
+RESTRICT=mirror
+SRC_URI=http://web.comhem.se/luna/Mx44.2.tar.gz
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=http://web.comhem.se/luna/
+RDEPEND=media-libs/alsa-lib media-sound/jack-audio-connection-kit x11-libs/gtk+:2

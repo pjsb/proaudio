@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	python-r1	d9c8348f26710ea523a385c2328cf027	multibuild	6d4858dc00f8bc51caf3f957f8430eb0	eutils	9fb270e417e0e83d64ca52586c4a79de	python-utils-r1	295a286ec27cab6af76b3b75ba07a3a
+_md5_=de90fc7692e4dffcda16a5f43cce5339
+SLOT=0
+DEFINED_PHASES=install postinst prepare
+EAPI=5
+DESCRIPTION=capture audio/video of the screen via FFmpeg with GUI
+LICENSE=CC-BY-NC-SA-3.0
+IUSE=jack python_targets_python2_7
+SRC_URI=http://hizo.fr/linux/screencastor/screencastor_1.3.0.tar.gz
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+HOMEPAGE=https://launchpad.net/~hizo/+archive/screencastor
+RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pygtk x11-libs/vte x11-misc/xdg-utils media-gfx/imagemagick x11-apps/xwininfo virtual/ffmpeg dev-python/pygtksourceview jack? ( media-sound/jack-audio-connection-kit )

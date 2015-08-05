@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	wxwidgets	6d6eec2685256d35511e7b6d5461bec9	flag-o-matic	c9602887773166fe300444712fc7ff98	multilib	62927b3db3a589b0806255f3a002d5d3	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=f3b554b9014cfcab6a4cf42f980fb07a
+SLOT=0
+DEFINED_PHASES=compile configure install prepare
+EAPI=2
+DEPEND==x11-libs/wxGTK-2.8* >=sci-libs/fftw-3.0 dev-libs/libsigc++:1.2 dev-libs/libxml2 media-sound/jack-audio-connection-kit !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=FFT-based realtime audio spectral manipulation and display
+LICENSE=GPL-2
+SRC_URI=mirror://sourceforge/freqtweak/freqtweak-0.7.2.tar.gz
+KEYWORDS=amd64 ppc sparc x86
+HOMEPAGE=http://freqtweak.sourceforge.net
+RDEPEND==x11-libs/wxGTK-2.8* >=sci-libs/fftw-3.0 dev-libs/libsigc++:1.2 dev-libs/libxml2 media-sound/jack-audio-connection-kit

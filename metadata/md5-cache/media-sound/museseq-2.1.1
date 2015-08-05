@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	cmake-utils	430c386d85cec959d72640afd63ea91	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=9c2cb92db84f49f8fd0b33407f72beab
+SLOT=1
+DEFINED_PHASES=compile configure install prepare test
+EAPI=5
+DEPEND=>=media-libs/alsa-lib-0.9.0 >=media-libs/libsamplerate-0.1.0 >=media-libs/libsndfile-1.0 >=media-sound/jack-audio-connection-kit-0.103 dev-qt/qtcore:4 dev-qt/qtgui:4 dev-qt/qtsvg:4 dssi? ( >=media-libs/dssi-0.9.0 ) lash? ( >=media-sound/lash-0.4.0 ) osc? ( >=media-libs/liblo-0.23 ) virtual/pkgconfig doc? ( app-text/openjade app-doc/doxygen media-gfx/graphviz ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=The Linux (midi) MUSic Editor (a sequencer)
+LICENSE=GPL-2
+IUSE=doc dssi fluidsynth lash osc vst
+RESTRICT=mirror
+SRC_URI=mirror://sourceforge/lmuse/muse-2.1/muse-2.1.1.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://www.muse-sequencer.org/
+RDEPEND=>=media-libs/alsa-lib-0.9.0 >=media-libs/libsamplerate-0.1.0 >=media-libs/libsndfile-1.0 >=media-sound/jack-audio-connection-kit-0.103 dev-qt/qtcore:4 dev-qt/qtgui:4 dev-qt/qtsvg:4 dssi? ( >=media-libs/dssi-0.9.0 ) lash? ( >=media-sound/lash-0.4.0 ) osc? ( >=media-libs/liblo-0.23 ) fluidsynth? ( >=media-sound/fluidsynth-0.9.0 )

@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	cvs	a4cb8da1bb586b224ade5b54f1d2fda0	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=4675b2230360bb4086326e791ef9e65e
+SLOT=0
+DEFINED_PHASES=compile install unpack
+EAPI=0
+DEPEND=>=media-sound/jack-audio-connection-kit-0.80.0 >=media-plugins/swh-plugins-0.4.6 media-libs/ladspa-sdk >=sci-libs/fftw-3.0.1 media-libs/libsndfile >=media-libs/alsa-lib-0.9.0 >=dev-libs/libxml2-2.5.0 >=x11-libs/gtk+-2.0.0 osc? ( >=media-libs/liblo-0.5 ) !media-sound/jamin-cvs dev-vcs/cvs
+DESCRIPTION=JAMin is the JACK Audio Connection Kit (JACK) Audio Mastering interface
+LICENSE=GPL-2
+IUSE=osc
+HOMEPAGE=http://jamin.sourceforge.net
+RDEPEND=>=media-sound/jack-audio-connection-kit-0.80.0 >=media-plugins/swh-plugins-0.4.6 media-libs/ladspa-sdk >=sci-libs/fftw-3.0.1 media-libs/libsndfile >=media-libs/alsa-lib-0.9.0 >=dev-libs/libxml2-2.5.0 >=x11-libs/gtk+-2.0.0 osc? ( >=media-libs/liblo-0.5 ) !media-sound/jamin-cvs

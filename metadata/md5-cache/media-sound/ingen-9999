@@ -1,0 +1,8 @@
+_eclasses_=
+_md5_=8fcb17e851e2528a57d1d770dd8562e3
+SLOT=0
+DEFINED_PHASES=postinst
+EAPI=0
+DESCRIPTION=Modular audio processing ssytem using JACK and LV2 or LADSPA plugins
+LICENSE=AGPL-3
+HOMEPAGE=http://drobilla.net/software/ingen

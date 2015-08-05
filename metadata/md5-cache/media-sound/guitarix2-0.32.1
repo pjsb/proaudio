@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	eutils	9fb270e417e0e83d64ca52586c4a79de	waf-utils	f8e7e7df15097b4ca1d9945c2653b783
+_md5_=70c223482112e0fa686fefd24f0b1891
+SLOT=0
+DEFINED_PHASES=compile configure install unpack
+EAPI=5
+DEPEND=dev-cpp/eigen:3 dev-cpp/glibmm:2 dev-cpp/gtkmm:2.4 dev-libs/boost dev-libs/glib media-libs/liblrdf media-libs/libsndfile media-libs/lilv:0 media-libs/zita-convolver media-libs/zita-resampler media-sound/jack-audio-connection-kit media-sound/lame sci-libs/fftw:3.0 x11-libs/gtk+:2 avahi? ( net-dns/avahi ) faust? ( dev-lang/faust ) ladspa? ( media-libs/ladspa-sdk ) lv2? ( || ( media-libs/lv2core media-libs/lv2 ) ) virtual/pkgconfig nls? ( dev-util/intltool ) dev-lang/python !dev-lang/python[-threads]
+DESCRIPTION=A simple Linux Guitar Amplifier for jack with one input and two outputs
+LICENSE=GPL-2
+IUSE=avahi +capture debug faust ladspa lv2 +meterbridge nls
+RESTRICT=mirror
+SRC_URI=mirror://sourceforge/guitarix/guitarix/guitarix2-0.32.1.tar.bz2
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://guitarix.sourceforge.net/
+RDEPEND=dev-cpp/eigen:3 dev-cpp/glibmm:2 dev-cpp/gtkmm:2.4 dev-libs/boost dev-libs/glib media-libs/liblrdf media-libs/libsndfile media-libs/lilv:0 media-libs/zita-convolver media-libs/zita-resampler media-sound/jack-audio-connection-kit media-sound/lame sci-libs/fftw:3.0 x11-libs/gtk+:2 avahi? ( net-dns/avahi ) faust? ( dev-lang/faust ) ladspa? ( media-libs/ladspa-sdk ) lv2? ( || ( media-libs/lv2core media-libs/lv2 ) ) capture? ( media-sound/jack_capture ) meterbridge? ( media-sound/meterbridge )

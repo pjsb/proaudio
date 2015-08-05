@@ -1,0 +1,12 @@
+_eclasses_=subversion	c12bdf4fcc82f86ad89b14c8f76c4026	toolchain-funcs	42408102d713fbad60ca21349865edb4	python	3a270b7b1d1e679847ff0faeac25c5a3	multilib	62927b3db3a589b0806255f3a002d5d3	qmake-utils	4ce40e37ef0e28425a7159b0353be026	base	87f7447ccfc06fd0729ff4684e11e0d6	qt4-r2	7199e3db5b5908325487d379c6f67cf0	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=ffd7bebaed8150adf615fc60ce834f25
+SLOT=0
+DEFINED_PHASES=compile configure install preinst prepare setup unpack
+EAPI=2
+DEPEND=dev-util/scons app-doc/doxygen || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DESCRIPTION=Framework for research and application development in the Audio and Music domain
+LICENSE=GPL-2
+IUSE=doc double fft fftw jack ladspa lv2 mad optimize osc portaudio portmidi rtaudio sndfile vorbis xercesc +xmlpp
+RESTRICT=mirror
+HOMEPAGE=http://clam-project.org/index.html
+RDEPEND=ladspa? ( media-libs/ladspa-sdk ) xercesc? ( >=dev-libs/xerces-c-2.7[icu] ) xmlpp? ( dev-cpp/libxmlpp:2.6 ) fftw? ( =sci-libs/fftw-3* ) virtual/opengl x11-libs/fltk jack? ( media-sound/jack-audio-connection-kit ) vorbis? ( media-libs/libvorbis media-libs/libogg ) mad? ( media-libs/libmad media-libs/id3lib ) sndfile? ( media-libs/libsndfile ) portaudio? ( =media-libs/portaudio-19* ) portmidi? ( media-libs/portmidi ) virtual/jpeg lv2? ( media-libs/slv2 ) rtaudio? ( media-libs/alsa-lib ) media-libs/libpng x11-libs/libXext x11-libs/libXft x11-libs/libXi dev-qt/qtgui:4 dev-util/cppunit osc? ( media-libs/oscpack )

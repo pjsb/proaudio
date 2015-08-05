@@ -1,0 +1,14 @@
+_eclasses_=python	3a270b7b1d1e679847ff0faeac25c5a3	multilib	62927b3db3a589b0806255f3a002d5d3	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	libtool	52d0e17251d04645ffaa61bfdd858944	toolchain-funcs	42408102d713fbad60ca21349865edb4
+_md5_=caa329bbfee65a49f15c66c861cb1559
+SLOT=0
+DEFINED_PHASES=configure install prepare
+EAPI=2
+DEPEND=>=x11-libs/gtk+-2.20:2 >=media-sound/fluidsynth-1.0.4 >=media-libs/libsndfile-1.0.0 >=dev-libs/libinstpatch-1.0.0[python?] python? ( dev-python/pygtk ) virtual/pkgconfig !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 python? ( || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* =dev-lang/python-2.4* ) )
+DESCRIPTION=A SoundFont instrument editor for MIDI music composition and a sampler frontend
+LICENSE=GPL-2
+IUSE=debug nls python
+RESTRICT=mirror
+SRC_URI=mirror://sourceforge/swami/swami-2.0.0.tar.gz
+KEYWORDS=~amd64 ~ppc ~x86
+HOMEPAGE=http://swami.sourceforge.net
+RDEPEND=>=x11-libs/gtk+-2.20:2 >=media-sound/fluidsynth-1.0.4 >=media-libs/libsndfile-1.0.0 >=dev-libs/libinstpatch-1.0.0[python?] python? ( dev-python/pygtk ) python? ( || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* =dev-lang/python-2.4* ) )

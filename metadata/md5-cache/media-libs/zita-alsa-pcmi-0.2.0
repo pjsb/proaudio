@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	base	87f7447ccfc06fd0729ff4684e11e0d6	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=467e1eb9c5dbce914ada76ab059c413e
+SLOT=0
+DEFINED_PHASES=compile configure install prepare unpack
+EAPI=5
+DEPEND=media-libs/alsa-lib
+DESCRIPTION=Successor of clalsadrv. API providing easy access to ALSA PCM devices
+LICENSE=GPL-3
+RESTRICT=mirror
+SRC_URI=http://kokkinizita.linuxaudio.org/linuxaudio/downloads/zita-alsa-pcmi-0.2.0.tar.bz2
+KEYWORDS=~amd64 ~ppc ~x86
+HOMEPAGE=http://kokkinizita.linuxaudio.org/linuxaudio/
+RDEPEND=media-libs/alsa-lib

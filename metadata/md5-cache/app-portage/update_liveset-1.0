@@ -1,0 +1,10 @@
+_eclasses_=
+_md5_=8f94e242122485344945a4c5619ad503
+SLOT=0
+DEFINED_PHASES=compile configure install
+EAPI=5
+DESCRIPTION=update your live ebuild set
+LICENSE=GPL-3
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~sparc ~x86 ~x86-fbsd
+HOMEPAGE=http://proaudio.tuxfamily.org/wiki/index.php?title=Main_Page
+RDEPEND=app-portage/gentoolkit
