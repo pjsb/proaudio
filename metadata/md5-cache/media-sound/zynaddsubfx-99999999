@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=>=x11-libs/fltk-1.1.2 =sci-libs/fftw-3* jackmidi? ( >=media-sound/jack-audio-connection-kit-0.100.0-r3 ) !jackmidi? ( media-sound/jack-audio-connection-kit ) >=dev-libs/mini-xml-2.2.1 lash? ( virtual/liblash ) dev-vcs/cvs
+DESCRIPTION=ZynAddSubFX is an opensource software synthesizer.
+EAPI=0
+HOMEPAGE=http://zynaddsubfx.sourceforge.net/
+IUSE=oss alsa jack jackmidi lash
+LICENSE=GPL-2
+RDEPEND=media-libs/zynaddsubfx-banks !media-sound/zynaddsubfx-cvs
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://download.tuxfamily.org/proaudio/distfiles/zynaddsubfx-presets-0.1.tar.bz2
+_eclasses_=cvs	cfd95af1a79753a520366f0aaa99809b	eutils	351a78113be5b393c09a2c948701ad36	exteutils	316ff466b687876b354d672b1464ad62	jackmidi	7fdb623376bdfc3f0c4cc2b9d28c0c6a	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	patcher	d0b410a062b9d7de80ae1b1d7c68658a	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=bc442674b89e2d6713fce6ed4f791f23

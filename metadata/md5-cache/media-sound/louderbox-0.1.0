@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install
+DEPEND=>=media-sound/jack-audio-connection-kit-0.100 >=media-libs/ladspa-sdk-0.12 >=media-plugins/swh-plugins-0.4.7 >=media-plugins/tap-plugins-0.7.0 !media-sound/louderbox-cvs
+DESCRIPTION=Louderbox is a complete 8 band audio processor intended to be used with software stereo and R[B]DS generators (but perfectly usable for other things (such as web "radio")
+EAPI=0
+HOMEPAGE=http://nixbit.com/cat/multimedia/audio/louderbox/
+LICENSE=GPL-2
+RDEPEND==x11-libs/gtk+-2* =gnome-base/libglade-2*
+SLOT=0
+SRC_URI=http://www.sourcefiles.org/Multimedia/Mixers/louderbox-0.1.0.tar.gz
+_md5_=3e991e271a58934c7fce3bd1b863b2c7

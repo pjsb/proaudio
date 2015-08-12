@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=alsa? ( >=media-libs/alsa-lib-1.0.17a ) jack? ( >=media-libs/bio2jack-0.9 ) lame? ( >=media-sound/lame-3.98.2-r1 ) pulseaudio? ( >=media-sound/pulseaudio-0.9.9 ) shout? ( >=media-libs/libshout-2.1 ) vorbis? ( >=media-libs/libvorbis-1.2.1_rc1-r2 ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+DESCRIPTION=Tool for creating soundscapes -- continuous, infinitely varying streams of sound
+EAPI=5
+HOMEPAGE=http://boodler.org/
+IUSE=alsa bash-completion coreaudio doc intmath jack lame pulseaudio qt4 shout vorbis python_targets_python2_7
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2 GPL-2 public-domain
+RDEPEND=alsa? ( >=media-libs/alsa-lib-1.0.17a ) jack? ( >=media-libs/bio2jack-0.9 ) lame? ( >=media-sound/lame-3.98.2-r1 ) pulseaudio? ( >=media-sound/pulseaudio-0.9.9 ) shout? ( >=media-libs/libshout-2.1 ) vorbis? ( >=media-libs/libvorbis-1.2.1_rc1-r2 ) qt4? ( >=dev-python/PyQt4-4.7.3[X] ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+REQUIRED_USE=shout? ( vorbis ) || ( python_targets_python2_7 )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://boodler.org/dl/Boodler-2.0.4.tar.gz
+_eclasses_=bash-completion-r1	b1fc4d30333bb528c8abb4332bb70ea6	distutils-r1	0fbebe7ad62dbe4583baab75733f8aa0	eutils	351a78113be5b393c09a2c948701ad36	multibuild	4550e10791f720f7af3fdd911aedf518	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	python-r1	0cafc0cf4ff05a561eb084acb586152e	python-utils-r1	c595450196ccd7d3fac66424be096ffc	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=bc603bbab2a905274b24778522d4f40a

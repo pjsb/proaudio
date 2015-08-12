@@ -1,0 +1,7 @@
+DEFINED_PHASES=postinst
+DESCRIPTION=C library to make the use of LV2 plugins as simple as possible for applications.
+EAPI=0
+HOMEPAGE=http://drobilla.net/software/lilv
+LICENSE=ISC
+SLOT=0
+_md5_=a10f2bb1c477404d37d939de430fda36

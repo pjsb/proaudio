@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=media-libs/libclam-9999 dev-qt/qtcore dev-qt/qtgui dev-qt/qtopengl dev-vcs/subversion net-misc/rsync
+DESCRIPTION=CLAM Music Annotator can visualize, check and modify music information extracted from audio
+EAPI=1
+HOMEPAGE=http://clam-project.org/index.html
+IUSE=doc
+LICENSE=GPL-2
+RDEPEND=>=media-libs/libclam-9999 dev-qt/qtcore dev-qt/qtgui dev-qt/qtopengl media-gfx/imagemagick
+RESTRICT=mirror
+SLOT=0
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	exteutils	316ff466b687876b354d672b1464ad62	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	python	06d7be3e54573292f012e3cc433d8297	subversion	d11b897c0c78e23413f0af0959ec6b92	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=5116773a90161961d520123aef4bf51e

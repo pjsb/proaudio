@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=The Non Things: Non-DAW, Non-Mixer, Non-Sequencer and Non-Session-Manager
+EAPI=4
+HOMEPAGE=http://non.tuxfamily.org
+LICENSE=GPL-2
+RDEPEND==media-sound/non-daw-9999 =media-sound/non-mixer-9999 =media-sound/non-sequencer-9999 =media-sound/non-session-manager-9999
+SLOT=0
+_md5_=3bdec9648946af2f85dbbd9557e02534

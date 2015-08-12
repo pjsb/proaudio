@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=unsorted bank/instruments and parameters for zynaddsubfx
+EAPI=0
+HOMEPAGE=http://zynaddsubfx.sourceforge.net
+LICENSE=GPL-2
+RDEPEND=|| ( >=media-sound/zynaddsubfx-2.2.1-r4 media-sound/yoshimi )
+RESTRICT=mirror
+SLOT=0
+_eclasses_=fetch-tools	9ab9f2bc821bcb033a56f38a5d75c12a	unpacker	1ca344bd9b922a7f8084a3fa02933b79	zyn3	2d28ba49064489cfd9ebd8d9516c8e75
+_md5_=a344b2fa91217ad73ea9636d4cd9746d

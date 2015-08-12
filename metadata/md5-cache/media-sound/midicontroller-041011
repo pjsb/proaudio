@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst
+DEPEND=media-libs/alsa-lib >=dev-cpp/libglademm-2.4 >=dev-cpp/gtkmm-2.4 virtual/pkgconfig
+DESCRIPTION=Set MIDI controller values using sliders and buttons.
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/midicontrol/
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=media-libs/alsa-lib >=dev-cpp/libglademm-2.4 >=dev-cpp/gtkmm-2.4
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://sourceforge/midicontrol/midicontroller-041011.tar.bz2
+_md5_=01f3959b3adf452a3d5e844ad24729ed

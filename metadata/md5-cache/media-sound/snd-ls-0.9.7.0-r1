@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=dev-scheme/guile-1.6.7 >=x11-libs/gtk+-2.0.0 media-libs/liblrdf
+DESCRIPTION=Snd is a sound editor
+EAPI=0
+HOMEPAGE=http://ccrma.stanford.edu/~kjetil/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=as-is
+RDEPEND=>=dev-scheme/guile-1.6.7 >=x11-libs/gtk+-2.0.0 media-libs/liblrdf sci-libs/gsl sci-libs/fftw media-sound/jack-audio-connection-kit media-libs/ladspa-sdk media-libs/libsamplerate =sci-libs/fftw-3*
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://ccrma.stanford.edu/~kjetil/src/snd-ls-0.9.7.0.tar.gz
+_md5_=9ac9cf64dd616afe0726391ba5aea0ac

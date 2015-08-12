@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile configure install postinst prepare unpack
+DEPEND=dev-lang/tcl dev-lang/tk media-sound/jack-audio-connection-kit >=media-libs/alsa-lib-1.0.0 media-libs/liblo media-libs/lv2 convolution? ( media-libs/libsndfile >=media-libs/zita-convolver-3.1.0 ) sys-apps/help2man virtual/pkgconfig dev-vcs/git
+DESCRIPTION=MIDI controlled DSP tonewheel organ
+EAPI=5
+HOMEPAGE=http://setbfree.org
+IUSE=convolution
+LICENSE=GPL-2
+RDEPEND=dev-lang/tcl dev-lang/tk media-sound/jack-audio-connection-kit >=media-libs/alsa-lib-1.0.0 media-libs/liblo media-libs/lv2 convolution? ( media-libs/libsndfile >=media-libs/zita-convolver-3.1.0 )
+SLOT=0
+_eclasses_=base	84d9f879f57a8316ff02be0373a3d6f9	eutils	351a78113be5b393c09a2c948701ad36	git-2	1bb87192831f668cd20d93ffb1689c94	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=1741b6b46dfc28bdb94f2af1a2c001ac

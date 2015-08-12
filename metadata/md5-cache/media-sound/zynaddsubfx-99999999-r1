@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare test unpack
+DEPEND=>=x11-libs/fltk-1.1.2 =sci-libs/fftw-3* jackmidi? ( >=media-sound/jack-audio-connection-kit-0.100.0-r3 ) !jackmidi? ( media-sound/jack-audio-connection-kit ) >=dev-libs/mini-xml-2.2.1 lash? ( virtual/liblash ) portaudio? ( media-libs/portaudio ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) dev-vcs/git
+DESCRIPTION=ZynAddSubFX is an opensource software synthesizer.
+EAPI=5
+HOMEPAGE=http://zynaddsubfx.sourceforge.net/
+IUSE=oss alsa jack jackmidi lash portaudio
+LICENSE=GPL-2
+RDEPEND=!media-libs/zynaddsubfx-banks !media-sound/zynaddsubfx-cvs
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://download.tuxfamily.org/proaudio/distfiles/zynaddsubfx-presets-0.1.tar.bz2
+_eclasses_=cmake-utils	f474224ef49d530640a43a04ae94928e	eutils	351a78113be5b393c09a2c948701ad36	exteutils	316ff466b687876b354d672b1464ad62	flag-o-matic	02090c5a622458303e6bf68837ac6b96	git-2	1bb87192831f668cd20d93ffb1689c94	jackmidi	7fdb623376bdfc3f0c4cc2b9d28c0c6a	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=34452e3393f6bcc5c2df3908a0031b7b

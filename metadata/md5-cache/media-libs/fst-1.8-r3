@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install setup unpack
+DEPEND=media-sound/lash >=app-emulation/wine-0.9.5 >=media-sound/jack-audio-connection-kit-0.98.1 =media-libs/vst-sdk-2.3* virtual/pkgconfig
+DESCRIPTION=FreeST audio plugin VST container library
+EAPI=0
+HOMEPAGE=http://joebutton.co.uk/fst/
+KEYWORDS=x86
+LICENSE=GPL-2
+RDEPEND=media-sound/lash >=app-emulation/wine-0.9.5 >=media-sound/jack-audio-connection-kit-0.98.1 =media-libs/vst-sdk-2.3*
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://galan.sf.net/fst-1.8.tar.gz
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=a5810f07f8ab9631c62261311c872168

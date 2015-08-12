@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install setup
+DEPEND=|| ( >=media-libs/lv2core-3.0 >=media-libs/lv2-1.0.0 ) =dev-lang/python-2*
+DESCRIPTION=Four-band parametric equaliser LV2 plugin
+EAPI=3
+HOMEPAGE=http://nedko.arnaudov.name/soft/lv2fil/trac/
+KEYWORDS=~x86 amd64
+LICENSE=GPL-2
+RDEPEND=|| ( >=media-libs/lv2core-3.0 >=media-libs/lv2-1.0.0 ) >=dev-python/pycairo-1.8.8 >=dev-python/pygtk-2.16.0-r1:2 >=media-libs/pyliblo-0.8.1 =dev-lang/python-2*
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://nedko.arnaudov.name/soft/lv2fil/download/lv2fil-2.0.tar.bz2
+_eclasses_=multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	python	06d7be3e54573292f012e3cc433d8297	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=01e64dd2737c4813f9940934897c9138

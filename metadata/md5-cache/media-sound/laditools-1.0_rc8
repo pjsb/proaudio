@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-python/python-distutils-extra python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+DESCRIPTION=LADITools is a set of tools to improve desktop integration and user workflow of Linux audio systems
+EAPI=5
+HOMEPAGE=http://www.marcochapeau.org/software/laditools
+IUSE=python_targets_python2_7
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-lang/python >=dev-python/pygtk-2.12 dev-python/pyxdg >=dev-python/enum-0.4.4 >=dev-python/pygobject-3.0.0 dev-python/pyxml >=x11-libs/gtk+-3.0.0[introspection] x11-libs/vte[introspection] >=media-sound/jack-audio-connection-kit-0.109.2-r2[dbus] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+REQUIRED_USE=|| ( python_targets_python2_7 )
+SLOT=0
+SRC_URI=https://launchpad.net/laditools/trunk/1.0-rc8/+download/laditools-1.0/tmprc8.tar.gz
+_eclasses_=distutils-r1	0fbebe7ad62dbe4583baab75733f8aa0	eutils	351a78113be5b393c09a2c948701ad36	multibuild	4550e10791f720f7af3fdd911aedf518	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	python-r1	0cafc0cf4ff05a561eb084acb586152e	python-utils-r1	c595450196ccd7d3fac66424be096ffc	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=97851b447f78f2dc66274ed0559f01fc

@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install
+DEPEND=>=media-libs/libsndfile-1.0 media-libs/alsa-lib media-libs/libsamplerate plugins? ( >=media-libs/libsoundtouch-1.2.1 ) dssi? ( >=media-libs/dssi-0.9 ) codecs? ( media-libs/libvorbis media-libs/flac ) portaudio-internal? ( !media-libs/portaudio ) !portaudio-internal? ( =media-libs/portaudio-19* ) virtual/pkgconfig
+DESCRIPTION=Wired aims to be a professional music production and creation software
+EAPI=0
+HOMEPAGE=http://wired.sourceforge.net
+IUSE=nls pic static debug dssi plugins codecs oss alsa jack portaudio-internal
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=>=media-libs/libsndfile-1.0 media-libs/alsa-lib media-libs/libsamplerate plugins? ( >=media-libs/libsoundtouch-1.2.1 ) dssi? ( >=media-libs/dssi-0.9 ) codecs? ( media-libs/libvorbis media-libs/flac ) portaudio-internal? ( !media-libs/portaudio ) !portaudio-internal? ( =media-libs/portaudio-19* )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://sourceforge/wired/wired-0.6.tar.gz
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	wxwidgets	6712758caa92e836a735c1281b34e70e
+_md5_=f62a0e7971e7da284e7ac683e1fd2d7d

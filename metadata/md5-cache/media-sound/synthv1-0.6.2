@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare test unpack
+DEPEND=alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) lv2? ( media-libs/lv2 ) osc? ( media-libs/liblo ) !qt5? ( dev-qt/qtcore:4 dev-qt/qtgui:4 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtxml:5 )
+DESCRIPTION=An old-school all-digital 4-oscillator subtractive polyphonic synthesizer with stereo fx
+EAPI=5
+HOMEPAGE=http://synthv1.sourceforge.net/
+IUSE=alsa debug jack jackmidi jacksession lv2 nsm osc qt5
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) lv2? ( media-libs/lv2 ) osc? ( media-libs/liblo ) !qt5? ( dev-qt/qtcore:4 dev-qt/qtgui:4 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtxml:5 )
+REQUIRED_USE=|| ( jack lv2 ) jack? ( || ( alsa jackmidi ) ) jackmidi? ( jack ) jacksession? ( jack )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://sourceforge/synthv1/synthv1-0.6.2.tar.gz
+_eclasses_=autotools	8056957fdccf2b3cd6e282a4b4551d1a	autotools-utils	0bf099a6e3dfeaf20a7a94504d8dd896	base	84d9f879f57a8316ff02be0373a3d6f9	eutils	351a78113be5b393c09a2c948701ad36	fdo-mime	92d07846ea8ea54172f8c0112a47ae3d	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	qmake-utils	05b63bb5c708c5903a9de5c58c8e43c8	qt4-r2	cb2cb5856695b300266b425da70e82d8	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=c8616766762cd0f66f2bb554bd96c054

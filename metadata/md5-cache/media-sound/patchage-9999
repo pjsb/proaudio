@@ -1,0 +1,6 @@
+DEFINED_PHASES=postinst
+DESCRIPTION=Patchage is a modular patchbay for Jack audio and Alsa sequencer.
+EAPI=0
+HOMEPAGE=http://drobilla.net/software/patchage
+SLOT=0
+_md5_=dae20043c9114b2be82d966942c7fbea

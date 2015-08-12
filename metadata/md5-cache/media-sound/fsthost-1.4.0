@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=app-emulation/wine dev-libs/libxml2 media-sound/jack-audio-connection-kit x11-libs/gtk+:2 lash? ( media-sound/lash ) virtual/pkgconfig
+DESCRIPTION=Official fork of FreeST, standalone Linux VST host - hybrid using winelib, JACK and Gtk+
+EAPI=5
+HOMEPAGE=http://sourceforge.net/projects/fsthost/
+IUSE=lash
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=app-emulation/wine dev-libs/libxml2 media-sound/jack-audio-connection-kit x11-libs/gtk+:2 lash? ( media-sound/lash ) gnome-extra/zenity
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://sourceforge/fsthost/fsthost-1.4.0.tar.xz
+_eclasses_=base	84d9f879f57a8316ff02be0373a3d6f9	eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=a0d1d5e92298baf8dd8008b09d61b5f3

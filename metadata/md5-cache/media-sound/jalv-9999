@@ -1,0 +1,6 @@
+DEFINED_PHASES=postinst
+DESCRIPTION=simple but fully featured LV2 host for Jack
+EAPI=0
+HOMEPAGE=http://drobilla.net/software/jalv
+SLOT=0
+_md5_=964cfe27fd13f045c7d4fe6fbd84a366

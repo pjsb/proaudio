@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DEPEND=>=media-libs/libquicktime-0.9.7 x11-libs/fltk media-libs/gavl media-sound/jack-audio-connection-kit media-libs/libsndfile
+DESCRIPTION=Open Movie Editor is designed to be a simple tool, that provides basic movie making capabilites.
+EAPI=0
+HOMEPAGE=http://openmovieeditor.sourceforge.net
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/libquicktime-0.9.7 x11-libs/fltk media-libs/gavl media-sound/jack-audio-connection-kit media-libs/libsndfile media-plugins/frei0r-plugins
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://sourceforge/openmovieeditor/openmovieeditor-0.0.20071118.tar.gz
+_md5_=0d02127a0db9f4ea38f0278b494ce494

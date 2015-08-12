@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install preinst prepare test unpack
+DEPEND=>=dev-qt/qtcore-4.2:4 >=dev-qt/qtgui-4.2:4 media-libs/alsa-lib media-libs/libsndfile media-sound/jack-audio-connection-kit dssi? ( media-libs/dssi ) ladspa? ( media-libs/ladspa-sdk ) libsamplerate? ( media-libs/libsamplerate ) lilv? ( || ( =media-sound/drobilla-9999 media-libs/lilv ) ) mad? ( media-libs/libmad ) osc? ( media-libs/liblo ) rubberband? ( media-libs/rubberband ) suil? ( || ( =media-sound/drobilla-9999 media-libs/suil ) ) vorbis? ( media-libs/libvorbis ) vst? ( >=media-libs/vst-sdk-2.3 ) zlib? ( sys-libs/zlib ) virtual/pkgconfig !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DESCRIPTION=An Audio/MIDI multi-track sequencer.
+EAPI=5
+HOMEPAGE=http://qtractor.sourceforge.net/
+IUSE=debug dssi jacksession ladspa libsamplerate lilv lv2 mad nsm osc rubberband sse suil vorbis vst zlib
+LICENSE=GPL-2
+RDEPEND=>=dev-qt/qtcore-4.2:4 >=dev-qt/qtgui-4.2:4 media-libs/alsa-lib media-libs/libsndfile media-sound/jack-audio-connection-kit dssi? ( media-libs/dssi ) ladspa? ( media-libs/ladspa-sdk ) libsamplerate? ( media-libs/libsamplerate ) lilv? ( || ( =media-sound/drobilla-9999 media-libs/lilv ) ) mad? ( media-libs/libmad ) osc? ( media-libs/liblo ) rubberband? ( media-libs/rubberband ) suil? ( || ( =media-sound/drobilla-9999 media-libs/suil ) ) vorbis? ( media-libs/libvorbis ) vst? ( >=media-libs/vst-sdk-2.3 ) zlib? ( sys-libs/zlib )
+REQUIRED_USE=lv2? ( lilv ) nsm? ( osc )
+SLOT=0
+_eclasses_=autotools	8056957fdccf2b3cd6e282a4b4551d1a	autotools-utils	0bf099a6e3dfeaf20a7a94504d8dd896	base	84d9f879f57a8316ff02be0373a3d6f9	eutils	351a78113be5b393c09a2c948701ad36	flag-o-matic	02090c5a622458303e6bf68837ac6b96	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	qmake-utils	05b63bb5c708c5903a9de5c58c8e43c8	qt4-r2	cb2cb5856695b300266b425da70e82d8	subversion	d11b897c0c78e23413f0af0959ec6b92	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=7ea05b71a07a76638fc2d7c4b69cc85a

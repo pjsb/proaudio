@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Wsynth-DSSI, a wavetable synthesizer plugin
+EAPI=0
+HOMEPAGE=http://dssi.sourceforge.net/download.html#Xsynth-DSSI
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/dssi-0.9 >=x11-libs/gtk+-2.0
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://sourceforge/dssi/xsynth-dssi-0.9.0.tar.gz
+_md5_=517ad27765436cb5dd784732b0b855c1

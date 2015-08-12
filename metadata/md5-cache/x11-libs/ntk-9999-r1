@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install setup unpack
+DEPEND=media-libs/fontconfig x11-libs/cairo x11-libs/libX11 x11-libs/libXft virtual/jpeg opengl? ( media-libs/glu ) png? ( media-libs/libpng ) dev-vcs/git dev-lang/python !dev-lang/python[-threads]
+DESCRIPTION=A fork of the Fast Light ToolKit library, adding improved graphics rendering via Cairo
+EAPI=5
+HOMEPAGE=http://non.tuxfamily.org/wiki/NTK
+IUSE=debug opengl png
+LICENSE=FLTK LGPL-2
+RDEPEND=media-libs/fontconfig x11-libs/cairo x11-libs/libX11 x11-libs/libXft virtual/jpeg opengl? ( media-libs/glu ) png? ( media-libs/libpng )
+RESTRICT=test
+SLOT=0
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	git-2	1bb87192831f668cd20d93ffb1689c94	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	python-any-r1	fdd97a8376ac7d4e15c8e254b06915fd	python-utils-r1	c595450196ccd7d3fac66424be096ffc	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	waf-utils	ad1dd5b59c523843eebd3a9934c509ca
+_md5_=19f2aba4628d5fe5fb56b7a33449a73b

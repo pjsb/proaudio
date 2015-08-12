@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=sci-libs/fftw:3.0 x11-libs/gtk+:2 virtual/pkgconfig
+DESCRIPTION=Digital audio post-processing, restoration, filtering and mixdown tool
+EAPI=4
+HOMEPAGE=https://svn.xiph.org/trunk/postfish/
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=sci-libs/fftw:3.0 x11-libs/gtk+:2
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://download.tuxfamily.org/proaudio/distfiles/postfish-2012.10.25.tar.xz
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=6f80aa48c92cf09f84d18c1961d202a2

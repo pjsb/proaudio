@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-util/scons
+DESCRIPTION=a minimalistic plugin API for video effects
+EAPI=0
+HOMEPAGE=http://www.piksel.org/frei0r
+KEYWORDS=~x86
+LICENSE=LGPL-2.1
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://frei0r.kexbox.org/download/source/frei0r-plugins-1.1.19.tar.gz
+_md5_=4472bb981f7faef74ce8df5a1bb67dd5

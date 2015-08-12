@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile configure install postinst prepare pretend unpack
+DEPEND=>=dev-cpp/libglademm-2.4.1 >=dev-cpp/libxmlpp-2.6.1 media-sound/jack-audio-connection-kit virtual/liblash dev-vcs/git
+DESCRIPTION=a pattern-based MIDI sequencer.
+EAPI=5
+HOMEPAGE=http://dino.nongnu.org
+LICENSE=GPL-2
+RDEPEND=>=dev-cpp/libglademm-2.4.1 >=dev-cpp/libxmlpp-2.6.1 media-sound/jack-audio-connection-kit virtual/liblash
+RESTRICT=mirror
+SLOT=0
+_eclasses_=base	84d9f879f57a8316ff02be0373a3d6f9	eutils	351a78113be5b393c09a2c948701ad36	git-2	1bb87192831f668cd20d93ffb1689c94	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=a64f417129c2d919ca4d64ad9da14b0a

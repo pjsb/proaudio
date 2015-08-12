@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=virtual/udev sys-apps/pmount x11-libs/gtk+:2 dev-vcs/git
+DESCRIPTION=A simple graphical frontend for pmount
+EAPI=4
+HOMEPAGE=http://git.tdb.fi/?p=pmount-gui:a=summary
+LICENSE=Mikkosoft
+RDEPEND=virtual/udev sys-apps/pmount x11-libs/gtk+:2
+SLOT=0
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	git-2	1bb87192831f668cd20d93ffb1689c94	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=79b154d675d72c91c067d8192c88db42

@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install setup
+DEPEND=>=media-libs/libclam-1.4.0 <media-libs/libclam-9999 dev-qt/qtcore dev-qt/qtgui dev-qt/qtopengl:4
+DESCRIPTION=CLAM Music Annotator can visualize, check and modify music information extracted from audio
+EAPI=1
+HOMEPAGE=http://clam-project.org/index.html
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/libclam-1.4.0 <media-libs/libclam-9999 dev-qt/qtcore dev-qt/qtgui dev-qt/qtopengl:4 media-gfx/imagemagick
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://clam-project.org/download/src/Annotator-0.5.0.tar.gz
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	exteutils	316ff466b687876b354d672b1464ad62	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	python	06d7be3e54573292f012e3cc433d8297	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=e2c93cb65e36f3849c4fbe5ace684847

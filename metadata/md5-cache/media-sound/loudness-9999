@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-libs/glib:2 dev-qt/qtgui dev-qt/qtsvg ffmpeg? ( virtual/ffmpeg ) gstreamer? ( media-libs/gstreamer ) musepack? ( media-sound/musepack-tools ) mp3? ( media-sound/mpg123 ) sndfile? ( media-libs/libsndfile ) speex? ( media-libs/speex ) taglib? ( media-libs/taglib ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) dev-vcs/git
+DESCRIPTION=A library implementing the EBU R128 loudness standard.
+EAPI=4
+HOMEPAGE=https://github.com/jiixyj/libebur128
+IUSE=ffmpeg gstreamer musepack mp3 sndfile speex taglib
+KEYWORDS=~x86 ~amd64
+LICENSE=MIT
+RDEPEND=dev-libs/glib:2 dev-qt/qtgui dev-qt/qtsvg ffmpeg? ( virtual/ffmpeg ) gstreamer? ( media-libs/gstreamer ) musepack? ( media-sound/musepack-tools ) mp3? ( media-sound/mpg123 ) sndfile? ( media-libs/libsndfile ) speex? ( media-libs/speex ) taglib? ( media-libs/taglib )
+SLOT=0
+_eclasses_=cmake-utils	f474224ef49d530640a43a04ae94928e	eutils	351a78113be5b393c09a2c948701ad36	flag-o-matic	02090c5a622458303e6bf68837ac6b96	git-2	1bb87192831f668cd20d93ffb1689c94	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=5da5c7cf5ce027da106889bacbe71792

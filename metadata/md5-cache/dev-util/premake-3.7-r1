@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DEPEND=app-arch/unzip
+DESCRIPTION=A makefile generation tool
+EAPI=0
+HOMEPAGE=http://premake.berlios.de/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=3
+SRC_URI=mirror://sourceforge/premake/premake-src-3.7.zip
+_md5_=a92842087cfd4fe16c27188353fbbb0a

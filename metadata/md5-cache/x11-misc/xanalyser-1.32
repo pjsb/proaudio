@@ -1,0 +1,13 @@
+DEFINED_PHASES=-
+DEPEND=media-libs/alsa-lib sci-libs/fftw x11-libs/libXpm x11-libs/motif
+DESCRIPTION=Program to analyse a stereo audio signal.
+EAPI=5
+HOMEPAGE=http://arvin.schnell-web.net/xanalyser/
+KEYWORDS=x86 amd64
+LICENSE=GPL-2
+RDEPEND=media-libs/alsa-lib sci-libs/fftw x11-libs/libXpm x11-libs/motif
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://arvin.schnell-web.net/xanalyser/xanalyser-1.32.tar.bz2
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=ef5ac698145378f753f9d637eae5e694

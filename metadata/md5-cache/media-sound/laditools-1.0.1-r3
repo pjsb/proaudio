@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install preinst prepare test
+DEPEND=dev-python/python-distutils-extra[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+DESCRIPTION=a set of tools to improve desktop integration and user workflow of Linux audio systems
+EAPI=5
+HOMEPAGE=https://launchpad.net/laditools
+IUSE=wmaker python_targets_python2_7
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-python/pygtk-2.12[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pyxdg[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/enum-0.4.4[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/pygobject-3.0.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pyxml[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=media-sound/jack-audio-connection-kit-0.109.2-r2[dbus] >=x11-libs/gtk+-3.2.2:3[introspection] >=x11-libs/vte-0.30.1:2.90[introspection] wmaker? ( dev-python/wmdocklib[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+REQUIRED_USE=|| ( python_targets_python2_7 ) || ( python_targets_python2_7 )
+SLOT=0
+SRC_URI=https://launchpad.net/laditools/1.0/1.0.1/+download/laditools-1.0.1.tar.gz
+_eclasses_=distutils-r1	0fbebe7ad62dbe4583baab75733f8aa0	eutils	351a78113be5b393c09a2c948701ad36	multibuild	4550e10791f720f7af3fdd911aedf518	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	python-r1	0cafc0cf4ff05a561eb084acb586152e	python-utils-r1	c595450196ccd7d3fac66424be096ffc	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=7761d4b82de4512327819dd8ba90f61d

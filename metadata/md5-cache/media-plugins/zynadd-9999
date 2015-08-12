@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install unpack
+DEPEND==sci-libs/fftw-3* =media-libs/lv2dynparam1-9999 || ( media-libs/lv2 media-libs/lv2core ) >=dev-vcs/git-1.8.2.1
+DESCRIPTION=synth engines from ZynAddSubFX and pack them in LV2 plugin format
+EAPI=0
+HOMEPAGE=http://home.gna.org/zyn
+LICENSE=GPL-2
+RDEPEND==sci-libs/fftw-3* =media-libs/lv2dynparam1-9999 =media-sound/zynjacku-9999
+SLOT=0
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	git-r3	1502b9838d043db47700b8120083e637	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=c3f85dc3a217011bb568e64d862f3179

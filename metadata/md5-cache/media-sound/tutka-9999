@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=>=media-libs/alsa-lib-0.9.0 dev-qt/qtcore dev-qt/qtgui dev-vcs/git
+DESCRIPTION=A free (as in freedom) tracker style MIDI sequencer for GNU/Linux
+EAPI=5
+HOMEPAGE=http://www.nongnu.org/tutka
+LICENSE=GPL-2
+RESTRICT=mirror
+SLOT=1
+_eclasses_=base	84d9f879f57a8316ff02be0373a3d6f9	eutils	351a78113be5b393c09a2c948701ad36	git-2	1bb87192831f668cd20d93ffb1689c94	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	qmake-utils	05b63bb5c708c5903a9de5c58c8e43c8	qt4-r2	cb2cb5856695b300266b425da70e82d8	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=b9574f6c5358227fdea00e097b8c84f9

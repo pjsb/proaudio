@@ -1,0 +1,10 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Minimalistic plugin API for video effects
+EAPI=0
+HOMEPAGE=http://www.piksel.org/frei0r
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://propirate.net/frei0r/frei0r-plugins-1.1.22.tar.gz
+_md5_=01b91cab0030ac028edafb6165835de7

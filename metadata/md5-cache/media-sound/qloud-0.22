@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DEPEND=dev-qt/qtcore dev-qt/qtgui dev-qt/qtxmlpatterns >=x11-libs/qwt-5.0.0_rc0 media-sound/jack-audio-connection-kit >=media-libs/libsndfile-1.0 >=sci-libs/fftw-3.0
+DESCRIPTION=Tool to measure loudspeaker frequency and step responses and distortions
+EAPI=5
+HOMEPAGE=http://gaydenko.com/qloud/
+KEYWORDS=x86 amd64
+LICENSE=GPL-2
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://gaydenko.com/qloud/download/qloud-0.22.tar.bz2
+_eclasses_=multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=79d389fd6cd13bb34af33c46d145ae1f

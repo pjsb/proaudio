@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=dev-qt/qtgui:4 dev-qt/qtcore:4 archive? ( app-arch/libarchive ) !archive? ( >=dev-libs/libtar-1.2.11-r3 ) >=media-libs/libsndfile-1.0.18 alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) ladspa? ( media-libs/liblrdf ) lash? ( virtual/liblash ) portaudio? ( >=media-libs/portaudio-19_pre ) portmidi? ( media-libs/portmidi ) virtual/pkgconfig dev-util/scons
+DESCRIPTION=Advanced drum machine
+EAPI=5
+HOMEPAGE=http://www.hydrogen-music.org
+IUSE=alsa +archive debug jack ladspa lash oss portaudio portmidi
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 ZLIB
+RDEPEND=dev-qt/qtgui:4 dev-qt/qtcore:4 archive? ( app-arch/libarchive ) !archive? ( >=dev-libs/libtar-1.2.11-r3 ) >=media-libs/libsndfile-1.0.18 alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) ladspa? ( media-libs/liblrdf ) lash? ( virtual/liblash ) portaudio? ( >=media-libs/portaudio-19_pre ) portmidi? ( media-libs/portmidi )
+SLOT=0
+SRC_URI=mirror://sourceforge/hydrogen/hydrogen-0.9.5.1.tar.gz
+_eclasses_=base	84d9f879f57a8316ff02be0373a3d6f9	eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	scons-utils	b7d634f772db55c8af429f50aeec6ee0	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=94335ccb8486870059e9c1859230e73a

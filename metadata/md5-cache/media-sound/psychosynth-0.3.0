@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=>=dev-libs/boost-1.39 >=dev-libs/libsigc++-2.0:2 >=media-libs/libsoundtouch-1.3.1-r1 >=x11-libs/gtk+-2:2 alsa? ( >=media-libs/alsa-lib-1.0.14a-r1 ) jack? ( >=media-sound/jack-audio-connection-kit-0.103.0 ) osc? ( >=media-libs/liblo-0.24 ) psynth3d? ( >=dev-games/cegui-0.7.7[ogre] >=dev-games/ois-1.2.0 >=dev-games/ogre-1.8.0 ) sndfile? ( >=media-libs/libsndfile-1.0.17-r1 ) vorbis? ( >=media-libs/libvorbis-1.2.0 ) xml? ( >=dev-libs/libxml2-2.6.31 ) virtual/pkgconfig
+DESCRIPTION=Free software synthesizer inspired by the ideas of the Reactable
+EAPI=2
+HOMEPAGE=http://www.psychosynth.com/
+IUSE=alsa jack osc oss +psynth3d sndfile static-libs test vorbis xml
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-libs/boost-1.39 >=dev-libs/libsigc++-2.0:2 >=media-libs/libsoundtouch-1.3.1-r1 >=x11-libs/gtk+-2:2 alsa? ( >=media-libs/alsa-lib-1.0.14a-r1 ) jack? ( >=media-sound/jack-audio-connection-kit-0.103.0 ) osc? ( >=media-libs/liblo-0.24 ) psynth3d? ( >=dev-games/cegui-0.7.7[ogre] >=dev-games/ois-1.2.0 >=dev-games/ogre-1.8.0 ) sndfile? ( >=media-libs/libsndfile-1.0.17-r1 ) vorbis? ( >=media-libs/libvorbis-1.2.0 ) xml? ( >=dev-libs/libxml2-2.6.31 )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=ftp://ftp.gnu.org/gnu/psychosynth/psychosynth-0.3.0.tar.gz
+_eclasses_=autotools	8056957fdccf2b3cd6e282a4b4551d1a	autotools-utils	0bf099a6e3dfeaf20a7a94504d8dd896	eutils	351a78113be5b393c09a2c948701ad36	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=fb3f8960e4b14efa9c09b4a26b80141d

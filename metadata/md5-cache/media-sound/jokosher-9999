@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst postrm preinst unpack
+DEPEND=dev-vcs/subversion net-misc/rsync
+DESCRIPTION=A simple yet powerful multi-track studio
+EAPI=0
+HOMEPAGE=http://www.jokosher.org/
+IUSE=doc mad ladspa
+LICENSE=GPL-2
+RDEPEND=>=media-libs/gstreamer-0.10.12 >=media-libs/gst-plugins-good-0.10.5 >=media-plugins/gst-plugins-alsa-0.10.12 media-plugins/gst-plugins-vorbis media-plugins/gst-plugins-ogg media-plugins/gst-plugins-flac >=media-plugins/gst-plugins-lame-0.10.4 media-plugins/gst-plugins-gnomevfs >=media-libs/gnonlin-0.10.8 mad? ( >=media-libs/gst-plugins-ugly-0.10.4 ) ladspa? ( >=media-libs/gst-plugins-bad-0.10.4 ) >=dev-lang/python-2.4 dev-python/pygtk >=dev-python/gst-python-0.10.6 >=dev-python/pyxml-0.8.4 >=dev-python/pycairo-1.2.0 >=dev-python/dbus-python-0.71 >=dev-python/setuptools-0.6_rc6 dev-python/gnome-python gnome-base/librsvg x11-themes/hicolor-icon-theme
+RESTRICT=mirror
+SLOT=0
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	python	06d7be3e54573292f012e3cc433d8297	subversion	d11b897c0c78e23413f0af0959ec6b92	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=1369c89a6840a7153512d2bdd02e2b0f
