@@ -1,0 +1,375 @@
+app-emulation/wineasio 0.7.3 0.7.4 0.7.5 0.9.0 9999: ASIO driver for WINE
+app-portage/euses 2.5.9-r1: look up USE flag descriptions fast
+app-portage/update_liveset 1.0: update your live ebuild set
+dev-embedded/mios-studio 9999: uCApps.de MIOS Studio
+dev-embedded/mios-studio-bin 2.4.6: uCApps.de MIOS Studio
+dev-lang/faust 0.9.58 0.9.67: Faust AUdio STreams is a functional programming language and compiler for fast DSP algorythms.
+dev-libs/hidapi 9999: A multi-platform library for USB and Bluetooth HID-Class devices
+dev-libs/icu 3.6-r2: IBM Internationalization Components for Unicode
+dev-libs/libinstpatch 1.0.0_pre1 1.0.0 9999: sound font editor library ?
+dev-libs/libwhy 20121103: A library for developing GTK+ audio applications using Lua
+dev-libs/pcl 1.12: Portable Coroutine Library (low level functionality for coroutines
+dev-libs/rollendurchmesserzeitsammler 0.1.6: The Rollendurchmesserzeitsamler conservative garbage collector for realtime audio
+dev-libs/serd 9999: lightweight C library for RDF syntax
+dev-libs/sord 9999: lightweight C library for storing RDF data in memory
+dev-libs/xerces-c 2.8.0-r1: A validating XML parser written in a portable subset of C++.
+dev-ml/biniou 1.0.0: A binary data format designed for speed, safety, ease of use and backward compatibility.
+dev-ml/cppo 0.9.2: Equivalent of the C preprocessor targeted at the OCaml language and its variants.
+dev-ml/easy-format 1.0.0: A high-level and functional interface to the Format module of the OCaml standard library.
+dev-ml/ocaml-aacplus 0.2.0: OCaml interface for the AAC+ encoding library.
+dev-ml/ocaml-alsa 0.2.1: OCaml bindings for alsa.
+dev-ml/ocaml-ao 0.2.0: OCaml interface to libao.
+dev-ml/ocaml-bjack 0.1.3: OCaml blocking API for the jack audio connection kit.
+dev-ml/ocaml-cry 0.2.2: OCaml low level implementation of the shout protocol.
+dev-ml/ocaml-dssi 0.1.0: OCaml inteface to the DSSI standard for synthesizer plugins.
+dev-ml/ocaml-dtools 0.3.1: OCaml deamon tools library.
+dev-ml/ocaml-duppy 0.4.2: An advanced scheduler for Ocaml programmers.
+dev-ml/ocaml-faad 0.3.0: Ocaml interface for the AAC audio decoder, otherwise known as libfaad.
+dev-ml/ocaml-flac 0.1.0: OCaml interface for the Free Lossless Audio Codec.
+dev-ml/ocaml-gavl 0.1.4: OCaml interface for Gmerlin Audio Video Library, otherwise known as gavl.
+dev-ml/ocaml-gstreamer 0.1.0: OCaml interface for gstreamer.
+dev-ml/ocaml-ladspa 0.1.4: OCaml interface for LADSPA audio plugins library.
+dev-ml/ocaml-lame 0.3.1: OCaml bindings for the lame librar.
+dev-ml/ocaml-lastfm 0.3.0: OCaml interface for Lastfm API interface.
+dev-ml/ocaml-lo 0.1.0: OCaml library supporting the OSC protocol for external controls such as faders.
+dev-ml/ocaml-mad 0.4.4: OCaml bindings for libmad.
+dev-ml/ocaml-magic 0.7.3: A binding to libmagic.
+dev-ml/ocaml-mm 0.2.0: A library dedicated to performing operations on multimedia contents.
+dev-ml/ocaml-ogg 0.4.3: An OCaml interface for the Ogg Bitstream Library
+dev-ml/ocaml-portaudio 0.2.0: OCaml interface for the portable audio I/O library.
+dev-ml/ocaml-pulseaudio 0.1.2: OCaml interface for the PulseAudio client library.
+dev-ml/ocaml-samplerate 0.1.1: OCaml .
+dev-ml/ocaml-schroedinger 0.1.0: OCaml interface for library for encoding/decoding of Dirac video streams.
+dev-ml/ocaml-soundtouch 0.1.7: OCaml interface for libsoundtouch.
+dev-ml/ocaml-speex 0.2.0: OCaml interface for the Speex codec library.
+dev-ml/ocaml-taglib 0.3.1: OCaml interface for TagLib Audio Meta-Data Library.
+dev-ml/ocaml-theora 0.3.0: OCaml interface for Theora Video Compression Codec Library.
+dev-ml/ocaml-voaacenc 0.1.0: OCaml interface for the VisualOn AAC+ encoding library.
+dev-ml/ocaml-vorbis 0.6.1: OCaml bindings for the libvorbis.
+dev-ml/ocaml-xmlplaylist 0.1.3: Ocaml parser for various xml playlists.
+dev-ml/yojson 1.0.3: An optimized parsing and printing library for the JSON format.
+dev-python/PyOSC 2013.04.17: Simple OSC (Open Sound Control) client code for Python
+dev-python/enum 0.4.4: Robust enumerated type support in Python.
+dev-python/python-poppler-qt4 0.16.2 0.16.2-r1: Python bindings to the poppler-qt4
+dev-python/wmdocklib 1.21 1.21-r1: Library for windowmaker dockapps using python.
+dev-util/faustworks 9999: IDE for the Faust dsp programming language
+dev-util/lv2-c++-tools 1.0.4 1.0.5: some tools and libraries that may come in handy when writing LV2 plugins
+dev-util/premake 3.5-r1 3.7-r1 4.3-r1: A makefile generation tool
+games-misc/linthesia 0.4_p2: A fork of Synthesia, A game of playing music! You only need a MIDI file to play, and a MIDI keyboard
+media-libs/aften 9999: An A/52 (AC-3) audio encoder
+media-libs/alsaplayer-python 0.3.1-r2: New Python bindings for Alsaplayer.
+media-libs/asio-sdk 2.2: Steinberg ASIO SDK 2.2 - win32
+media-libs/bml 0.6.1 9999: Buzz Machines Loader for Buzztard
+media-libs/bsl 0.6.0 9999: Buzz Song Loader for Buzztard
+media-libs/fidlib 9999: Run-time filter design and execution library
+media-libs/fst 1.8-r3 9999: FreeST audio plugin VST container library
+media-libs/gavl 1.4.0: library for handling uncompressed audio and video data
+media-libs/gmerlin 1.2.0: Gmerlin A/V decoder library
+media-libs/gmerlin-avdecoder 1.2.0: Gmerlin A/V decoder library
+media-libs/hydrogen-drumkits 0.3 0.4: free drumkits for hydrogen
+media-libs/joss 0.3: JACK sound wrapper for OSS applications
+media-libs/juce 1.53: JUCE is an all-encompassing C++ class library for developing cross-platform applications.
+media-libs/ld10k1 0.1.8: EMU10K1 (EMU10K2) effect loader for ALSA
+media-libs/libclam 1.4.0-r1 9999-r1: Framework for research and application development in the Audio and Music domain
+media-libs/libffado 2.2.1 2.2.1-r1 2.2.1-r2 2.2.1-r3 9999: Successor for freebob: Library for accessing BeBoB IEEE1394 devices
+media-libs/libgig 9999: a C++ library for loading Gigasampler files and DLS (Downloadable Sounds) Level 1/2 files.
+media-libs/liblscp 9999: a C++ library for the Linux Sampler control protocol.
+media-libs/libltc 1.1.1 9999: Linear/Logitudinal Time Code (LTC) Library
+media-libs/libmusicxml 2.00: C++ support for the MusicXML support
+media-libs/libshout-idjc 2.3.0 2.3.1: Libshout-idjc is libshout plus some extensions for IDJC
+media-libs/lilv 9999: C library to make the use of LV2 plugins as simple as possible for applications.
+media-libs/loris 1.8: libraries that provide support for the Resource Description Framework (RDF)
+media-libs/lv2 9999: A simple but extensible successor of LADSPA
+media-libs/lv2core 9999: LV2 is a simple but extensible successor of LADSPA
+media-libs/lv2dynparam1 1 2 9999: LV2 dynparam extension
+media-libs/lvtk 1.1.0 1.1.1 9999: A set C++ wrappers around the LV2 C API.
+media-libs/naspro-bridge-it 0.5.0: A little helper library to develop insert-your-API-here to LV2 bridges
+media-libs/naspro-core 0.5.0: Portable runtime library at the bottom of the NASPRO Sound PROcessing Architecture
+media-libs/oscpack 1.1.0.1: Set of C++ classes for packing and unpacking OSC packets
+media-libs/phat 9999: Collection of GTK+ widgets geared toward pro-audio apps.
+media-libs/portaudio 9999 9999-r1: An open-source cross platform audio API.
+media-libs/pyjack 0.5.2: jack audio client module for python
+media-libs/pyliblo 0.9.1-r1 0.9.2: A Python wrapper for the liblo OSC library
+media-libs/pyphat 0.4.1 0.4.1-r1 9999: python binding for phat
+media-libs/raul 9999: Realtime Audio Utility Library in C++
+media-libs/rtmidi 2.0.1 2.1.0: RtMidi provide a common C++ API for realtime MIDI input/output across ALSA and JACK.
+media-libs/sratom 9999: library for serialising LV2 atoms to/from RDF
+media-libs/stk 4.3.1 4.4.2: Synthesis ToolKit in C++
+media-libs/suil 9999: lightweight C library for loading and wrapping LV2 plugin UIs
+media-libs/vst-sdk 2.3-r3 2.3-r4: Steinberg VST Plug-Ins SDK 2.3 - win32
+media-libs/zita-alsa-pcmi 0.2.0: Successor of clalsadrv. API providing easy access to ALSA PCM devices
+media-libs/zita-convolver 3.1.0: A high performance audio signal convolver library
+media-libs/zita-resampler 1.3.0: C++ library for real-time resampling of audio signals
+media-libs/zynaddsubfx-banks 2.2.1 20060419 20061031 20090520 99999999: ZynAddSubFX banks/instruments
+media-libs/zynaddsubfx-collection 0.7: user contributed instruments for zynaddsubfx
+media-libs/zynaddsubfx-extras 20060419 20060615 20101203 99999999: unsorted bank/instruments and parameters for zynaddsubfx
+media-plugins/abGate 1.1.6: LV2 Noise Gate plugin
+media-plugins/amb-plugins 0.8.1: AMB-plugins ladspa plugin package. Filters by Fons Adriaensen
+media-plugins/ams-lv2 1.0.2: A port of the AMS internal modules to LV2 plugins with VCOs, LFOs, Filters & other modules.
+media-plugins/balance-lv2 9999: Stereo balance control with optional per channel delay
+media-plugins/buzzmachines 9999: Machines for Buzztard
+media-plugins/calf 0.0.19 0.0.60 9999: A set of open source instruments and effects for digital audio workstations
+media-plugins/caps-plugins 0.9.7: The CAPS Audio Plugin Suite - LADSPA plugin suite
+media-plugins/convoLV2 9999: convoLV2 is a lv2 plugin to convolve audio signals
+media-plugins/csa 0.5.100810: Control Signal Audio. A group of LADSPA Audio plugins for FM broadcast and more
+media-plugins/distrho 20120518: Open-source project that provides Cross-Platform Audio Plugins using Juce and Qt4
+media-plugins/dssi-vst 0.8 0.9.2: DSSI wrapper plugin for Windows VSTs
+media-plugins/eq10q 1.2: An LV2 audio plugin implementing a powerful and flexible parametric equalizer
+media-plugins/foo-plugins 1.2: foo-plugins for ladspa
+media-plugins/frei0r-plugins 1.1.19 1.1.20 1.1.22: Minimalistic plugin API for video effects
+media-plugins/gst-buzztard 0.6.0 9999: GStreamer plugin used by Buzztard
+media-plugins/holap 2012.10.26: Holborn Audio Plugins: DSSI and LADSPA audio plugins, including DSP effects and a FM synthesizer
+media-plugins/invada-studio-plugins 0.3.1: Invada ladspa package, contains: Compressor, Filters, Reverb, Input Processor, Tube Simulator
+media-plugins/invada-studio-plugins-lv2 1.2.0.0: Invada lv2 package, contains: Delay, Dynamics, Filters, Reverb, Utility
+media-plugins/ir_lv2 1.2.2 1.3.2: LV2 convolver plugin especially for creating reverb effects
+media-plugins/ll-plugins 0.2.8 9999: collection of LV2 plugins, LV2 extension definitions, and LV2 related tools
+media-plugins/lv2fil 2.0-r1: Four-band parametric equaliser LV2 plugin
+media-plugins/lv2vocoder 1: An lv2 vocoder plugin
+media-plugins/mda-lv2 9999: LV2 port of the MDA plugins by Paul Kellett
+media-plugins/meters-lv2 9999: A colletion of audio level meters with GUI in LV2 plugin format
+media-plugins/midifilter-lv2 9999: LV2 plugins to filter MIDI events
+media-plugins/mixtri-lv2 9999: MixTri(x) is a matrix mixer and trigger processor intended to de used with sisco-lv2
+media-plugins/naspro-bridges 0.5.0: A collection of bridges to LV2 which allows use of LADSPA and DSSI plugins in LV2 hosts
+media-plugins/nekobee 0.1.5 0.1.6 0.1.7: nekobee, a DSSI TB303 plugin
+media-plugins/njl-plugins 0.2.1-r2: NJL LADSPA audio plugins/effects
+media-plugins/nodelay-lv2 9999: LV2 audio delay line with latency reporting
+media-plugins/omins 0.2.0 9999: Modular audio processing ssytem using JACK and LV2 or LADSPA plugins
+media-plugins/oscilloscope 0.2.1: An oscilloscope (DSSI-Plugin)
+media-plugins/preamp 2.0: preamp LADSPA plugins
+media-plugins/sfxr-dssi 20121120: sfxr sound effect generator DSSI plugin
+media-plugins/sineshaper 0.4.2: A monophonic synth plugin that sends the sound from two sine oscillators through two sine waveshapers in series (DSSI-Plugin)
+media-plugins/sisco-lv2 9999: Simple LV2 audio oscilloscope
+media-plugins/ste-plugins 0.0.2: STE LADSPA plugins package. Includes stereo panner and width adjuster.
+media-plugins/triceratops-lv2 0.1.1d 0.1.7: Triceratops is a polyphonic subtractive synthesizer plugin for use with the LV2 architecture
+media-plugins/tuna-lv2 9999: A musical instrument tuner with strobe characteristic in LV2 plugin formt
+media-plugins/uli-plugins 0.2: Ulis LV2 Insert series plugins. AND NAND OR NOR XOR XNOR NOT and SR, JK, D, T FlipFlops and Latches
+media-plugins/vcf 0.0.5: VCF LADSPA plugin filters
+media-plugins/vocoder-ladspa 0.3: A vocoder is a sound effect that can make a human voice sound synthetic
+media-plugins/vocproc 0.2: LV2 plugin for pitch shifting, vocoding, automatic pitch correction and harmonization
+media-plugins/wah-plugins 0.0.2: Auto-WAH plugin.
+media-plugins/wasp 0.1.4: Wave Sculpting LADSPA audio plugins/effects
+media-plugins/whysynth 20120903: A versatile DSSI Softsynth Plugin
+media-plugins/wsynth-dssi 0.1.3: Wsynth-DSSI, a wavetable synthesizer plugin
+media-plugins/xfade-lv2 9999: Stereo DJ X-fade
+media-plugins/xsynth-dssi 0.9.0: Wsynth-DSSI, a wavetable synthesizer plugin
+media-plugins/zam-plugins 2.1: Collection of LV2/LADSPA audio plugins for high quality processing
+media-plugins/zynadd 1 9999: synth engines from ZynAddSubFX and pack them in LV2 plugin format
+media-radio/liquidsoap 1.0.1: A swiss-army knife for multimedia streaming, notably used for netradios.
+media-radio/rivendell 2.1.2: An automated system for acquisition, management, scheduling and playout of audio content.
+media-sound/4deckradio 9999: Multi-deck media playback for radio stations
+media-sound/Annotator 0.5.0 9999: CLAM Music Annotator can visualize, check and modify music information extracted from audio
+media-sound/AudioCutter 1.2: Advanced surround sound file editor
+media-sound/NetworkEditor 1.4.0-r1 9999: CLAM's visual builder
+media-sound/Voice2MIDI 0.3.10-r1 9999: CLAM Voice2MIDI extracts the melody as a MIDI or XML file from monophonic audio files
+media-sound/a2jmidid 99999: Daemon for exposing legacy ALSA sequencer applications in JACK MIDI system.
+media-sound/ac3jack 0.1.2 2.0.3 2.0.3-r1: Tool for creating an AC-3 (Dolby Digital) multichannel stream from its JACK input ports
+media-sound/acoustid-fingerprinter 0.6 9999: GUI application to submit audio fingerprints to the Acoustid database.
+media-sound/afsp 8.2 9.0: audio file utility programs and library of routines for reading and writing audio files
+media-sound/aj-snapshot 0.9.6: Tool for storing/restoring JACK and/or ALSA connections to/from cml files.
+media-sound/aliki 0.2.0 0.3.0: An integrated system for Impulse Response measurements
+media-sound/alsaplayer 9999: Media player primarily utilising ALSA
+media-sound/alsaplayer-fftscope 9999-r4: FftScope external visualization scope for AlsaPlayer. It is a good starting point for others.
+media-sound/alsaplayer-midi 9999: Midi input plugin for the alsaplayer. It use timidity++ for the output
+media-sound/ambdec 0.5.1: An Ambisonic decoder for first and second order
+media-sound/amidimap 0.1.1-r1: Read in, process and output MIDI events.
+media-sound/aqualung 9999: Aqualung is a music player capable of gapless playback. Not very suitable for eye candy seekers.
+media-sound/ardour 2.8.11 2.9999 3.9999: multi-track hard disk recording software
+media-sound/arpage 0.3.3-r1 9999: MIDI Arpeggiator w/ JACK Tempo Sync, includes Zonage MIDI splitter/manipulator
+media-sound/aseqjoy 0.0.1: Joystick to ALSA MIDI sequencer converter.
+media-sound/audacity 99999999: Free crossplatform audio editor
+media-sound/azr3-jack 0.1.666 1.0.3 1.2.3: Rumpelrausch Taips AZR3 standalone Linux port
+media-sound/beast 0.7.4-r1: BEAST - the Bedevilled Sound Engine
+media-sound/boodler 2.0.4-r1: Tool for creating soundscapes -- continuous, infinitely varying streams of sound
+media-sound/bpmdj 4.2.4: Bpmdj, software for measuring the BPM of music and mixing
+media-sound/breakage 23: Intelligent drum machine.
+media-sound/buzztard 0.6.0 9999: A free, open source music studio that is conceptionally based on Buzz
+media-sound/canorus 9999: a free extensible music score editor
+media-sound/ceres 0.45 0.47: A program for displaying sonograms and doing sound effects in the frequency domain
+media-sound/chordata 1.0.0-r1 9999: Chordata is a tool for tonal analysis of audio files.
+media-sound/composite 0.006.2: software application/system for real-time, in-performance sequencing, sampling, and looping.
+media-sound/dino 0.2.8 9999: a pattern-based MIDI sequencer.
+media-sound/drc 3.2.0 3.2.1: Generate digital room correction FIR filters for use in realtime convolution engines like BruteFIR
+media-sound/drobilla 9999: Patchage is a modular patchbay for Jack audio and Alsa sequencer.
+media-sound/drumkv1 0.6.1 0.6.2 9999: An old-school all-digital drum-kit sampler synthesizer with stereo fx
+media-sound/earcandy 0.9 9999: A sound level manager that fades applications in and out based on their profile and window focus
+media-sound/ebumeter 0.2.0: Loudness measurement according to EBU-R128
+media-sound/epichord 9999: a classical multi-track midi sequencer
+media-sound/esperanza 0.4.0 9999: Esperanza - a QT4 client for xmms2.
+media-sound/fastbreeder 1.0.1-r2: An experimental genetic programming synthesiser.
+media-sound/fluidsynth 9999: Fluidsynth is a software real-time synthesizer based on the Soundfont 2 specifications.
+media-sound/fmit 0.99.2 9999: Free Music Instrument Tuner
+media-sound/foo-yc20 1.3.0: YC-20 divide-down combo organ emulator with lv2 plugin
+media-sound/freqtweak 0.7.0_pre20070214-r1 0.7.2-r1 9999: FFT-based realtime audio spectral manipulation and display
+media-sound/frescobaldi 2.0.4: a LilyPond sheet music text editor
+media-sound/frinika 0.1.7 0.2.1 0.3.0 20100328 20110824: Frinika is a free, complete music workstation software
+media-sound/fsthost 1.4.0: Official fork of FreeST, standalone Linux VST host - hybrid using winelib, JACK and Gtk+
+media-sound/ggseq 0.3.0 0.3.1: Gungirl Sequencer is an easy to use Audiosequencer
+media-sound/ghostess 20120105: graphical DSSI host, based on jack-dssi-host
+media-sound/gigedit 9999: An instrument editor for gig files
+media-sound/glashctl 0.4.4-r1: GLASHCtl is a simple applet for controlling the LASH Audio Session Handler
+media-sound/gneutronica 0.33-r1: A simple MIDI drum machine program modeled to a large extent on the Hydrogen drum machine software
+media-sound/gnuitar 0.3.2: a program for real-time guitar sound effect processing
+media-sound/gnusound 0.7.4-r2: GNUsound is a sound editor for Linux/x86
+media-sound/goattracker 2.72: A tracker-like editor for creating C64 MOS 6581/8580 SID music
+media-sound/gsampler 0.3: Gsampler is a Linuxsampler Frontend
+media-sound/gtklick 0.6.4-r1: A simple metronome with an easy-to-use GTK interface
+media-sound/guitarix2 0.32.1 0.32.3 9999: A simple Linux Guitar Amplifier for jack with one input and two outputs
+media-sound/gwc 0.21.05-r1 0.21.16: Gnome Wave Cleaner
+media-sound/gxmms2 0.7.1: A GTK2 based XMMS2 client, written in C.
+media-sound/gxtuner 2.0 2.1: Simple Tuner Interface for jack
+media-sound/horgand 9999: Opensource software organ
+media-sound/hydrogen 0.9.5.1 9999: Linux Drum Machine
+media-sound/iannix 9999: IanniX is a graphical score editor based on the previous UPIC developed by Iannis Xenakis
+media-sound/idjc 0.8.8 0.8.9 0.8.14 9999: Internet DJ Console has two media players, jingles player, crossfader, VoIP and streaming
+media-sound/ingen 9999: Modular audio processing ssytem using JACK and LV2 or LADSPA plugins
+media-sound/jace 0.0.2 0.0.3 0.1.0 0.2.0: JACE is a Convolution Engine for JACK and ALSA
+media-sound/jack-audio-connection-kit 0.121.3-r2 0.124.1 1.9.10 1.9999 2.9999: Jackdmp jack implemention for multi-processor machine
+media-sound/jack-tools 20101210-r1 20131226: A collection of audio tools for jack
+media-sound/jackEQ 0.4.1: jackEQ is a tool for routing and manipulating audio from/to multiple input/output sources
+media-sound/jack_capture 0.9.70: Recording tool which default operation is to capture what goes out to the soundcard from JACK
+media-sound/jack_delay 0.4.0: measures the latency between two jack ports with subsample accuracy
+media-sound/jack_mixer 9-r1 10 9999: JACK audio mixer using GTK2 interface.
+media-sound/jack_oscrolloscope 0.7: Simple waveform viewer for JACK
+media-sound/jack_snapshot 0.0.4: Tool for storing/restoring jack connections states.
+media-sound/jackbeat 0.7.6 9999: An audio sequencer for Linux
+media-sound/jackctlmmc 4: Console/Qt4 programs that listen to MIDI machine control messages (MMC) to drive JACK transport
+media-sound/jacker 2010.5.4 2010.9.21: A MIDI tracker for the Jack Audio Connection Kit
+media-sound/jackmeter 0.4: A basic console based DPM (Digital Peak Meter) for JACK
+media-sound/jackminimix 0.2 9999: a simple mixer for the Jack Audio Connection Kit with an OSC based control interface
+media-sound/jackmix 0.4.2 0.4.2-r1: A mixer app for jack
+media-sound/jackmixdesk 0.3_p4 9999: Audio mixer for JACK with OSC control, LASH support and GTK GUI
+media-sound/jalv 9999: simple but fully featured LV2 host for Jack
+media-sound/jamin 9999: JAMin is the JACK Audio Connection Kit (JACK) Audio Mastering interface
+media-sound/jamin-presets 4.0: A collection of presets for Jamin made by Gilberto Andre Borges
+media-sound/japa 0.8.4: JAPA is a perceptual analyzer for JACK and ALSA
+media-sound/jconvolver 0.9.2: Command line convolution reverb by Fons Adriaensen
+media-sound/jkmeter 0.6.1: Jkmeter is a combined RMS/digital peak meter based on the ideas of mastering guru Bob Katz
+media-sound/jmess 1.0.1: JMess can save/load an XML file with all the current jack connections
+media-sound/jmeters 0.4.1: A jack multichannel audio level meter app featuring correct ballistics for both the VU and the PPM
+media-sound/jnoise 0.6.0: A command line JACK app generating white and pink gaussian noise
+media-sound/jnoisemeter 0.1.0: Jnoisemeter is a small app designed to measure audio test signals and in particular noise signals
+media-sound/jokosher 0.9 9999: A simple yet powerful multi-track studio
+media-sound/jost 0.4.6 0.5.2 0.5.4: JACK host for native linux VST, DSSI and LADSPA plugins with sequencer capabilities
+media-sound/jsampler 0.8a 0.9: JSampler is a frontend for LinuxSampler written in Java
+media-sound/kguitar 0.6_pre1 9999: An efficient and easy-to-use environment for a guitarist.
+media-sound/khagan 0.1.2-r2: Live user interface builder for controlling parameters via OSC.
+media-sound/klick 0.12.2: An advanced command-line based metronome for JACK
+media-sound/kluppe 0.6.15: live looping sequencer
+media-sound/kontroll 20130319: A small utility that generates MIDI CC and OSC messages from the mouse position
+media-sound/ladish 1-r2 9999-r1: LADI Session Handler - a session management system for JACK applications
+media-sound/laditools 1.0_rc8 1.0.1-r2 1.0.1-r3 9999-r1: a set of tools to improve desktop integration and user workflow of Linux audio systems
+media-sound/lash 9998: Temporary wrapper for liblash (lash) and ladish
+media-sound/lash-original 0.6.0_rc2-r1: LASH Audio Session Handler
+media-sound/lash_wrap 1.0.2: A small helper application that serves as a proxy between an un-LASHified app and the LASH system
+media-sound/lingot 9999: LINGOT Is Not a Guitar-Only Tuner
+media-sound/linuxsampler 9999: LinuxSampler is a software audio sampler engine with professional grade features.
+media-sound/lmms 0.4.9999 9999-r1: free alternative to popular programs such as FruityLoops, Cubase and Logic
+media-sound/louderbox 0.1.0 9999: Louderbox is a complete 8 band audio processor intended to be used with software stereo and R[B]DS generators (but perfectly usable for other things (such as web "radio")
+media-sound/loudness 9999: A library implementing the EBU R128 loudness standard.
+media-sound/ltc-tools 0.6.3 9999: Linear/Logitudinal Time Code (LTC) Library tools
+media-sound/lv2proc 0.5.0: A simple command line effect processor using LV2 plugins
+media-sound/machina 9999: Modular audio processing ssytem using JACK and LV2 or LADSPA plugins
+media-sound/madjack 0.4: MadJACK is a MPEG Audio Deck for the Jack Audio Connection Kit with an OSC based control interface
+media-sound/mammut 0.59 0.60: A program for doing sound effects using one gigantic fft analysis (no windows).
+media-sound/meterbridge 0.9.2-r2: Software meterbridge for the UNIX based JACK audio system.
+media-sound/midicontroller 041011: Set MIDI controller values using sliders and buttons.
+media-sound/mididings 20120419: A MIDI router and processor based on Python, supporting ALSA and JACK MIDI
+media-sound/minicomputer 1.41 9999: Standalone Linux softwaresynthesizer
+media-sound/mixxx 1.11.0 1.11.9999 9999: A Qt based Digital DJ tool
+media-sound/mpadec 9999: MPEG audio decoder.
+media-sound/museseq 2.1.1 2.9999: The Linux (midi) MUSic Editor (a sequencer)
+media-sound/mx44 2-r1: Mx44 is a polyphonic midi realtime software synthesizer
+media-sound/ninjam-cclient 0.01a: NINJAM is a program to allow people to make real music together via the Internet
+media-sound/ninjam-server 0.02: NINJAM is a program to allow people to make real music together via the Internet
+media-sound/non-daw 9999: The Non Things: Non-DAW, Non-Mixer, Non-Sequencer and Non-Session-Manager
+media-sound/non-mixer 9999: The Non Things: Non-DAW, Non-Mixer, Non-Sequencer and Non-Session-Manager
+media-sound/non-sequencer 9999: The Non Things: Non-DAW, Non-Mixer, Non-Sequencer and Non-Session-Manager
+media-sound/non-session-manager 9999: The Non Things: Non-DAW, Non-Mixer, Non-Sequencer and Non-Session-Manager
+media-sound/non-things 9999: The Non Things: Non-DAW, Non-Mixer, Non-Sequencer and Non-Session-Manager
+media-sound/openoctave-midi 9999: OpenOctave MIDI sequencer
+media-sound/ordrumbox 0.7.05 0.9.02 9999: The orDrumbox is a software drum machine, designed to a creative pattern based way of drum programming with automatic music composition capabilities.
+media-sound/patchage 0.5.0 9999: Patchage is a modular patchbay for Jack audio and Alsa sequencer.
+media-sound/paulstretch 2.0 2.2.2: extreme sound stretching of the audio
+media-sound/pitchtune 0.0.4: A GPL'ed GTK oscilloscope-style musical instrument tuning program.
+media-sound/playitslowly 1.4.0: An application to play back audio files at a different speed or pitch
+media-sound/postfish 2012.10.25 9999: Digital audio post-processing, restoration, filtering and mixdown tool
+media-sound/promoe 9999: WinAmp2 skinnable frontend for XMMS2
+media-sound/psindustrializer 0.2.5-r1: Industrializer is a program for generating percussion sounds for musical purposes
+media-sound/psychosynth 0.3.0 9999: Free software synthesizer inspired by the ideas of the Reactable
+media-sound/qjackctl 9999: A Qt application to control the JACK Audio Connection Kit and ALSA sequencer connections.
+media-sound/qjackmmc 4: QT based GUI program that listens to MIDI machine control messages (MMC) to drive JACK transport
+media-sound/qloud 0.22: Tool to measure loudspeaker frequency and step responses and distortions
+media-sound/qmidiarp 0.5.3 0.6.0 9999: An arpeggiator, sequencer and MIDI LFO for ALSA and JACK
+media-sound/qsampler 9999: QSampler is a graphical frontend to the LinuxSampler engine.
+media-sound/qtractor 9999: An Audio/MIDI multi-track sequencer.
+media-sound/radium 1.9.26: Open source music editor with a novel interface and fever limitations than trackers
+media-sound/rakarrack 0.6.1 9999: A richly featured multi-effects processor emulating a uitar effects pedalboard
+media-sound/raton 0.22: Mouse driven MIDI controller.
+media-sound/remid 0.9.1: Real-time MIDI controllable virtual SID based synthesizer using the reSID emulation library
+media-sound/reshaked 9999: ReShaked is a next generation tracker/sequencer
+media-sound/rezound 9999: Sound editor and recorder
+media-sound/rosegarden 9999: MIDI and audio sequencer and notation editor.
+media-sound/rsound 1.0_beta1 9999: RSound is a networked audio system. It allows applications to transfer their audio data to a different computer.
+media-sound/rtsynth 1.9.2 1.9.5: reproduce sounds of strings, organs, flutes and drums in real time
+media-sound/samplv1 0.6.1 0.6.2 9999: An old-school all-digital polyphonic sampler synthesizer with stereo fx
+media-sound/san-dysth 0.1.0-r1 0.1.1: A softsynth to generate organ-like, organic-like, alien-like and water-like sounds, plus various kinds of noise
+media-sound/schism-tracker 20120105 99999999: Schism Tracker
+media-sound/setbfree 20130418 99999999: MIDI controlled DSP tonewheel organ
+media-sound/sfc 0.018: SoundFontCombi is an opensource software pseudo synthesizer.
+media-sound/sfxr 1.2.1: Sound effect generator with SDL GUI
+media-sound/silentjack 0.3: SilentJack is a silence/dead air detector for the Jack Audio Connection Kit
+media-sound/simplesysexxer 0.3: a small tool to load, send, receive, save and request sysex data on MIDI devices
+media-sound/smack 0.2.1 0.3 9999: Smack is a drum synth, 100% sample free
+media-sound/snd-ls 0.9.6.2 0.9.7.0-r1 0.9.7.4 0.9.7.11 0.9.7.12 0.9.8.7 0.9.9.2_beta-r1: Snd-ls is a sound editor based on Snd
+media-sound/softwerk 3.0: MIDI sequencer based on the Doepfer Schaltwerk analog sequencer
+media-sound/sooperlooper 1.6.11: Live looping sampler with immediate loop recording
+media-sound/soundmosaic 1.2: Constructs an approximation of one sound out of small pieces of other sounds
+media-sound/specimen 0.5.2_rc3: A Midi Controllable Audio Sampler
+media-sound/stretchplayer 0.503 9999: Audio player with time stretch and pitch shift
+media-sound/stygmorgan 0.27: stygmorgan is an Interactive Musical Workstation software emulator
+media-sound/supercollider 3.6.3 3.6.5 9999: An environment and a programming language for real time audio synthesis.
+media-sound/swami 2.0.0 2.0.0-r1 9999: A SoundFont instrument editor for MIDI music composition and a sampler frontend
+media-sound/sweep 0.9.1 0.9.1-r1 0.9.2 9999 9999-r1 9999-r2: audio editor and live playback tool
+media-sound/synthv1 0.6.1 0.6.2 9999: An old-school all-digital 4-oscillator subtractive polyphonic synthesizer with stereo fx
+media-sound/tapeutape 0.1.1: Tapeutape is a midi-controlled virtual sampler.
+media-sound/tapiir 0.7.3: A flexible audio effects processor, inspired on the classical magnetic tape delay systems
+media-sound/tetraproc 0.8.2: A-format to B-format signal converter for tetrahedral Ambisonic microphones
+media-sound/tkeca 4.0.2: A Tcl/Tk front end for Ecasound, with almost all of Ecasound features.
+media-sound/tranches 0.1.1: Tranches is midi-controlled multi-(inputs/outputs) live beat repeat/rearrange/redirect tool.
+media-sound/traverso 9999: Professional Audio Tools for GNU/Linux
+media-sound/tutka 0.12.5 9999: A free (as in freedom) tracker style MIDI sequencer for GNU/Linux
+media-sound/tuxguitar 0.5 0.6 0.8 1.0 1.2: TuxGuitar is a multitrack guitar tablature editor and player written in Java-SWT
+media-sound/vkeybd 0.1.17a: A virtual MIDI keyboard for X
+media-sound/waon 0.10: A wave to notes transcriber, able to transcribe wav to midi
+media-sound/wired 0.4 0.5 0.6 9999: Wired aims to be a professional music production and creation software running on the Linux operating system.
+media-sound/xmms2 0.2.8 0.4_rc1 9999: X(cross)platform Music Multiplexing System. The new generation of the XMMS player.
+media-sound/xmms2-scrobbler 9999: XMMS2 AudioScrobbler client
+media-sound/xmms2tray 0.5.1 9999: XMMS2tray - systray integration for XMMS2
+media-sound/xwax 9999: Digital vinyl emulation software
+media-sound/yass 0.0.2: Yet Another Scrolling Scope features jack input, variable scrolling speed and automatic gain control
+media-sound/yatm 0.6: Yet Another Time Machine: simple command line audio player which can perform time-stretched playback
+media-sound/yoshimi 1.0.0 1.1.0: A software synthesizer for Linux, based on ZynAddSubFX
+media-sound/zita-ajbridge 0.4.0: Bridge ALSA devices to Jack clients, to provide additional capture (a2j) or playback (j2a) channels
+media-sound/zita-at1 0.2.3: An autotuner, normally used to correct the pitch of a voice singing (slightly) out of tune
+media-sound/zita-rev1 0.2.1: Zita-rev1 is a reworked version of the reverb originally developed for Aeolus
+media-sound/zynaddsubfx 2.2.1-r8 2.4.0 2.4.3 20070707 20070707-r1 99999999 99999999-r1: ZynAddSubFX is an opensource software synthesizer.
+media-sound/zynaddsubfx-converter 2.0.0_pre2: ZynAddSubFX-converter: use ONLY to convert old *.ins_zyn instruments to *.xiz
+media-sound/zynjacku 1 4 5 6 9999: JACK based, GTK (2.x) host for LV2 synths
+media-video/openmovieeditor 0.0.20070917 0.0.20071010 0.0.20071118 0.0.20080102 0.0.20080523-r1 0.0.20081029 0.0.20090105-r1: Open Movie Editor is designed to be a simple tool, that provides basic movie making capabilites.
+media-video/screencastor 1.3.0 1.3.0-r1: capture audio/video of the screen via FFmpeg with GUI
+media-video/xjadeo 0.6.4: a simple video player that is synchronized to jack transport.
+sys-apps/das_watchdog 0.2.4 0.2.5 0.3.1 0.9.0: watchdog to ensure a realtime process won't hang the machine
+sys-apps/jackd-init 0.5: Launch jackd at bootime with user id and privileges
+sys-apps/pmount-gui 1.20121118 9999: A simple graphical frontend for pmount
+sys-firmware/midisport-firmware 1.2: Firmware for M-Audio/Midiman USB MIDI devices
+sys-libs/libmagic 0_alpha: Lbrary for automatically determining the type of a file by performing a series of tests on it.
+sys-libs/pam 1.0.1: Linux-PAM (Pluggable Authentication Modules)
+sys-process/rt-exec 1.0.3: Test the deterministic/real-time capabilities of your computer.
+sys-process/rtirq 20140413: Change the realtime scheduling policy and priority of relevant system driver IRQ handlers
+sys-process/set_rlimits 1.3.0: Give unpriviledged users access to realtime scheduling
+virtual/liblash 1: Virtual for LASH library
+x11-libs/ntk 9999-r1: A fork of the Fast Light ToolKit library, adding improved graphics rendering via Cairo
+x11-libs/qwt 9999: 2D plotting library for Qt4
+x11-misc/fvwm-xdg-menu 9999: xdg menu for use with fvwm and fvwm-menu-desktop
+x11-misc/xanalyser 1.32: Program to analyse a stereo audio signal.
+x11-themes/fvwm-crystal 9999: Configurable and full featured FVWM theme, with lots of transparency and freedesktop compatible menu
