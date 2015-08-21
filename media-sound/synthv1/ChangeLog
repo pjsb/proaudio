@@ -2,6 +2,20 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*synthv1-0.7.0 (21 Aug 2015)
+*synthv1-0.6.3 (21 Aug 2015)
+
+  21 Aug 2015; Karl Linden (lilrc) <lilrc@users.sourceforge.net>
+  -synthv1-0.6.1.ebuild, -synthv1-0.6.2.ebuild, +synthv1-0.6.3.ebuild,
+  +synthv1-0.7.0.ebuild, synthv1-9999.ebuild:
+  version bump
+  move from base to eutils
+  move from qt4-r2 to qmake-utils
+  also run qmake on lv2ui
+  export QT_SELECT
+  fix invalid id headers
+  remove old
+
 *synthv1-0.6.2 (01 May 2015)
 
   01 May 2015; Karl Linden (lilrc) <lilrc@users.sourceforge.net>
