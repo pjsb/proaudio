@@ -311,7 +311,7 @@ media-sound/rezound 9999: Sound editor and recorder
 media-sound/rosegarden 9999: MIDI and audio sequencer and notation editor.
 media-sound/rsound 1.0_beta1 9999: RSound is a networked audio system. It allows applications to transfer their audio data to a different computer.
 media-sound/rtsynth 1.9.2 1.9.5: reproduce sounds of strings, organs, flutes and drums in real time
-media-sound/samplv1 0.6.1 0.6.2 9999: An old-school all-digital polyphonic sampler synthesizer with stereo fx
+media-sound/samplv1 0.6.3 0.7.0 9999: An old-school all-digital polyphonic sampler synthesizer with stereo fx
 media-sound/san-dysth 0.1.0-r1 0.1.1: A softsynth to generate organ-like, organic-like, alien-like and water-like sounds, plus various kinds of noise
 media-sound/schism-tracker 20120105 99999999: Schism Tracker
 media-sound/setbfree 20130418 99999999: MIDI controlled DSP tonewheel organ
