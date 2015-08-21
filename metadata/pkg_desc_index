@@ -330,7 +330,7 @@ media-sound/stygmorgan 0.27: stygmorgan is an Interactive Musical Workstation so
 media-sound/supercollider 3.6.3 3.6.5 9999: An environment and a programming language for real time audio synthesis.
 media-sound/swami 2.0.0 2.0.0-r1 9999: A SoundFont instrument editor for MIDI music composition and a sampler frontend
 media-sound/sweep 0.9.1 0.9.1-r1 0.9.2 9999 9999-r1 9999-r2: audio editor and live playback tool
-media-sound/synthv1 0.6.1 0.6.2 9999: An old-school all-digital 4-oscillator subtractive polyphonic synthesizer with stereo fx
+media-sound/synthv1 0.6.3 0.7.0 9999: An old-school all-digital 4-oscillator subtractive polyphonic synthesizer with stereo fx
 media-sound/tapeutape 0.1.1: Tapeutape is a midi-controlled virtual sampler.
 media-sound/tapiir 0.7.3: A flexible audio effects processor, inspired on the classical magnetic tape delay systems
 media-sound/tetraproc 0.8.2: A-format to B-format signal converter for tetrahedral Ambisonic microphones
