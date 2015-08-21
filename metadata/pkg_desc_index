@@ -190,7 +190,7 @@ media-sound/composite 0.006.2: software application/system for real-time, in-per
 media-sound/dino 0.2.8 9999: a pattern-based MIDI sequencer.
 media-sound/drc 3.2.0 3.2.1: Generate digital room correction FIR filters for use in realtime convolution engines like BruteFIR
 media-sound/drobilla 9999: Patchage is a modular patchbay for Jack audio and Alsa sequencer.
-media-sound/drumkv1 0.6.1 0.6.2 9999: An old-school all-digital drum-kit sampler synthesizer with stereo fx
+media-sound/drumkv1 0.6.3 0.7.0 9999: An old-school all-digital drum-kit sampler synthesizer with stereo fx
 media-sound/earcandy 0.9 9999: A sound level manager that fades applications in and out based on their profile and window focus
 media-sound/ebumeter 0.2.0: Loudness measurement according to EBU-R128
 media-sound/epichord 9999: a classical multi-track midi sequencer
