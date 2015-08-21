@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI="5"
 
@@ -8,7 +8,7 @@ if [[ "${PV}" = "9999" ]]; then
 	inherit git-r3
 	AUTOTOOLS_AUTORECONF="1"
 fi
-inherit base fdo-mime qt4-r2 autotools-utils
+inherit fdo-mime qmake-utils autotools-utils
 
 DESCRIPTION="An old-school all-digital polyphonic sampler synthesizer with stereo fx"
 HOMEPAGE="http://samplv1.sourceforge.net/"
@@ -54,14 +54,6 @@ DEPEND="${RDEPEND}"
 
 AUTOTOOLS_IN_SOURCE_BUILD="1"
 
-src_unpack() {
-	if [[ "${PV}" = "9999" ]]; then
-		git-r3_src_unpack
-	else
-		base_src_unpack
-	fi
-}
-
 myqmake() {
 	if ! use qt5; then
 		eqmake4 "${@}"
@@ -72,7 +64,16 @@ myqmake() {
 
 src_configure() {
 	use jack && myqmake "${PN}_jack.pro" -o "${PN}_jack.mak"
-	use lv2 && myqmake "${PN}_lv2.pro" -o "${PN}_lv2.mak"
+	if use lv2; then
+		myqmake "${PN}_lv2.pro" -o "${PN}_lv2.mak"
+		myqmake "${PN}_lv2ui.pro" -o "${PN}_lv2ui.mak"
+	fi
+
+	if ! use qt5; then
+		export QT_SELECT=4
+	else
+		export QT_SELECT=5
+	fi
 
 	local myeconfargs=(
 		$(use_enable alsa alsa-midi)
