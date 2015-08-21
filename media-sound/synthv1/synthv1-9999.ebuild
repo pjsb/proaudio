@@ -8,7 +8,7 @@ if [[ "${PV}" = "9999" ]]; then
 	inherit git-r3
 	AUTOTOOLS_AUTORECONF="1"
 fi
-inherit eutils fdo-mime qmake-utils autotools-utils
+inherit fdo-mime qmake-utils autotools-utils
 
 DESCRIPTION="An old-school all-digital 4-oscillator subtractive polyphonic synthesizer with stereo fx"
 HOMEPAGE="http://synthv1.sourceforge.net/"
@@ -92,7 +92,6 @@ src_configure() {
 
 src_install() {
 	autotools-utils_src_install INSTALL_ROOT="${D}"
-	einstalldocs
 }
 
 pkg_postinst() {

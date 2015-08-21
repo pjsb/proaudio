@@ -2,6 +2,10 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  21 Aug 2015; Karl Linden (lilrc) <lilrc@users.sourceforge.net>
+  synthv1-0.7.0.ebuild, synthv1-9999.ebuild:
+  drop unnecessary eutils and einstalldocs
+
 *synthv1-0.7.0 (21 Aug 2015)
 *synthv1-0.6.3 (21 Aug 2015)
 
