@@ -1,6 +1,10 @@
 # ChangeLog for media-sound/abraca
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  06 Sep 2015; Frieder Buerzele <evermind@tuxfamily.org> abraca-9999.ebuild:
+  fixed EAPI from 3 to 4, adjust dependencies and use git-r3 to fetch
+  submodules
 
   30 Mar 2013; Dominique Michel ydominique_libre@users.sourceforge.net>
   abraca-9999.ebuild: changed dev-libs/libgee depend to slot 0
