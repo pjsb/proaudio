@@ -255,7 +255,7 @@ media-sound/jsampler 0.8a 0.9: JSampler is a frontend for LinuxSampler written i
 media-sound/kguitar 0.6_pre1 9999: An efficient and easy-to-use environment for a guitarist.
 media-sound/khagan 0.1.2-r2: Live user interface builder for controlling parameters via OSC.
 media-sound/klick 0.12.2: An advanced command-line based metronome for JACK
-media-sound/kluppe 0.6.15: live looping sequencer
+media-sound/kluppe 0.6.16: live looping sequencer
 media-sound/kontroll 20130319: A small utility that generates MIDI CC and OSC messages from the mouse position
 media-sound/ladish 1-r2 9999-r1: LADI Session Handler - a session management system for JACK applications
 media-sound/laditools 1.0_rc8 1.0.1-r2 1.0.1-r3 9999-r1: a set of tools to improve desktop integration and user workflow of Linux audio systems
