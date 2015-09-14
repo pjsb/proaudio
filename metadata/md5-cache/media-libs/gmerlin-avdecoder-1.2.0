@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=media-libs/gavl-1.4.0 a52? ( media-libs/a52dec ) aac? ( media-libs/faad2 ) cdda? ( dev-libs/libcdio ) dts? ( media-libs/libdca ) dvd? ( media-libs/libdvdread ) ffmpeg? ( media-video/ffmpeg ) flac? ( media-libs/flac ) jpeg2k? ( media-libs/openjpeg ) mad? ( media-libs/libmad ) mjpeg? ( media-video/mjpegtools ) mpeg? ( media-libs/libmpeg2 ) nls? ( sys-devel/gettext ) ogg? ( media-libs/libogg ) plugins? ( >=media-libs/gmerlin-0.3.8 ) png? ( media-libs/libpng ) samba? ( net-fs/samba ) schroedinger? ( media-libs/schroedinger ) speex? ( media-libs/speex ) theora? ( media-libs/libtheora ) tiff? ( media-libs/tiff ) vdpau? ( x11-libs/libvdpau ) vorbis? ( media-libs/libvorbis )
 SLOT=0
 SRC_URI=mirror://sourceforge/gmerlin/gmerlin-avdecoder-1.2.0.tar.gz
-_eclasses_=autotools	7feb275d850f45095537e76c5aa80494	autotools-utils	0bf099a6e3dfeaf20a7a94504d8dd896	eutils	351a78113be5b393c09a2c948701ad36	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	autotools-utils	0bf099a6e3dfeaf20a7a94504d8dd896	eutils	351a78113be5b393c09a2c948701ad36	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
 _md5_=60c8d276245dfee822d588500e98c9ac
