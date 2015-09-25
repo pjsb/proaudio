@@ -10,5 +10,5 @@ RDEPEND=media-libs/zynaddsubfx-banks !media-sound/zynaddsubfx-cvs
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://download.tuxfamily.org/proaudio/distfiles/ZynAddSubFX-20070707.tar.bz2 http://download.tuxfamily.org/proaudio/distfiles/zynaddsubfx-presets-0.1.tar.bz2
-_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	exteutils	316ff466b687876b354d672b1464ad62	jackmidi	7fdb623376bdfc3f0c4cc2b9d28c0c6a	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_eclasses_=eutils	95613dd6157fb4a3b225eafdc56bd441	exteutils	316ff466b687876b354d672b1464ad62	jackmidi	7fdb623376bdfc3f0c4cc2b9d28c0c6a	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
 _md5_=585023396ae497de8b9947f9ad33e459
