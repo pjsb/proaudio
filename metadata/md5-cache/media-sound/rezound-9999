@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=dev-qt/qtcore dev-qt/qtgui sci-libs/fftw:3.0 ladspa? ( >=media-libs/ladspa-sdk-1.12 >=media-libs/ladspa-cmt-1.15 ) >=media-libs/audiofile-0.2.2 alsa? ( >=media-libs/alsa-lib-1.0 ) flac? ( >=media-libs/flac-1.1.2[cxx] ) jack? ( media-sound/jack-audio-connection-kit ) portaudio? ( >=media-libs/portaudio-18 ) soundtouch? ( >=media-libs/libsoundtouch-1.3.1 ) vorbis? ( media-libs/libvorbis media-libs/libogg )
 SLOT=0
 SRC_URI=mirror://gentoo/rezound-0.12.3_beta-patches-5.tar.bz2
-_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	subversion	4fee0a764150bb4dda27ed4d2c4ed7ce	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_eclasses_=autotools	542bf3f83917668f3893f4da1ca238ff	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	subversion	4fee0a764150bb4dda27ed4d2c4ed7ce	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
 _md5_=5e457d1aebb4e631025e92c837c732f0
