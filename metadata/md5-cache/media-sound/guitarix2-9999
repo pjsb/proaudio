@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=dev-cpp/eigen:3 dev-cpp/glibmm:2 dev-cpp/gtkmm:2.4 dev-libs/boost dev-libs/glib media-libs/liblrdf media-libs/libsndfile media-libs/lilv:0 media-libs/zita-convolver media-libs/zita-resampler media-sound/jack-audio-connection-kit media-sound/lame sci-libs/fftw:3.0 x11-libs/gtk+:2 avahi? ( net-dns/avahi ) faust? ( dev-lang/faust ) ladspa? ( media-libs/ladspa-sdk ) lv2? ( || ( media-libs/lv2core media-libs/lv2 ) ) capture? ( media-sound/jack_capture ) meterbridge? ( media-sound/meterbridge )
 RESTRICT=mirror
 SLOT=0
-_eclasses_=eutils	95613dd6157fb4a3b225eafdc56bd441	git-r3	1502b9838d043db47700b8120083e637	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d	waf-utils	ad1dd5b59c523843eebd3a9934c509ca
+_eclasses_=eutils	43da5163ba106e87d22d2e7d6d67537f	git-r3	1502b9838d043db47700b8120083e637	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d	waf-utils	ad1dd5b59c523843eebd3a9934c509ca
 _md5_=70c223482112e0fa686fefd24f0b1891
