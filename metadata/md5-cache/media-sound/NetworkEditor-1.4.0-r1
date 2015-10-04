@@ -9,5 +9,5 @@ RDEPEND=>=media-libs/libclam-1.4.0-r1 <media-libs/libclam-9999 dev-qt/qtcore dev
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://clam-project.org/download/src/NetworkEditor-1.4.0.tar.gz http://ftp.debian.org/debian/pool/main/c/clam-networkeditor/clam-networkeditor_1.4.0-3.1.debian.tar.gz
-_eclasses_=eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	python-any-r1	b81ab4852d108e3d9c940fa03bce80e1	python-utils-r1	39c6b012a0512678e698e712b5b7ecc2	scons-utils	b7d634f772db55c8af429f50aeec6ee0	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_eclasses_=eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	python-any-r1	b81ab4852d108e3d9c940fa03bce80e1	python-utils-r1	006fb3ff3b8a9aa58f251f2312836cdf	scons-utils	b7d634f772db55c8af429f50aeec6ee0	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
 _md5_=79acf4cdeaf6bc0d2ff022fc0eb78fd6
