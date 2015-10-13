@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-libs/libxml2-2.4.0 >=media-libs/gavl-1.4.0 >=media-libs/fontconfig-2.2.3 >=media-libs/freetype-2 >=x11-libs/gtk+-2.8.0 virtual/opengl alsa? ( >=media-libs/alsa-lib-1.0.0 ) cddb? ( >=media-libs/libcddb-1.0.2 ) cdio? ( >=dev-libs/libcdio-0.76 ) jpeg? ( virtual/jpeg ) libvisual? ( >=media-libs/libvisual-0.4.0 ) musicbrainz? ( >=media-libs/musicbrainz-2.0.2 ) png? ( media-libs/libpng ) pulseaudio? ( media-sound/pulseaudio ) quicktime? ( >=media-libs/libquicktime-1.0.3 ) tiff? ( media-libs/tiff )
 SLOT=0
 SRC_URI=mirror://sourceforge/gmerlin/gmerlin-1.2.0.tar.gz
-_eclasses_=autotools	542bf3f83917668f3893f4da1ca238ff	autotools-utils	0bf099a6e3dfeaf20a7a94504d8dd896	eutils	43da5163ba106e87d22d2e7d6d67537f	exteutils	316ff466b687876b354d672b1464ad62	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_eclasses_=autotools	542bf3f83917668f3893f4da1ca238ff	autotools-utils	0bf099a6e3dfeaf20a7a94504d8dd896	eutils	43da5163ba106e87d22d2e7d6d67537f	exteutils	316ff466b687876b354d672b1464ad62	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=af6f785f2346553d13a1f332697b02af

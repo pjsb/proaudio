@@ -9,5 +9,5 @@ RDEPEND=>=app-emulation/wine-0.9.35 amd64? ( || ( >=media-sound/jack-audio-conne
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sourceforge/wineasio/wineasio/wineasio-0.9.0/wineasio-0.9.0.tar.gz
-_eclasses_=multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_eclasses_=multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=1e3a9da57596bbedb13140748d93c3e9
