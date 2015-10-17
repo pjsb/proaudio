@@ -7,5 +7,5 @@ IUSE=nls pic static debug dssi plugins codecs oss alsa jack portaudio-internal
 LICENSE=GPL-2
 RDEPEND=>=media-libs/libsndfile-1.0 media-libs/alsa-lib media-libs/libsamplerate plugins? ( >=media-libs/libsoundtouch-1.2.1 ) dssi? ( >=media-libs/dssi-0.9 ) codecs? ( media-libs/libvorbis media-libs/flac ) portaudio-internal? ( !media-libs/portaudio ) !portaudio-internal? ( >=media-libs/portaudio-19 )
 SLOT=0
-_eclasses_=autotools	542bf3f83917668f3893f4da1ca238ff	eutils	43da5163ba106e87d22d2e7d6d67537f	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	subversion	4fee0a764150bb4dda27ed4d2c4ed7ce	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	wxwidgets	e0c7fd61275cea7156be4143ba8c673a
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	43da5163ba106e87d22d2e7d6d67537f	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	subversion	4fee0a764150bb4dda27ed4d2c4ed7ce	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	wxwidgets	e0c7fd61275cea7156be4143ba8c673a
 _md5_=7ce534a8010c8e10a5a17998e0464ffa

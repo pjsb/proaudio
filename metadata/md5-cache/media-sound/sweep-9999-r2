@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=media-libs/libsamplerate >=media-libs/libsndfile-1.0 speex? ( media-libs/speex ) mp3? ( >=media-sound/madplay-0.14.2b ) >=x11-libs/gtk+-2.0 alsa? ( >=media-libs/alsa-lib-1.0.0 ) nls? ( sys-devel/gettext ) vorbis? ( media-libs/libogg media-libs/libvorbis )
 RESTRICT=mirror
 SLOT=0
-_eclasses_=autotools	542bf3f83917668f3893f4da1ca238ff	eutils	43da5163ba106e87d22d2e7d6d67537f	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	subversion	4fee0a764150bb4dda27ed4d2c4ed7ce	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	43da5163ba106e87d22d2e7d6d67537f	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	subversion	4fee0a764150bb4dda27ed4d2c4ed7ce	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=01d2a5275f4d9e39198f2a90edabf4dc
