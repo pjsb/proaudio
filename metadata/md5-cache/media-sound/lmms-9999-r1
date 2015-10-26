@@ -7,5 +7,5 @@ IUSE=alsa debug fftw fluidsynth jack ogg pulseaudio sdl stk vst
 LICENSE=GPL-2 LGPL-2
 RDEPEND=dev-qt/qtcore dev-qt/qtgui[accessibility] media-libs/libsamplerate >=media-libs/libsndfile-1.0.11 alsa? ( media-libs/alsa-lib ) fftw? ( sci-libs/fftw:3.0 ) fluidsynth? ( media-sound/fluidsynth ) jack? ( >=media-sound/jack-audio-connection-kit-0.99.0 ) ogg? ( media-libs/libvorbis media-libs/libogg ) pulseaudio? ( media-sound/pulseaudio ) sdl? ( media-libs/libsdl >=media-libs/sdl-sound-1.0.1 ) stk? ( media-libs/stk ) vst? ( app-emulation/wine )
 SLOT=0
-_eclasses_=cmake-utils	7dc05d514e5011a2a16bfa7a32e69587	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	git-2	32530738ee006bc09e1ac93f6e73d719	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_eclasses_=cmake-utils	34a43631b1edbd429618149bc986d524	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	git-2	32530738ee006bc09e1ac93f6e73d719	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=fa1a144857667561f3caa93c7bd234a1

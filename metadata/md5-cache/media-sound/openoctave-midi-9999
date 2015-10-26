@@ -7,5 +7,5 @@ IUSE=debug lilypond export kde gnome
 LICENSE=GPL-2
 RDEPEND=lilypond? ( media-sound/lilypond || ( kde? ( kde-base/kghostview ) gnome? ( app-text/evince ) ) ) export? ( || ( kde-base/kdialog kde-base/kdebase ) dev-perl/XML-Twig media-libs/libsndfile ) >=media-libs/ladspa-sdk-1.0 >=media-libs/ladspa-cmt-1.14 || ( x11-libs/libX11 virtual/x11 ) >=media-libs/liblrdf-0.3 >=media-sound/linuxsampler-9999 >=sci-libs/fftw-3.0.0 >=media-libs/liblo-0.7 x11-libs/libXtst
 SLOT=0
-_eclasses_=cmake-utils	7dc05d514e5011a2a16bfa7a32e69587	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	git-2	32530738ee006bc09e1ac93f6e73d719	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_eclasses_=cmake-utils	34a43631b1edbd429618149bc986d524	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	git-2	32530738ee006bc09e1ac93f6e73d719	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=1610d25b36da16bccc933c8247c3c3d4
