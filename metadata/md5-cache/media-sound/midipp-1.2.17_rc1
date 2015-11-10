@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile configure install
+DEPEND=dev-qt/qtcore media-sound/jack-audio-connection-kit
+DESCRIPTION=MIDI Player Pro is the software you need to be able to play any kind of music in seconds with your fingertips.
+EAPI=5
+HOMEPAGE=http://www.selasky.org/hans_petter/midistudio/
+KEYWORDS=amd64 x86
+LICENSE=FREE
+SLOT=0
+SRC_URI=https://github.com/myDistro/midipp/archive/1.2.17_rc1.tar.gz
+_md5_=dae058292390a478b1a8253e457deb60
