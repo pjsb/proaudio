@@ -121,6 +121,8 @@ media-sound/linuxsampler:lv2 - Add support for Ladspa V2
 media-sound/lmms:fluidsynth - Add fluisynth support
 media-sound/lmms:stk - Add stk support
 media-sound/mididings:smf - read/write standard MIDI files through media-libs/libsmf
+media-sound/midipp:jack - Enable JACK support
+media-sound/midipp:qt5 - use qt5 (if not set use qt4)
 media-sound/mixxx:hid - Build with HID controller support
 media-sound/mixxx:pulseaudio - Disables media-sound/pulseaudio support for mixxx with pasuspender
 media-sound/mixxx:shout - Enable shoutcast support
