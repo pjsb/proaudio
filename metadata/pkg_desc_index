@@ -258,7 +258,7 @@ media-sound/klick 0.12.2: An advanced command-line based metronome for JACK
 media-sound/kluppe 0.6.16: live looping sequencer
 media-sound/kontroll 20130319: A small utility that generates MIDI CC and OSC messages from the mouse position
 media-sound/ladish 1-r2 9999-r1: LADI Session Handler - a session management system for JACK applications
-media-sound/laditools 1.0.1-r2 1.0.1-r3 9999-r1: a set of tools to improve desktop integration and user workflow of Linux audio systems
+media-sound/laditools 1.0.1-r2 1.0.1-r3 1.1.0 9999-r1: a set of tools to improve desktop integration and user workflow of Linux audio systems
 media-sound/lash 9998: Temporary wrapper for liblash (lash) and ladish
 media-sound/lash-original 0.6.0_rc2-r1: LASH Audio Session Handler
 media-sound/lash_wrap 1.0.2: A small helper application that serves as a proxy between an un-LASHified app and the LASH system
