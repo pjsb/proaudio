@@ -1,38 +1,37 @@
 # Copyright 1999-2015 Gentoo Foundation
-# Distributed under the terms of the GNU General Public License v3
-# $Header: $
+# Distributed under the terms of the GNU General Public License v2
+# $Id$
 
 EAPI=5
+inherit qmake-utils
 
-
-DESCRIPTION="MIDI Player Pro is the software you need to be able to play any kind of music in seconds with your fingertips."
+DESCRIPTION="play any kind of music in seconds with your fingertips."
 HOMEPAGE="http://www.selasky.org/hans_petter/midistudio/"
 SRC_URI="https://github.com/myDistro/${PN}/archive/${PV}.tar.gz"
 
+S="${S}/${PN}"
 
-LICENSE="FREE"
+LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="amd64 x86"
-IUSE=""
-
+KEYWORDS="~amd64 ~x86"
+IUSE="qt5 +jack"
 
 DEPEND="
-	dev-qt/qtcore
-	media-sound/jack-audio-connection-kit"
-
-DOCS=""
+	!qt5? (
+		dev-qt/qtcore:4
+	)
+	qt5? (
+		dev-qt/qtcore:5
+	)
+	jack? ( media-sound/jack-audio-connection-kit )"
 
 src_configure(){
-	cd midipp
-	qmake HAVE_STATIC=YES HAVE_JACK=YES PREFIX=${D}
-}
-
-src_compile() {
-	cd midipp
-	make
-}
-
-src_install(){
-	cd midipp
-	emake DESTDIR=${D} install
+	if use jack; then
+		JACK="HAVE_JACK=YES"
+	fi
+	if use qt5 ; then
+		eqmake5 HAVE_STATIC=YES $JACK PREFIX="${D}"
+	else
+		eqmake4 HAVE_STATIC=YES $JACK PREFIX="${D}"
+	fi
 }
