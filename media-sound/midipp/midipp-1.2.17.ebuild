@@ -11,7 +11,7 @@ SRC_URI="https://github.com/myDistro/${PN}/archive/${PV}.tar.gz"
 
 S="${S}/${PN}"
 
-LICENSE="Apache-2.0"
+LICENSE="BSD-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="qt5 +jack"
@@ -25,13 +25,17 @@ DEPEND="
 	)
 	jack? ( media-sound/jack-audio-connection-kit )"
 
+myqmake(){
+	if ! use qt5; then
+		eqmake4 "${@}"
+	else
+		eqmake5 "${@}"
+	fi
+}
+
 src_configure(){
 	if use jack; then
 		JACK="HAVE_JACK=YES"
 	fi
-	if use qt5 ; then
-		eqmake5 HAVE_STATIC=YES $JACK PREFIX="${D}"
-	else
-		eqmake4 HAVE_STATIC=YES $JACK PREFIX="${D}"
-	fi
+	myqmake HAVE_STATIC=YES $JACK PREFIX="${D}"
 }

@@ -5,8 +5,4 @@
 		<email>proaudio@tuxfamily.org</email>
 		<name>pro-audio overlay team</name>
 	</maintainer>
-	<use>
-		<flag name="jack">Enable JACK support</flag>
-		<flag name="qt5">use qt5 (if not set use qt4)</flag>
-	</use>
 </pkgmetadata>
