@@ -1,0 +1,34 @@
+# Lift commands for proaudio
+
+# Steps taken to convert proaudio overlay repo with reposurgeon.
+# Fetch reposurgeon and install, making sure reposurgeon and repotool are 
+# somewhere in $PATH.
+# Run "repotool initialize proaudio" and answer the questions.
+# This will create a Makefile and proaudio stub files for the conversion.
+# Copy proaudio.map and this proaudio.lift file, overwriting the templates.
+# Edit the Makefile and change the following:
+# REMOTE_URL = svn://svn.tuxfamily.org/svnroot/proaudio/proaudio
+# READ_OPTIONS = --nobranch
+# Now run "make" to convert the overlay into proaudio-git and proaudio-dev-git.
+# Go grab a drink, this might take a while :)
+
+# Carve out the proaudio-dev directory into its own repo if needed later on.
+# The repo will be called proaudio-expunges in reposurgeon for use in the next
+# step.
+expunge /^trunk/overlays/proaudio-dev//
+
+# Switch to the expunged proaudio-dev overlay, remove the top three dirs
+# and rebuild the carved out proaudio-dev repo.
+choose proaudio-expunges
+paths sup
+paths sup
+paths sup
+rebuild proaudio-dev-git
+
+# Switch back to the proaudio repo so the Makefile handles the rest
+choose proaudio
+# Remove the top three dirs to get the root of the proaudio overlay
+paths sup
+paths sup
+paths sup
+
