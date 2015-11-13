@@ -12,23 +12,33 @@
 # Now run "make" to convert the overlay into proaudio-git and proaudio-dev-git.
 # Go grab a drink, this might take a while :)
 
+# discard the trunk and overlays directories
+paths sup
+paths sup
+
 # Carve out the proaudio-dev directory into its own repo if needed later on.
 # The repo will be called proaudio-expunges in reposurgeon for use in the next
 # step.
-expunge /^trunk/overlays/proaudio-dev//
+expunge /^proaudio-dev//
 
-# Switch to the expunged proaudio-dev overlay, remove the top three dirs
-# and rebuild the carved out proaudio-dev repo.
+# Switch to the expunged proaudio-dev overlay, remove the parent dir and
+# rebuild the carved out proaudio-dev repo.
 choose proaudio-expunges
 paths sup
-paths sup
-paths sup
 rebuild proaudio-dev-git
+drop proaudio-expunges
 
 # Switch back to the proaudio repo so the Makefile handles the rest
 choose proaudio
-# Remove the top three dirs to get the root of the proaudio overlay
-paths sup
-paths sup
+
+# uncomment to move the ChangeLog's to a new repo as well
+#expunge //ChangeLog$/
+#choose proaudio-expunges
+#paths sup
+#rebuild proaudio-changelogs-git
+#drop proaudio-expunges
+#choose proaudio
+
+# discard the parent dir to get the root of the proaudio overlay
 paths sup
 
