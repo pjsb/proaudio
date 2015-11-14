@@ -5,5 +5,5 @@ EAPI=5
 HOMEPAGE=https://github.com/domichel/fvwm-xdg-menu
 LICENSE=GPL-2
 SLOT=0
-_eclasses_=git-2	32530738ee006bc09e1ac93f6e73d719
+_eclasses_=git-2	df00117322129fb906bb0a53c3d6a020
 _md5_=abe02d111a2915690d475ea1b2bab5d4
