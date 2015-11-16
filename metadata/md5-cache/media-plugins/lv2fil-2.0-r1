@@ -9,5 +9,5 @@ RDEPEND=|| ( >=media-libs/lv2core-3.0 >=media-libs/lv2-1.0.0 ) >=dev-python/pyca
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://nedko.arnaudov.name/soft/lv2fil/download/lv2fil-2.0.tar.bz2
-_eclasses_=multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	python	0c2c16ea4f9074d3248bd4365d03890c	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	python	0c2c16ea4f9074d3248bd4365d03890c	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=01e64dd2737c4813f9940934897c9138
