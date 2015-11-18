@@ -1,6 +1,14 @@
 # ChangeLog for media-libs/zynaddsubfx-collection
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*zynaddsubfx-collection-0.7-r1 (18 Nov 2015)
+
+  18 Nov 2015; Gavin Pryke (gavlee) <gavinlee303@gmail.com>
+  zynaddsubfx-collection-0.7.ebuild, +zynaddsubfx-collection-0.7-r1.ebuild:
+  move the files from the tuxfamily web area to download area as per tuxfamily
+  faq and adjust SRC_URI to match. bump EAPI=5, make use of ecvs_clean from
+  eutils to clean files instead of find.
 
   24 Mar 2013; Karl Linden (lilrc) <lilrc@users.sourceforge.net>
   -zynaddsubfx-collection-0.1.ebuild, -zynaddsubfx-collection-0.2.ebuild,

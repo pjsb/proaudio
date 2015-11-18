@@ -1,10 +1,12 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 PYTHON_COMPAT=( python2_7 )
-inherit waf-utils python-any-r1
+PYTHON_REQ_USE="threads(+)"
+NO_WAF_LIBDIR=1
+inherit python-any-r1 waf-utils
 
 DESCRIPTION="A library for developing GTK+ audio applications using Lua"
 HOMEPAGE="http://smbolton.com/linux/"
@@ -15,14 +17,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-# comes bundled with modified lua-5.2.1?
-RDEPEND=">=x11-libs/gtk+-2.16.0:2"
+RDEPEND="x11-libs/gtk+:2="
 DEPEND="${RDEPEND}
 	${PYTHON_DEPS}
 	virtual/pkgconfig"
 
 RESTRICT="mirror"
 
-DOCS=(README.rst)
-
-PATCHES=("${FILESDIR}"/${P}-wscript.patch)
+DOCS=( README.rst )

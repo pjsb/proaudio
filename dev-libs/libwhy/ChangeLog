@@ -1,6 +1,10 @@
 # ChangeLog for dev-libs/libwhy
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  18 Nov 2015; Gavin Pryke (gavlee) <gavinlee303@gmail.com>
+  libwhy-20121103.ebuild:
+  update for changes in waf-utils.eclass  
 
   04 Apr 2013; Gavin Pryke (gavlee) <gavinlee303@googlemail.com>
   libwhy-20121103.ebuild:
