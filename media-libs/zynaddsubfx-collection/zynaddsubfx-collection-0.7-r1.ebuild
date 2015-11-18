@@ -2,25 +2,31 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-inherit unpacker
-RESTRICT="mirror"
+EAPI=5
+inherit eutils unpacker
+
 MY_PN="zynaddsubfx"
 DESCRIPTION="user contributed instruments for zynaddsubfx"
 HOMEPAGE="http://proaudio.tuxfamily.org/"
 SRC_URI="http://download.tuxfamily.org/proaudio/distfiles/${P}.tar.gz"
+
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~ppc ~x86"
-
 IUSE=""
+
 RDEPEND="|| ( >=media-sound/zynaddsubfx-2.2.1-r4 media-sound/yoshimi )"
-DEPEND="${RDEPEND}"
+
+RESTRICT="mirror"
 
 src_unpack(){
 	unpack ${A}
-	mkdir -p "$S" ; cd "${S}"
+	mkdir -p "${S}" ; cd "${S}"
 	unpacker "${WORKDIR}"/*.tar.*
-	find -name 'CVS' -exec rm -rf {} \; &>/dev/null
+}
+
+src_prepare() {
+	ecvs_clean
 }
 
 src_compile(){
