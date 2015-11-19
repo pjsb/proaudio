@@ -1,6 +1,6 @@
 DEFINED_PHASES=install
 DESCRIPTION=A collection of presets for Jamin made by Gilberto Andre Borges
-EAPI=0
+EAPI=5
 HOMEPAGE=http://proaudio.tuxfamily.org/
 KEYWORDS=~amd64 ~ppc ~x86
 LICENSE=GPL-2
@@ -8,5 +8,4 @@ RDEPEND=media-sound/jamin
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://download.tuxfamily.org/proaudio/distfiles/jaminpresets4.0_all.tar.gz
-_eclasses_=eutils	f813d23e417656bf3917483643165d5a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=6bac0d73e81813bf6ded5fbc20cd6d0f
+_md5_=aef9ffb760e54e21f3506be5ee041eb4

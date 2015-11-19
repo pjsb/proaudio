@@ -241,7 +241,7 @@ media-sound/jackmix 0.4.2 0.4.2-r1: A mixer app for jack
 media-sound/jackmixdesk 0.3_p4 9999: Audio mixer for JACK with OSC control, LASH support and GTK GUI
 media-sound/jalv 9999: simple but fully featured LV2 host for Jack
 media-sound/jamin 9999: JAMin is the JACK Audio Connection Kit (JACK) Audio Mastering interface
-media-sound/jamin-presets 4.0: A collection of presets for Jamin made by Gilberto Andre Borges
+media-sound/jamin-presets 4.0 4.0-r1: A collection of presets for Jamin made by Gilberto Andre Borges
 media-sound/japa 0.8.4: JAPA is a perceptual analyzer for JACK and ALSA
 media-sound/jconvolver 0.9.2: Command line convolution reverb by Fons Adriaensen
 media-sound/jkmeter 0.6.1: Jkmeter is a combined RMS/digital peak meter based on the ideas of mastering guru Bob Katz
