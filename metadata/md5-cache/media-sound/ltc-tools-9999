@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=>=media-libs/libltc-1.1.0 media-libs/libsndfile media-sound/jack-audio-connection-kit virtual/pkgconfig dev-vcs/git
+DESCRIPTION=Linear/Logitudinal Time Code (LTC) Library tools
+EAPI=5
+HOMEPAGE=https://github.com/x42/ltc-tools
+LICENSE=GPL-2
+RDEPEND=>=media-libs/libltc-1.1.0 media-libs/libsndfile media-sound/jack-audio-connection-kit
+RESTRICT=mirror
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-2 src_compile:- src_install:-
+_eclasses_=git-2	df00117322129fb906bb0a53c3d6a020	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=46428d8fe088935edbad9a36d9ec7947

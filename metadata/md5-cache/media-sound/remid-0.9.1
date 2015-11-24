@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=dev-libs/glib:2 media-libs/resid media-sound/jack-audio-connection-kit alsa? ( media-libs/alsa-lib ) gtk? ( gnome-base/libglade x11-libs/gtk+:2 ) virtual/pkgconfig
+DESCRIPTION=Real-time MIDI controllable virtual SID based synthesizer using the reSID emulation library
+EAPI=5
+HOMEPAGE=http://gp2x.org/remid/
+IUSE=alsa gtk
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=dev-libs/glib:2 media-libs/resid media-sound/jack-audio-connection-kit alsa? ( media-libs/alsa-lib ) gtk? ( gnome-base/libglade x11-libs/gtk+:2 )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://gp2x.org/remid/reMID-0.9.1.tar.gz
+_eclass_exported_funcs=src_unpack:base src_prepare:- src_configure:base src_compile:- src_install:-
+_eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=3b1a5170a6cc768a6d7c10c25715e0d4
