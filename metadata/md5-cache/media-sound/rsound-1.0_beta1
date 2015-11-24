@@ -10,4 +10,5 @@ RDEPEND=media-libs/libsamplerate alsa? ( media-libs/alsa-lib ) ao? ( media-libs/
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://github.com/downloads/Themaister/RSound/rsound-1.0beta1.tar.gz
+_eclass_exported_funcs=pkg_setup:- src_configure:- src_install:-
 _md5_=e918cdb7cc14aca49a91669cad704859

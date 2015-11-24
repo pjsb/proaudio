@@ -8,4 +8,5 @@ LICENSE=LGPL-2.1
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://frei0r.kexbox.org/download/source/frei0r-plugins-1.1.19.tar.gz
+_eclass_exported_funcs=src_unpack:- src_compile:- src_install:-
 _md5_=4472bb981f7faef74ce8df5a1bb67dd5

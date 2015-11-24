@@ -9,5 +9,6 @@ RDEPEND=>=media-libs/libquicktime-1.0.0[lame,x264] >=x11-libs/fltk-1.1.7 <x11-li
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sourceforge/openmovieeditor/openmovieeditor-0.0.20081029.tar.gz
+_eclass_exported_funcs=src_unpack:- src_compile:- src_install:-
 _eclasses_=eutils	f20548a2f7b0128068388cd2ec26708a	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=8b02bbcf70c8cc63a4b330e1a72339b3

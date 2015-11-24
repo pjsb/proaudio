@@ -9,4 +9,5 @@ RDEPEND=virtual/libc
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://www.ninjam.com/downloads/src/ninjam_server_0.02.tar.gz
+_eclass_exported_funcs=src_compile:- src_install:-
 _md5_=6d3cf5ba0689064bbccdca25218235e4

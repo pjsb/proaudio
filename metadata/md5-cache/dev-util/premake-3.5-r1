@@ -7,4 +7,5 @@ KEYWORDS=amd64 x86
 LICENSE=GPL-2
 SLOT=3
 SRC_URI=mirror://sourceforge/premake/premake-src-3.5.zip
+_eclass_exported_funcs=src_install:-
 _md5_=7a25df70e7af87a50e2ad29e613241fb

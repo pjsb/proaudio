@@ -9,5 +9,6 @@ RDEPEND=|| ( >=media-sound/zynaddsubfx-2.2.1-r4 media-sound/yoshimi )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://download.tuxfamily.org/proaudio/distfiles/unsortedzynaddsubfxParameters_20101203.zip
+_eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_unpack:- src_compile:- src_install:-
 _eclasses_=zyn3	2d28ba49064489cfd9ebd8d9516c8e75
 _md5_=dbd6fb7816f3d9465d8d9ff2f66794fd

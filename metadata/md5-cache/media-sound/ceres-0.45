@@ -9,5 +9,6 @@ RDEPEND=>=media-sound/jack-audio-connection-kit-0.100 >=dev-lang/python-1.5.2 me
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://ccrma.stanford.edu/~kjetil/src/ceres-0.45.tar.gz
+_eclass_exported_funcs=src_unpack:- src_compile:- src_install:-
 _eclasses_=virtualx2	4a15e10aa40cf36334bfe46e84c5b55c
 _md5_=faaca6ee0cf9562d6e3bf9aa1a106a6c

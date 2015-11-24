@@ -8,4 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=ladish? ( media-sound/ladish !media-sound/lash-original ) !ladish? ( media-sound/lash-original !media-sound/ladish )
 SLOT=0
+_eclass_exported_funcs=-
 _md5_=d8b3240be75478ec9b61a9bbd2aeb949

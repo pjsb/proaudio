@@ -8,4 +8,5 @@ RDEPEND=>=media-libs/dssi-0.9 >=x11-libs/gtk+-2.0
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sourceforge/dssi/xsynth-dssi-0.9.0.tar.gz
+_eclass_exported_funcs=src_unpack:- src_compile:- src_install:-
 _md5_=517ad27765436cb5dd784732b0b855c1

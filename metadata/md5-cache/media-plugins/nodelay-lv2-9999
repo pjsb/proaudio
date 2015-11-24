@@ -1,9 +1,0 @@
-DEFINED_PHASES=compile configure install prepare unpack
-DEPEND=media-libs/lv2 dev-vcs/git
-DESCRIPTION=LV2 audio delay line with latency reporting
-EAPI=5
-HOMEPAGE=http://github.com/x42/nodelay.lv2
-LICENSE=GPL-2
-SLOT=0
-_eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	f20548a2f7b0128068388cd2ec26708a	git-2	df00117322129fb906bb0a53c3d6a020	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=b558179885c7b8f5585c11aa54229398

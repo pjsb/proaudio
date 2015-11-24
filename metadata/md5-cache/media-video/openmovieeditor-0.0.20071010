@@ -9,4 +9,5 @@ RDEPEND=>=media-libs/libquicktime-0.9.7 x11-libs/fltk media-libs/gavl media-soun
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sourceforge/openmovieeditor/openmovieeditor-0.0.20071010.tar.gz
+_eclass_exported_funcs=src_compile:- src_install:-
 _md5_=0d02127a0db9f4ea38f0278b494ce494

@@ -4,4 +4,5 @@ EAPI=0
 HOMEPAGE=http://drobilla.net/software/ingen
 LICENSE=AGPL-3
 SLOT=0
+_eclass_exported_funcs=pkg_postinst:-
 _md5_=8fcb17e851e2528a57d1d770dd8562e3

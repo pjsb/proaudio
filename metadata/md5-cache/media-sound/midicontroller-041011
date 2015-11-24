@@ -9,4 +9,5 @@ RDEPEND=media-libs/alsa-lib >=dev-cpp/libglademm-2.4 >=dev-cpp/gtkmm-2.4
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sourceforge/midicontrol/midicontroller-041011.tar.bz2
+_eclass_exported_funcs=pkg_postinst:- src_compile:- src_install:-
 _md5_=01f3959b3adf452a3d5e844ad24729ed

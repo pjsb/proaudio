@@ -9,4 +9,5 @@ RDEPEND=media-libs/portaudio >=x11-libs/wxGTK-2.4.2 >=media-libs/libsamplerate-0
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sourceforge/ggseq/ggseq-0.3.0.tar.gz
+_eclass_exported_funcs=src_unpack:- src_compile:- src_install:-
 _md5_=9c9bc98e94a40f7a1902e6b4b07180cc

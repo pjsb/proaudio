@@ -7,5 +7,6 @@ IUSE=+lv2dynparam
 LICENSE=GPL-2
 RDEPEND=>=media-sound/jack-audio-connection-kit-0.109.0 || ( >=media-libs/lv2-1.2.0 >=media-libs/lv2core-1 ) >=dev-python/pygtk-2.0 >=dev-lang/python-2.4 >=dev-python/pycairo-1.8.2 lv2dynparam? ( =media-libs/lv2dynparam1-9999 )
 SLOT=0
+_eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_unpack:- src_compile:- src_install:-
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	f20548a2f7b0128068388cd2ec26708a	git-r3	b00a846f415f26e5b66e5c44c7dc87dc	libtool	b75230758539a7da029e24afdb693960	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=e97999fed56c1545e80ebaba27c3a2ac

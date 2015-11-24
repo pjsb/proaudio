@@ -9,4 +9,5 @@ RDEPEND=>=dev-scheme/guile-1.6.7 >=x11-libs/gtk+-2.0.0 media-libs/liblrdf sci-li
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://ccrma.stanford.edu/~kjetil/src/snd-ls-0.9.7.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:- src_unpack:- src_compile:- src_install:-
 _md5_=9ac9cf64dd616afe0726391ba5aea0ac

@@ -9,4 +9,5 @@ RDEPEND=>=dev-scheme/guile-1.6.7 >=x11-libs/gtk+-2.0.0 media-libs/liblrdf sci-li
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://www.notam02.no/arkiv/src/snd/snd-ls-0.9.7.11.tar.gz
+_eclass_exported_funcs=pkg_postinst:- src_unpack:- src_compile:- src_install:-
 _md5_=067797ae5e7a47b1583854fe4e273505

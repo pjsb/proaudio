@@ -4,4 +4,5 @@ EAPI=0
 HOMEPAGE=http://drobilla.net/software/lilv
 LICENSE=ISC
 SLOT=0
+_eclass_exported_funcs=pkg_postinst:-
 _md5_=a10f2bb1c477404d37d939de430fda36
