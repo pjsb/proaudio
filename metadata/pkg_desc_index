@@ -71,6 +71,7 @@ media-libs/joss 0.3: JACK sound wrapper for OSS applications
 media-libs/juce 1.53: JUCE is an all-encompassing C++ class library for developing cross-platform applications.
 media-libs/ld10k1 0.1.8: EMU10K1 (EMU10K2) effect loader for ALSA
 media-libs/libclam 1.4.0-r1 9999-r1: Framework for research and application development in the Audio and Music domain
+media-libs/libffado 2.2.1 2.2.1-r1 2.2.1-r2 2.2.1-r3 9999: Successor for freebob: Library for accessing BeBoB IEEE1394 devices
 media-libs/libgig 9999: a C++ library for loading Gigasampler files and DLS (Downloadable Sounds) Level 1/2 files.
 media-libs/liblscp 9999: a C++ library for the Linux Sampler control protocol.
 media-libs/libltc 1.1.1 9999: Linear/Logitudinal Time Code (LTC) Library
@@ -78,8 +79,10 @@ media-libs/libmusicxml 2.00: C++ support for the MusicXML support
 media-libs/libshout-idjc 2.3.0 2.3.1: Libshout-idjc is libshout plus some extensions for IDJC
 media-libs/lilv 9999: C library to make the use of LV2 plugins as simple as possible for applications.
 media-libs/loris 1.8: libraries that provide support for the Resource Description Framework (RDF)
+media-libs/lv2 9999: A simple but extensible successor of LADSPA
 media-libs/lv2core 9999: LV2 is a simple but extensible successor of LADSPA
 media-libs/lv2dynparam1 1 2 9999: LV2 dynparam extension
+media-libs/lvtk 1.1.0 1.1.1 9999: A set C++ wrappers around the LV2 C API.
 media-libs/naspro-bridge-it 0.5.0: A little helper library to develop insert-your-API-here to LV2 bridges
 media-libs/naspro-core 0.5.0: Portable runtime library at the bottom of the NASPRO Sound PROcessing Architecture
 media-libs/oscpack 1.1.0.1: Set of C++ classes for packing and unpacking OSC packets
@@ -158,6 +161,7 @@ media-sound/Annotator 0.5.0 9999: CLAM Music Annotator can visualize, check and 
 media-sound/AudioCutter 1.2: Advanced surround sound file editor
 media-sound/NetworkEditor 1.4.0-r1 9999: CLAM's visual builder
 media-sound/Voice2MIDI 0.3.10-r1 9999: CLAM Voice2MIDI extracts the melody as a MIDI or XML file from monophonic audio files
+media-sound/a2jmidid 99999: Daemon for exposing legacy ALSA sequencer applications in JACK MIDI system.
 media-sound/abraca 9999: Abraca is a GTK2 client for the XMMS2 music player.
 media-sound/ac3jack 0.1.2 2.0.3 2.0.3-r1: Tool for creating an AC-3 (Dolby Digital) multichannel stream from its JACK input ports
 media-sound/acoustid-fingerprinter 0.6 9999: GUI application to submit audio fingerprints to the Acoustid database.
@@ -217,15 +221,15 @@ media-sound/gxtuner 2.0 2.1: Simple Tuner Interface for jack
 media-sound/horgand 9999: Opensource software organ
 media-sound/hydrogen 0.9.5.1 9999: Linux Drum Machine
 media-sound/iannix 9999: IanniX is a graphical score editor based on the previous UPIC developed by Iannis Xenakis
-media-sound/idjc 0.8.8: Internet DJ Console has two media players, jingles player, crossfader, VoIP and streaming
+media-sound/idjc 0.8.8 0.8.9 0.8.14 9999: Internet DJ Console has two media players, jingles player, crossfader, VoIP and streaming
 media-sound/ingen 9999: Modular audio processing ssytem using JACK and LV2 or LADSPA plugins
 media-sound/jace 0.0.2 0.0.3 0.1.0 0.2.0: JACE is a Convolution Engine for JACK and ALSA
-media-sound/jack-audio-connection-kit 0.124.1 1.9999: A low-latency audio server
+media-sound/jack-audio-connection-kit 0.121.3-r2 0.124.1 1.9.10 1.9999 2.9999: Jackdmp jack implemention for multi-processor machine
 media-sound/jack-tools 20101210-r1 20131226: A collection of audio tools for jack
 media-sound/jackEQ 0.4.1: jackEQ is a tool for routing and manipulating audio from/to multiple input/output sources
 media-sound/jack_capture 0.9.70: Recording tool which default operation is to capture what goes out to the soundcard from JACK
 media-sound/jack_delay 0.4.0: measures the latency between two jack ports with subsample accuracy
-media-sound/jack_mixer 9-r1: JACK audio mixer using GTK2 interface.
+media-sound/jack_mixer 9-r1 10 9999: JACK audio mixer using GTK2 interface.
 media-sound/jack_oscrolloscope 0.7: Simple waveform viewer for JACK
 media-sound/jack_snapshot 0.0.4: Tool for storing/restoring jack connections states.
 media-sound/jackbeat 0.7.6 9999: An audio sequencer for Linux
@@ -253,8 +257,10 @@ media-sound/khagan 0.1.2-r2: Live user interface builder for controlling paramet
 media-sound/klick 0.12.2: An advanced command-line based metronome for JACK
 media-sound/kluppe 0.6.16: live looping sequencer
 media-sound/kontroll 20130319: A small utility that generates MIDI CC and OSC messages from the mouse position
+media-sound/ladish 1-r2 9999-r1: LADI Session Handler - a session management system for JACK applications
 media-sound/laditools 1.0.1-r2 1.0.1-r3 1.1.0 9999-r1: a set of tools to improve desktop integration and user workflow of Linux audio systems
 media-sound/lash 9998: Temporary wrapper for liblash (lash) and ladish
+media-sound/lash-original 0.6.0_rc2-r1: LASH Audio Session Handler
 media-sound/lash_wrap 1.0.2: A small helper application that serves as a proxy between an un-LASHified app and the LASH system
 media-sound/lingot 9999: LINGOT Is Not a Guitar-Only Tuner
 media-sound/linuxsampler 9999: LinuxSampler is a software audio sampler engine with professional grade features.
@@ -352,7 +358,7 @@ media-sound/zynaddsubfx 2.2.1-r8 2.4.0 2.4.3 20070707 20070707-r1 99999999 99999
 media-sound/zynaddsubfx-converter 2.0.0_pre2: ZynAddSubFX-converter: use ONLY to convert old *.ins_zyn instruments to *.xiz
 media-sound/zynjacku 1 4 5 6 9999: JACK based, GTK (2.x) host for LV2 synths
 media-video/openmovieeditor 0.0.20070917 0.0.20071010 0.0.20071118 0.0.20080102 0.0.20080523-r1 0.0.20081029 0.0.20090105-r1: Open Movie Editor is designed to be a simple tool, that provides basic movie making capabilites.
-media-video/screencastor 1.3.0: capture audio/video of the screen via FFmpeg with GUI
+media-video/screencastor 1.3.0 1.3.0-r1: capture audio/video of the screen via FFmpeg with GUI
 media-video/xjadeo 0.6.4: a simple video player that is synchronized to jack transport.
 sys-apps/das_watchdog 0.2.4 0.2.5 0.3.1 0.9.0: watchdog to ensure a realtime process won't hang the machine
 sys-apps/jackd-init 0.5: Launch jackd at bootime with user id and privileges
