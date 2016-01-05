@@ -2,6 +2,10 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  05 Jan 2015; Dominique Michel <dominique_libre@users.sourceforge.net> fvwm-crystal-9999.ebuild:
+  updated to EAPI 6, new USE flags and as well than to readme.gentoo-r1 and user eclasses.
+  metadata.xml: new USE flag descriptions
+
   29 Jan 2014; Dominique Michel <dominique_libre@users.sourceforge.net> fvwm-crystal-9999.ebuild:
   removed non nedded depends, added conditional depend on x11-misc/xdg-user-dirs with USE flag.
 
