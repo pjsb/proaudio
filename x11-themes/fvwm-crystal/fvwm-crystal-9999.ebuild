@@ -1,22 +1,34 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
-EAPI="5"
+EAPI=6
+RESTRICT=mirror
 
 PYTHON_COMPAT=( python2_7 )
-inherit subversion eutils python-r1
+inherit eutils readme.gentoo-r1 python-r1 user
 
-DESCRIPTION="Configurable and full featured FVWM theme, with lots of transparency and freedesktop compatible menu"
+DESCRIPTION="Configurable FVWM theme with transparency and freedesktop compatible menu"
 HOMEPAGE="http://fvwm-crystal.org/"
-SRC_URI=""
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-2"
+LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS=""
-IUSE="+xdg"
+KEYWORDS="~amd64 ~ppc ~ppc64 ~x86"
+IUSE="+amixer jack +pm-utils +xdg"
 
-ESVN_REPO_URI="svn://svn.code.sf.net/p/fvwm-crystal/code"
+case ${PV} in
+*9999)
+	PROPERTIES="live"
+	inherit subversion
+	ESVN_REPO_URI="svn://svn.code.sf.net/p/fvwm-crystal/code"
+	SRC_URI=""
+	KEYWORDS=""
+	S="${WORKDIR}/${PN}"
+	src_unpack() {
+		subversion_src_unpack
+};;
+esac
 
 RDEPEND="${PYTHON_DEPS}
 	>=x11-wm/fvwm-2.5.26[png]
@@ -27,42 +39,45 @@ RDEPEND="${PYTHON_DEPS}
 	sys-devel/bc
 	virtual/awk
 	x11-apps/xwd
-	xdg? ( x11-misc/xdg-user-dirs )"
+	xdg? ( x11-misc/xdg-user-dirs )
+	pm-utils? ( sys-power/pm-utils )
+	amixer? ( media-sound/alsa-utils )
+	jack? ( media-sound/jack-audio-connection-kit )"
 
-S="${WORKDIR}/${PN}"
+DISABLE_AUTOFORMATTING="true"
+DOC_CONTENTS="After installation, execute the following commands:
+\ \$ cp -r "${EROOT}"usr/share/doc/"${PF}"/addons/Xresources ~/.Xresources
+\ \$ cp -r "${EROOT}"usr/share/doc/"${PF}"/addons/Xsession ~/.xinitrc
 
-src_unpack() {
-	subversion_src_unpack
+Many applications can extend functionality of fvwm-crystal.
+They are listed in "${EROOT}"usr/share/doc/"${PF}"/INSTALL.*
+
+To be able to use the exit menu, each user using ${PN}
+must be in the group fvwm-crystal.
+You can do that as root with:
+	useradd -G fvwm-crystal <user_name>
+and log out and in again.
+"
+
+pkg_setup() {
+	enewgroup fvwm-crystal
 }
 
 src_install() {
 	emake \
-		DESTDIR="${D}" \
-		docdir="/usr/share/doc/${PF}" \
-		prefix="/usr" \
+		DESTDIR="${ED}" \
+		docdir="${EPREFIX}/usr/share/doc/${PF}" \
+		prefix="${EPREFIX}/usr" \
 		install
+	# GNU License is globally in the portage tree
+	rm -vf "${ED}/usr/share/doc/${PF}"/LICENSE
 
 	python_replicate_script \
-		"${D}/usr/bin/${PN}".{apps,wallpaper} \
-		"${D}/usr/share/${PN}"/fvwm/scripts/FvwmMPD/*.py
+		"${ED}/usr/bin/${PN}".{apps,wallpaper} \
+		"${ED}/usr/share/${PN}"/fvwm/scripts/FvwmMPD/*.py
+	readme.gentoo_create_doc
 }
 
 pkg_postinst() {
-	einfo
-	einfo "After installation, execute following commands:"
-	einfo " $ cp -r ${EPREFIX}/usr/share/${PN}/addons/Xresources ~/.Xresources"
-	einfo " $ cp -r ${EPREFIX}/usr/share/${PN}/addons/Xsession ~/.xinitrc"
-	einfo
-	einfo "Many applications can extend functionality of fvwm-crystal."
-	einfo "They are listed in ${EPREFIX}/usr/share/doc/${PF}/INSTALL.gz."
-	einfo
-	einfo "Some icons fixes was committed recently to the svn"
-	einfo "To archive the same fixes on your private icon files,"
-	einfo "please read ${EPREFIX}/usr/share/doc/${PF}/INSTALL.gz."
-	einfo "This will fix the libpng warnings at stderr."
-	einfo
-	einfo "The color themes was updated to Fvwm InfoStore."
-	einfo "To know how to update your custom color themes, please run"
-	einfo "	${EPREFIX}/usr/share/${PN}/addons/convert_colorsets."
-	einfo ""
+	readme.gentoo_print_elog
 }
