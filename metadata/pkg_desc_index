@@ -374,4 +374,4 @@ x11-libs/ntk 9999-r1: A fork of the Fast Light ToolKit library, adding improved 
 x11-libs/qwt 9999: 2D plotting library for Qt4
 x11-misc/fvwm-xdg-menu 9999: xdg menu for use with fvwm and fvwm-menu-desktop
 x11-misc/xanalyser 1.32: Program to analyse a stereo audio signal.
-x11-themes/fvwm-crystal 9999: Configurable and full featured FVWM theme, with lots of transparency and freedesktop compatible menu
+x11-themes/fvwm-crystal 9999: Configurable FVWM theme with transparency and freedesktop compatible menu
