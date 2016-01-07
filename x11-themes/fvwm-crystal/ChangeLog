@@ -2,6 +2,9 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 Jan 2015; Dominique Michel <dominique_libre@users.sourceforge.net> fvwm-crystal-9999.ebuild:
+  add missing REQUIRED_USE variable; fix eapply_user bug.
+
   05 Jan 2015; Dominique Michel <dominique_libre@users.sourceforge.net> fvwm-crystal-9999.ebuild:
   updated to EAPI 6, new USE flags and as well than to readme.gentoo-r1 and user eclasses.
   metadata.xml: new USE flag descriptions

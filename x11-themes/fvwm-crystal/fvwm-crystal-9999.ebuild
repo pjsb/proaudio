@@ -15,6 +15,7 @@ SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~ppc ~ppc64 ~x86"
+REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 IUSE="+amixer jack +pm-utils +xdg"
 
 case ${PV} in
@@ -27,7 +28,10 @@ case ${PV} in
 	S="${WORKDIR}/${PN}"
 	src_unpack() {
 		subversion_src_unpack
-};;
+	}
+	src_prepare() {
+		eapply_user
+	};;
 esac
 
 RDEPEND="${PYTHON_DEPS}
