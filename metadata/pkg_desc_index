@@ -278,7 +278,7 @@ media-sound/midicontroller 041011: Set MIDI controller values using sliders and 
 media-sound/mididings 20120419: A MIDI router and processor based on Python, supporting ALSA and JACK MIDI
 media-sound/midipp 1.2.17: play any kind of music in seconds with your fingertips.
 media-sound/minicomputer 1.41 9999: Standalone Linux softwaresynthesizer
-media-sound/mixxx 1.11.0 1.11.9999 9999: A Qt based Digital DJ tool
+media-sound/mixxx 1.11.0 1.11.9999 2.0.0 9999: A Qt based Digital DJ tool
 media-sound/mpadec 9999: MPEG audio decoder.
 media-sound/museseq 2.1.1 2.9999: The Linux (midi) MUSic Editor (a sequencer)
 media-sound/mx44 2-r1: Mx44 is a polyphonic midi realtime software synthesizer
