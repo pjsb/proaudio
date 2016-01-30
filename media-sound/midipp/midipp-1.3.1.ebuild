@@ -38,4 +38,5 @@ src_configure(){
 		JACK="HAVE_JACK=YES"
 	fi
 	myqmake HAVE_STATIC=YES $JACK PREFIX="${D}"
+
 }
