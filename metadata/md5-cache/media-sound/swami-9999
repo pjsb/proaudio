@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install preinst prepare test unpack
-DEPEND=>=dev-libs/libinstpatch-1.0.0 >=gnome-base/libglade-2.6.0 >=gnome-base/libgnomecanvas-2.30.3 >=gnome-base/librsvg-2.8:2 >=media-libs/libsndfile-1.0.0 >=x11-libs/gtk+-2.20:2 fftw? ( >=sci-libs/fftw-3.1:3.0 ) fluidsynth? ( >=media-sound/fluidsynth-1.0.4 ) virtual/pkgconfig sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DEPEND=>=dev-libs/libinstpatch-1.0.0 >=gnome-base/libglade-2.6.0 >=gnome-base/libgnomecanvas-2.30.3 >=gnome-base/librsvg-2.8:2 >=media-libs/libsndfile-1.0.0 >=x11-libs/gtk+-2.20:2 fftw? ( >=sci-libs/fftw-3.1:3.0 ) fluidsynth? ( >=media-sound/fluidsynth-1.0.4 ) virtual/pkgconfig sys-devel/make >=dev-util/cmake-2.8.12 || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
 DESCRIPTION=A SoundFont instrument editor for MIDI music composition and a sampler frontend
 EAPI=2
 HOMEPAGE=http://swami.sourceforge.net
@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-libs/libinstpatch-1.0.0 >=gnome-base/libglade-2.6.0 >=gnome-base/libgnomecanvas-2.30.3 >=gnome-base/librsvg-2.8:2 >=media-libs/libsndfile-1.0.0 >=x11-libs/gtk+-2.20:2 fftw? ( >=sci-libs/fftw-3.1:3.0 ) fluidsynth? ( >=media-sound/fluidsynth-1.0.4 )
 SLOT=0
 _eclass_exported_funcs=pkg_preinst:subversion src_unpack:subversion src_prepare:subversion src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
-_eclasses_=cmake-utils	3443785f3176b7cfdf7bd1f2c403bd9f	eutils	28fb3e5852485af1c348d446b0b98389	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	3972ca401cf7dbb430df9995f5d8d580	subversion	4fee0a764150bb4dda27ed4d2c4ed7ce	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=cmake-utils	c67ce9708a9c02be2d296cf547740e9c	eutils	28fb3e5852485af1c348d446b0b98389	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	3972ca401cf7dbb430df9995f5d8d580	subversion	4fee0a764150bb4dda27ed4d2c4ed7ce	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=9dd658ce69f27b7a08c437371790757f

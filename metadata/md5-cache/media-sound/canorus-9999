@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install preinst prepare setup test unpack
-DEPEND=dev-lang/swig userdoc? ( app-office/lyx dev-tex/tex4ht ) doc? ( app-doc/doxygen ) || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DEPEND=dev-lang/swig userdoc? ( app-office/lyx dev-tex/tex4ht ) doc? ( app-doc/doxygen ) || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync sys-devel/make >=dev-util/cmake-2.8.12
 DESCRIPTION=a free extensible music score editor
 EAPI=2
 HOMEPAGE=http://canorus.berlios.de
@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=python? ( >=dev-lang/python-2.5 ) sys-libs/zlib media-libs/alsa-lib >=dev-qt/qtsvg-4.4:4 >=dev-qt/qtcore-4.4:4 ruby? ( dev-lang/ruby ) sys-libs/libunwind media-sound/lilypond dev-qt/qthelp:4
 SLOT=0
 _eclass_exported_funcs=pkg_preinst:subversion pkg_setup:- src_unpack:- src_prepare:- src_configure:cmake-utils src_compile:- src_test:cmake-utils src_install:-
-_eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	cmake-utils	3443785f3176b7cfdf7bd1f2c403bd9f	eutils	28fb3e5852485af1c348d446b0b98389	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	3972ca401cf7dbb430df9995f5d8d580	qmake-utils	0a242e7177789b0028b4045f336dd4db	qt4-r2	d6c113024bb3086a1facc65cd338930e	subversion	4fee0a764150bb4dda27ed4d2c4ed7ce	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	cmake-utils	c67ce9708a9c02be2d296cf547740e9c	eutils	28fb3e5852485af1c348d446b0b98389	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	3972ca401cf7dbb430df9995f5d8d580	qmake-utils	0a242e7177789b0028b4045f336dd4db	qt4-r2	d6c113024bb3086a1facc65cd338930e	subversion	4fee0a764150bb4dda27ed4d2c4ed7ce	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=394a797b31365b6768eba5546aee6009
