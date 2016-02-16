@@ -293,6 +293,7 @@ media-sound/openoctave-midi 9999: OpenOctave MIDI sequencer
 media-sound/ordrumbox 0.7.05 0.9.02 9999: The orDrumbox is a software drum machine, designed to a creative pattern based way of drum programming with automatic music composition capabilities.
 media-sound/patchage 0.5.0 9999: Patchage is a modular patchbay for Jack audio and Alsa sequencer.
 media-sound/paulstretch 2.0 2.2.2: extreme sound stretching of the audio
+media-sound/pd 0.45_p5 0.46_p7: real-time music and multimedia environment
 media-sound/pitchtune 0.0.4: A GPL'ed GTK oscilloscope-style musical instrument tuning program.
 media-sound/playitslowly 1.4.0: An application to play back audio files at a different speed or pitch
 media-sound/postfish 2012.10.25 9999: Digital audio post-processing, restoration, filtering and mixdown tool
