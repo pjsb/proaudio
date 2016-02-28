@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install setup unpack
-DEPEND=dev-cpp/eigen:3 dev-cpp/glibmm:2 dev-cpp/gtkmm:2.4 dev-libs/boost dev-libs/glib media-libs/liblrdf media-libs/libsndfile media-libs/lilv:0 media-libs/zita-convolver media-libs/zita-resampler media-sound/jack-audio-connection-kit media-sound/lame sci-libs/fftw:3.0 x11-libs/gtk+:2 avahi? ( net-dns/avahi ) faust? ( dev-lang/faust ) ladspa? ( media-libs/ladspa-sdk ) lv2? ( || ( media-libs/lv2core media-libs/lv2 ) ) virtual/pkgconfig nls? ( dev-util/intltool ) dev-lang/python !dev-lang/python[-threads]
+DEPEND=dev-cpp/eigen:3 dev-cpp/glibmm:2 dev-cpp/gtkmm:2.4 dev-libs/boost dev-libs/glib media-libs/liblrdf media-libs/libsndfile media-libs/lilv:0 media-libs/zita-convolver media-libs/zita-resampler media-sound/jack-audio-connection-kit media-sound/lame sci-libs/fftw:3.0 x11-libs/gtk+:2 avahi? ( net-dns/avahi ) faust? ( dev-lang/faust ) ladspa? ( media-libs/ladspa-sdk ) lv2? ( || ( media-libs/lv2core media-libs/lv2 ) ) virtual/pkgconfig nls? ( dev-util/intltool )
 DESCRIPTION=A simple Linux Guitar Amplifier for jack with one input and two outputs
 EAPI=5
 HOMEPAGE=http://guitarix.sourceforge.net/
@@ -11,5 +11,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sourceforge/guitarix/guitarix/guitarix2-0.32.3.tar.bz2
 _eclass_exported_funcs=pkg_setup:python-any-r1 src_unpack:- src_configure:- src_compile:waf-utils src_install:waf-utils
-_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	python-any-r1	8eb13cdf35f6e43c48107b911900b2cc	python-utils-r1	2e6826f6a93ad2acf904eecf5b5fb6d2	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	waf-utils	133eb4044c1bbc4f2ec4c736968fcadf
+_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	python-any-r1	8eb13cdf35f6e43c48107b911900b2cc	python-utils-r1	2e6826f6a93ad2acf904eecf5b5fb6d2	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	waf-utils	c21174962af5ca8091b66f58612797ce
 _md5_=f30404859e66212a8a38bd1785d03209

@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install setup unpack
-DEPEND=>=media-sound/jack-audio-connection-kit-0.103.0 >=media-libs/liblrdf-0.1.0 >=media-libs/liblo-0.26 >=dev-libs/libsigc++-2.2.0 media-sound/non-session-manager x11-libs/ntk x11-libs/cairo x11-libs/libXft media-libs/libpng x11-libs/pixman x11-libs/libXpm virtual/jpeg x11-libs/libXinerama x11-libs/libxcb dev-lang/python !dev-lang/python[-threads] dev-vcs/git =dev-lang/python-2*
+DEPEND=>=media-sound/jack-audio-connection-kit-0.103.0 >=media-libs/liblrdf-0.1.0 >=media-libs/liblo-0.26 >=dev-libs/libsigc++-2.2.0 media-sound/non-session-manager x11-libs/ntk x11-libs/cairo x11-libs/libXft media-libs/libpng x11-libs/pixman x11-libs/libXpm virtual/jpeg x11-libs/libXinerama x11-libs/libxcb dev-vcs/git =dev-lang/python-2*
 DESCRIPTION=The Non Things: Non-DAW, Non-Mixer, Non-Sequencer and Non-Session-Manager
 EAPI=4
 HOMEPAGE=http://non.tuxfamily.org
@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=media-sound/jack-audio-connection-kit-0.103.0 >=media-libs/liblrdf-0.1.0 >=media-libs/liblo-0.26 >=dev-libs/libsigc++-2.2.0 media-sound/non-session-manager =dev-lang/python-2*
 SLOT=0
 _eclass_exported_funcs=pkg_setup:- src_unpack:git-2 src_configure:- src_compile:- src_install:-
-_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	git-2	df00117322129fb906bb0a53c3d6a020	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	python	efc1c55fc44c5b7272fc2ffba73c3e6f	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	waf-utils	133eb4044c1bbc4f2ec4c736968fcadf
+_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	git-2	df00117322129fb906bb0a53c3d6a020	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	python	efc1c55fc44c5b7272fc2ffba73c3e6f	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	waf-utils	c21174962af5ca8091b66f58612797ce
 _md5_=19016f42536de8c6c62d24c9aa072acd

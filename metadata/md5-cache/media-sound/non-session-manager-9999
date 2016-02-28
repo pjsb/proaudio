@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install setup unpack
-DEPEND=>=dev-libs/libsigc++-2.2.0 >=media-libs/liblo-0.26 >=media-libs/liblrdf-0.1.0 >=media-sound/jack-audio-connection-kit-0.103.0 media-libs/libpng virtual/jpeg x11-libs/cairo x11-libs/libxcb x11-libs/libXft x11-libs/libXinerama x11-libs/libXpm x11-libs/ntk x11-libs/pixman dev-lang/python !dev-lang/python[-threads] dev-vcs/git =dev-lang/python-2*
+DEPEND=>=dev-libs/libsigc++-2.2.0 >=media-libs/liblo-0.26 >=media-libs/liblrdf-0.1.0 >=media-sound/jack-audio-connection-kit-0.103.0 media-libs/libpng virtual/jpeg x11-libs/cairo x11-libs/libxcb x11-libs/libXft x11-libs/libXinerama x11-libs/libXpm x11-libs/ntk x11-libs/pixman dev-vcs/git =dev-lang/python-2*
 DESCRIPTION=The Non Things: Non-DAW, Non-Mixer, Non-Sequencer and Non-Session-Manager
 EAPI=5
 HOMEPAGE=http://non.tuxfamily.org
@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-libs/libsigc++-2.2.0 >=media-libs/liblo-0.26 >=media-libs/liblrdf-0.1.0 >=media-sound/jack-audio-connection-kit-0.103.0 =dev-lang/python-2*
 SLOT=0
 _eclass_exported_funcs=pkg_setup:- src_unpack:git-2 src_configure:- src_compile:waf-utils src_install:waf-utils
-_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	git-2	df00117322129fb906bb0a53c3d6a020	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	python	efc1c55fc44c5b7272fc2ffba73c3e6f	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	waf-utils	133eb4044c1bbc4f2ec4c736968fcadf
+_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	git-2	df00117322129fb906bb0a53c3d6a020	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	python	efc1c55fc44c5b7272fc2ffba73c3e6f	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	waf-utils	c21174962af5ca8091b66f58612797ce
 _md5_=7c1d3b20b330facb49de5ac2e629b7c3
