@@ -201,11 +201,11 @@ media-sound/fastbreeder 1.0.1-r2: An experimental genetic programming synthesise
 media-sound/fluidsynth 9999: Fluidsynth is a software real-time synthesizer based on the Soundfont 2 specifications.
 media-sound/fmit 0.99.2 9999: Free Music Instrument Tuner
 media-sound/foo-yc20 1.3.0: YC-20 divide-down combo organ emulator with lv2 plugin
-media-sound/freqtweak 0.7.2-r1: FFT-based realtime audio spectral manipulation and display
+media-sound/freqtweak 0.7.0_pre20070214-r1 0.7.2-r1 9999: FFT-based realtime audio spectral manipulation and display
 media-sound/frescobaldi 2.0.4: a LilyPond sheet music text editor
 media-sound/frinika 0.1.7 0.2.1 0.3.0 20100328 20110824: Frinika is a free, complete music workstation software
 media-sound/fsthost 1.4.0: Official fork of FreeST, standalone Linux VST host - hybrid using winelib, JACK and Gtk+
-media-sound/ggseq 0.3.0: Gungirl Sequencer is an easy to use Audiosequencer
+media-sound/ggseq 0.3.0 0.3.1: Gungirl Sequencer is an easy to use Audiosequencer
 media-sound/ghostess 20120105: graphical DSSI host, based on jack-dssi-host
 media-sound/gigedit 9999: An instrument editor for gig files
 media-sound/glashctl 0.4.4-r1: GLASHCtl is a simple applet for controlling the LASH Audio Session Handler
@@ -345,6 +345,7 @@ media-sound/tutka 0.12.5 9999: A free (as in freedom) tracker style MIDI sequenc
 media-sound/tuxguitar 0.5 0.6 0.8 1.0 1.2: TuxGuitar is a multitrack guitar tablature editor and player written in Java-SWT
 media-sound/vkeybd 0.1.17a: A virtual MIDI keyboard for X
 media-sound/waon 0.10: A wave to notes transcriber, able to transcribe wav to midi
+media-sound/wired 0.4 0.5 0.6 9999: Wired aims to be a professional music production and creation software running on the Linux operating system.
 media-sound/xmms2 0.2.8 0.4_rc1 9999: X(cross)platform Music Multiplexing System. The new generation of the XMMS player.
 media-sound/xmms2-scrobbler 9999: XMMS2 AudioScrobbler client
 media-sound/xmms2tray 0.5.1 9999: XMMS2tray - systray integration for XMMS2
