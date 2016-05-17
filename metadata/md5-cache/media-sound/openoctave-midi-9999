@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=lilypond? ( media-sound/lilypond || ( kde? ( kde-base/kghostview ) gnome? ( app-text/evince ) ) ) export? ( || ( kde-base/kdialog kde-base/kdebase ) dev-perl/XML-Twig media-libs/libsndfile ) >=media-libs/ladspa-sdk-1.0 >=media-libs/ladspa-cmt-1.14 || ( x11-libs/libX11 virtual/x11 ) >=media-libs/liblrdf-0.3 >=media-sound/linuxsampler-9999 >=sci-libs/fftw-3.0.0 >=media-libs/liblo-0.7 x11-libs/libXtst
 SLOT=0
 _eclass_exported_funcs=pkg_setup:- src_unpack:- src_prepare:cmake-utils src_configure:cmake-utils src_compile:- src_test:cmake-utils src_install:-
-_eclasses_=cmake-utils	422bbd1bee2557490177a34dbe0a662b	eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	d270fa247153df66074f795fa42dba3e	git-2	672c3929a162f221a53b4ccb4d25d8a2	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=cmake-utils	de231a665c92c701abbbfd733eee5391	eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	d270fa247153df66074f795fa42dba3e	git-2	672c3929a162f221a53b4ccb4d25d8a2	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=1610d25b36da16bccc933c8247c3c3d4
