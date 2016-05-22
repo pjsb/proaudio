@@ -1,0 +1,12 @@
+DEFINED_PHASES=-
+DEPEND=media-libs/alsa-lib media-libs/libsdl media-libs/sdl-image
+DESCRIPTION=ALSA meter plugin with a graphical display
+EAPI=5
+HOMEPAGE=http://laugeo.free.fr/ameter-html
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/alsa-lib media-libs/libsdl media-libs/sdl-image
+SLOT=0
+SRC_URI=http://laugeo.free.fr/ameter-0.44.tar.gz
+_eclass_exported_funcs=-
+_md5_=c6f5b9f307c2ad96dcc842c5b5909968

@@ -58,6 +58,7 @@ dev-util/premake 3.5-r1 3.7-r1 4.3-r1: A makefile generation tool
 games-misc/linthesia 0.4_p2: A fork of Synthesia, A game of playing music! You only need a MIDI file to play, and a MIDI keyboard
 media-libs/aften 9999: An A/52 (AC-3) audio encoder
 media-libs/alsaplayer-python 0.3.1-r2: New Python bindings for Alsaplayer.
+media-libs/ameter 0.44: ALSA meter plugin with a graphical display
 media-libs/asio-sdk 2.2: Steinberg ASIO SDK 2.2 - win32
 media-libs/bml 0.6.1 9999: Buzz Machines Loader for Buzztard
 media-libs/bsl 0.6.0 9999: Buzz Song Loader for Buzztard
