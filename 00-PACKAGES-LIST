@@ -146,7 +146,6 @@ media-libs/rtmidi
 media-libs/alsaplayer-python
 media-libs/asio-sdk
 media-libs/fidlib
-media-libs/zita-convolver
 media-libs/gmerlin
 media-libs/zita-alsa-pcmi
 media-libs/zita-resampler

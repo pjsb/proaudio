@@ -435,13 +435,6 @@
 	Homepage:    http://uazu.net/fidlib/
 
 
-#------- media-libs/zita-convolver --------
-	zita-convolver-3.1.0	arch: amd64 x86
-	Description: A high performance audio signal convolver
-		 library
-	Homepage:    http://kokkinizita.linuxaudio.org/linuxaudio/
-
-
 #------- media-libs/gmerlin --------
 	gmerlin-1.2.0	arch: ~amd64 ~x86
 	Description: Gmerlin A/V decoder library
@@ -1358,12 +1351,6 @@
 	gxtuner-2.1	arch: ~amd64 ~x86
 	Description: Simple Tuner Interface for jack
 	Homepage:    http://sourceforge.net/projects/guitarix/files/gxtuner/
-
-
-#------- media-sound/frescobaldi --------
-	frescobaldi-2.0.4	arch: ~amd64 ~x86
-	Description: a LilyPond sheet music text editor
-	Homepage:    http://www.frescobaldi.org
 
 
 #------- media-sound/qloud --------
