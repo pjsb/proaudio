@@ -86,7 +86,6 @@ media-sound/drumkv1:jacksession - Enable JACK session support
 media-sound/drumkv1:lv2 - Add support for Ladspa V2
 media-sound/drumkv1:nsm - Build with non-session management support
 media-sound/fluidsynth:float - Enable type float instead of double for DSP samples
-media-sound/frescobaldi:portmidi - Enable midi support by media-libs/portmidi
 media-sound/gsampler:sqlite - Enables sqlite suppport via linuxsampler
 media-sound/guitarix2:capture - enable media-sound/jack_capture
 media-sound/guitarix2:faust - enable dev-lang/faust
