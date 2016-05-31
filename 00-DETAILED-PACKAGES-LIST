@@ -2717,14 +2717,6 @@
 	Homepage:    http://www.kernel.org/pub/linux/libs/pam/
 
 
-#------- sys-process/rtirq --------
-	rtirq-20140413	arch: ~amd64 ~ppc ~x86
-	Description: Change the realtime scheduling policy and
-		 priority of relevant system driver IRQ handlers
-		
-	Homepage:    http://www.rncbc.org/jack/
-
-
 #------- sys-process/rt-exec --------
 	rt-exec-1.0.3	arch: ~x86
 	Description: Test the deterministic/real-time capabilities
