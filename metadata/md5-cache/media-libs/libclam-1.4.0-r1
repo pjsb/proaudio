@@ -11,5 +11,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=http://clam-project.org/download/src/CLAM-1.4.0.tar.gz
 _eclass_exported_funcs=pkg_setup:- src_prepare:- src_configure:- src_compile:- src_install:-
-_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	python-any-r1	1c20f9b800324335a8e3b137363362e8	python-utils-r1	c0ed2a2f233d3af6dd556048695dc5cb	scons-utils	6a35944612b7ecb18a3803359554badc	toolchain-funcs	77f907363e91028a361ce5a3e9e7ed1e
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	python-any-r1	1c20f9b800324335a8e3b137363362e8	python-utils-r1	c0ed2a2f233d3af6dd556048695dc5cb	scons-utils	6a35944612b7ecb18a3803359554badc	toolchain-funcs	e886935aae2b45a545665444ab0667cf
 _md5_=520e1c160b21645c9dc6e5504bf8a3d6
