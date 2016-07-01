@@ -7,5 +7,5 @@ LICENSE=GPL-2
 RDEPEND==x11-libs/wxGTK-2.8* >=sci-libs/fftw-3.0 =dev-libs/libsigc++-1.2* dev-libs/libxml2 media-sound/jack-audio-connection-kit
 SLOT=0
 _eclass_exported_funcs=src_unpack:cvs src_compile:- src_install:-
-_eclasses_=cvs	e94c89c58918dff87fa3db1e817c25be	eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	e886935aae2b45a545665444ab0667cf	wxwidgets	9b34ce3ca77f4e418e8fd9951c4c1cb1
+_eclasses_=cvs	e94c89c58918dff87fa3db1e817c25be	eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	df9add8bc729ce892cd54769ba937d77	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	e886935aae2b45a545665444ab0667cf	wxwidgets	9b34ce3ca77f4e418e8fd9951c4c1cb1
 _md5_=c2ca7ee59c6e3cafdbb3e1ce2c488d5c

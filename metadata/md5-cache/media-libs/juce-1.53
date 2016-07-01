@@ -10,5 +10,5 @@ RDEPEND==media-libs/freetype-2* >=media-libs/alsa-lib-0.9 flac? ( media-libs/fla
 SLOT=0
 SRC_URI=https://github.com/julianstorer/JUCE/archive/1_53_release.tar.gz -> JUCE-1_53_release.tar.gz
 _eclass_exported_funcs=src_prepare:- src_compile:- src_install:-
-_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	e886935aae2b45a545665444ab0667cf
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	df9add8bc729ce892cd54769ba937d77	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	e886935aae2b45a545665444ab0667cf
 _md5_=53f114ad4252562fc84772e11f3d692a
