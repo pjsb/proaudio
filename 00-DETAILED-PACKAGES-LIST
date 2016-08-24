@@ -2685,6 +2685,13 @@
 	Homepage:    http://git.tdb.fi/?p=pmount-gui:a=summary
 
 
+#------- sys-apps/rt-tests --------
+	rt-tests-9999	arch: ~x86 ~amd64
+	Description: Programs to test various rt-linux features.
+		
+	Homepage:    http://git.kermel.org/cgit/linux/kernel/git/clrkwllms
+
+
 #------- sys-apps/das_watchdog --------
 	das_watchdog-0.2.4	arch: x86
 	das_watchdog-0.2.5	arch: x86
