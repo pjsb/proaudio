@@ -363,6 +363,7 @@ media-video/xjadeo 0.6.4: a simple video player that is synchronized to jack tra
 sys-apps/das_watchdog 0.2.4 0.2.5 0.3.1 0.9.0: watchdog to ensure a realtime process won't hang the machine
 sys-apps/jackd-init 0.5: Launch jackd at bootime with user id and privileges
 sys-apps/pmount-gui 1.20121118 9999: A simple graphical frontend for pmount
+sys-apps/rt-tests 9999: Programs to test various rt-linux features.
 sys-firmware/midisport-firmware 1.2: Firmware for M-Audio/Midiman USB MIDI devices
 sys-libs/libmagic 0_alpha: Lbrary for automatically determining the type of a file by performing a series of tests on it.
 sys-libs/pam 1.0.1: Linux-PAM (Pluggable Authentication Modules)
