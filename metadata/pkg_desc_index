@@ -213,7 +213,7 @@ media-sound/gnusound 0.7.4-r2: GNUsound is a sound editor for Linux/x86
 media-sound/goattracker 2.72: A tracker-like editor for creating C64 MOS 6581/8580 SID music
 media-sound/gsampler 0.3: Gsampler is a Linuxsampler Frontend
 media-sound/gtklick 0.6.4-r1: A simple metronome with an easy-to-use GTK interface
-media-sound/guitarix2 0.32.1 0.32.3 9999: A simple Linux Guitar Amplifier for jack with one input and two outputs
+media-sound/guitarix2 0.32.3 0.35.1 9999: A simple Linux Guitar Amplifier for jack with one input and two outputs
 media-sound/gwc 0.21.05-r1 0.21.16: Gnome Wave Cleaner
 media-sound/gxmms2 0.7.1: A GTK2 based XMMS2 client, written in C.
 media-sound/gxtuner 2.0 2.1: Simple Tuner Interface for jack

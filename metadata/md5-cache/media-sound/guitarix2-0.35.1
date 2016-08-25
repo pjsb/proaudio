@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile configure install unpack
+DEFINED_PHASES=compile configure install setup unpack
 DEPEND=dev-cpp/eigen:3 dev-cpp/glibmm:2 dev-cpp/gtkmm:2.4 dev-libs/boost dev-libs/glib media-libs/liblrdf media-libs/libsndfile media-libs/lilv:0 media-libs/zita-convolver media-libs/zita-resampler media-sound/jack-audio-connection-kit media-sound/lame sci-libs/fftw:3.0 x11-libs/gtk+:2 avahi? ( net-dns/avahi ) faust? ( dev-lang/faust ) ladspa? ( media-libs/ladspa-sdk ) lv2? ( || ( media-libs/lv2core media-libs/lv2 ) ) virtual/pkgconfig nls? ( dev-util/intltool )
 DESCRIPTION=A simple Linux Guitar Amplifier for jack with one input and two outputs
 EAPI=5
@@ -9,7 +9,7 @@ LICENSE=GPL-2
 RDEPEND=dev-cpp/eigen:3 dev-cpp/glibmm:2 dev-cpp/gtkmm:2.4 dev-libs/boost dev-libs/glib media-libs/liblrdf media-libs/libsndfile media-libs/lilv:0 media-libs/zita-convolver media-libs/zita-resampler media-sound/jack-audio-connection-kit media-sound/lame sci-libs/fftw:3.0 x11-libs/gtk+:2 avahi? ( net-dns/avahi ) faust? ( dev-lang/faust ) ladspa? ( media-libs/ladspa-sdk ) lv2? ( || ( media-libs/lv2core media-libs/lv2 ) ) capture? ( media-sound/jack_capture ) meterbridge? ( media-sound/meterbridge )
 RESTRICT=mirror
 SLOT=0
-SRC_URI=mirror://sourceforge/guitarix/guitarix/guitarix2-0.32.1.tar.bz2
-_eclass_exported_funcs=src_unpack:- src_configure:- src_compile:waf-utils src_install:waf-utils
-_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	multiprocessing	e32940a7b2a9992ad217eccddb84d548	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	waf-utils	c21174962af5ca8091b66f58612797ce
-_md5_=70c223482112e0fa686fefd24f0b1891
+SRC_URI=mirror://sourceforge/guitarix/guitarix/guitarix2-0.35.1.tar.xz
+_eclass_exported_funcs=pkg_setup:python-any-r1 src_unpack:- src_configure:- src_compile:waf-utils src_install:waf-utils
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	multiprocessing	e32940a7b2a9992ad217eccddb84d548	python-any-r1	1c20f9b800324335a8e3b137363362e8	python-utils-r1	c0ed2a2f233d3af6dd556048695dc5cb	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	waf-utils	c21174962af5ca8091b66f58612797ce
+_md5_=bc4f9fbbf41e0fed19b49fa68e7eb5ef
