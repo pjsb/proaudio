@@ -1,11 +1,14 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI="5"
 
 [[ "${PV}" = "9999" ]] && inherit git-r3
-inherit waf-utils
+
+PYTHON_COMPAT=( python{2_7,3_{3,4}} )
+PYTHON_REQ_USE="threads(+)"
+inherit python-any-r1 waf-utils
 
 DESCRIPTION="A simple Linux Guitar Amplifier for jack with one input and two outputs"
 HOMEPAGE="http://guitarix.sourceforge.net/"
@@ -16,7 +19,7 @@ if [ "${PV}" = "9999" ]; then
 	S="${S}/trunk"
 	KEYWORDS=""
 else
-	SRC_URI="mirror://sourceforge/guitarix/guitarix/${P}.tar.bz2"
+	SRC_URI="mirror://sourceforge/guitarix/guitarix/${P}.tar.xz"
 	S="${WORKDIR}/guitarix-${PV}"
 	KEYWORDS="~amd64 ~x86"
 fi

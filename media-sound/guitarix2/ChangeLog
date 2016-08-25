@@ -1,6 +1,13 @@
 # ChangeLog for media-sound/guitarix2
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*guitarix2-0.35.1 (25 Aug 2016)
+
+  25 Aug 2016; Dominique Michel <dominique_libre@sourceforge.net>
+  -guitarix2-0.32.1.ebuild:
+  +guitarix2-0.35.1.ebuild:
+  version bump
 
 *guitarix2-0.32.3 (03 Feb 2015)
 
