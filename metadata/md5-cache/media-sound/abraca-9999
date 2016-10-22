@@ -7,5 +7,5 @@ LICENSE=GPL-2
 RDEPEND=>=media-sound/xmms2-0.8 x11-libs/gdk-pixbuf >=x11-libs/gtk+-3.12 >=dev-libs/libgee-0.10.5 dev-lang/vala:0.24
 SLOT=0
 _eclass_exported_funcs=pkg_setup:- src_unpack:git-r3 src_configure:waf-utils src_compile:waf-utils src_install:waf-utils
-_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	86ff3e88fc8a07b4f595afa27e416341	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	waf-utils	c21174962af5ca8091b66f58612797ce
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	86ff3e88fc8a07b4f595afa27e416341	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	waf-utils	c21174962af5ca8091b66f58612797ce
 _md5_=4b5ed3ccf22479faaefa94020dfafb62

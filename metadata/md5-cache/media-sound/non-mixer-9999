@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=media-sound/jack-audio-connection-kit-0.103.0 >=media-libs/liblrdf-0.1.0 >=media-libs/liblo-0.26 >=dev-libs/libsigc++-2.2.0 media-sound/non-session-manager =dev-lang/python-2*
 SLOT=0
 _eclass_exported_funcs=pkg_setup:- src_unpack:git-2 src_configure:- src_compile:- src_install:-
-_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	git-2	7af5d170bfc02983b4bcd3167dc5edd4	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	python	efc1c55fc44c5b7272fc2ffba73c3e6f	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	waf-utils	c21174962af5ca8091b66f58612797ce
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	git-2	7af5d170bfc02983b4bcd3167dc5edd4	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	python	efc1c55fc44c5b7272fc2ffba73c3e6f	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	waf-utils	c21174962af5ca8091b66f58612797ce
 _md5_=5383e3799cc0cf7d9bf4a1922d88dc3e
