@@ -20,6 +20,12 @@
 	Homepage:    http://www.xs4all.nl/~rooversj/gentoo
 
 
+#------- app-text/xpdf --------
+	xpdf-3.04	arch: ~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sh ~sparc ~x86 ~x86-fbsd
+	Description: An X Viewer for PDF Files
+	Homepage:    http://www.foolabs.com/xpdf/
+
+
 #------- dev-embedded/mios-studio-bin --------
 	mios-studio-bin-2.4.6	arch: -* ~amd64 ~x86
 	Description: uCApps.de MIOS Studio
@@ -1669,8 +1675,8 @@
 
 
 #------- media-sound/guitarix2 --------
-	guitarix2-0.32.1	arch: ~amd64 ~x86
 	guitarix2-0.32.3	arch: ~amd64 ~x86
+	guitarix2-0.35.1	arch: ~amd64 ~x86
 	guitarix2-9999	arch: ~amd64 ~x86
 	Description: A simple Linux Guitar Amplifier for jack
 		 with one input and two outputs
