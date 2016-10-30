@@ -1,6 +1,7 @@
 app-emulation/wineasio 0.7.3 0.7.4 0.7.5 0.9.0 9999: ASIO driver for WINE
 app-portage/euses 2.5.9-r1: look up USE flag descriptions fast
 app-portage/update_liveset 1.0: update your live ebuild set
+app-text/xpdf 3.04: An X Viewer for PDF Files
 dev-embedded/mios-studio 9999: uCApps.de MIOS Studio
 dev-embedded/mios-studio-bin 2.4.6: uCApps.de MIOS Studio
 dev-lang/faust 0.9.58 0.9.67: Faust AUdio STreams is a functional programming language and compiler for fast DSP algorythms.
